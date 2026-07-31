@@ -323,3 +323,83 @@ footer { border-top: 1px solid var(--border); padding: 44px 24px; max-width: 120
 .blog-nav-item:hover span { color: var(--gold-hi); }
 .blog-nav-item.next { text-align: right; }
 .blog-nav-title { font-weight: 600; color: var(--text); }
+
+/* ---------- MOBILE RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  section { padding: 50px 16px; }
+  h2 { font-size: clamp(1.3rem, 2.5vw, 1.9rem); }
+  
+  /* Firm metrics */
+  .firm-metrics-wide { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+  .proscons { grid-template-columns: 1fr; }
+  .pc-col { padding: 20px; }
+  
+  /* Blog */
+  .blog-featured { grid-template-columns: 1fr; }
+  .blog-item-head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .blog-date { white-space: normal; }
+  .blog-post-head { margin-bottom: 28px; }
+  .blog-post h1 { font-size: 1.6rem; }
+  .blog-nav { grid-template-columns: 1fr; }
+  
+  /* Tables */
+  .table-wrap { overflow-x: auto; }
+  table { font-size: .85rem; }
+  th, td { padding: 8px; }
+  
+  /* Firm detail page */
+  .firm-head { flex-direction: column; align-items: flex-start; }
+  .firm-logo { width: 56px; height: 56px; }
+  
+  /* Multi-select */
+  .multi-pop { right: auto; left: 0; min-width: 100%; max-width: 280px; }
+}
+
+@media (max-width: 480px) {
+  section { padding: 40px 12px; }
+  .controls { flex-direction: column; align-items: stretch; }
+  .seg button { padding: 10px 16px; font-size: .86rem; }
+  .filters { flex-direction: column; }
+  .filters select { width: 100%; }
+  
+  /* Grid */
+  .grid { grid-template-columns: 1fr; gap: 16px; }
+  .blog-featured { gap: 14px; }
+  .blog-list { gap: 12px; }
+  
+  /* Buttons */
+  .btn { padding: 12px 20px; font-size: .88rem; width: 100%; }
+  .hero-actions { gap: 10px; }
+  
+  /* Header */
+  .blog-post-head h1 { font-size: 1.35rem; margin-bottom: 8px; }
+  .blog-post-meta { flex-direction: column; gap: 6px; font-size: .85rem; }
+  
+  /* Firm metrics */
+  .firm-metrics-wide { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .metric { padding: 12px; }
+  
+  /* Comparison panel */
+  .cmp-panel { max-height: 90vh; }
+  .cmp-table { font-size: .8rem; }
+  
+  /* FAQs */
+  .faq { gap: 10px; }
+  .faq details { padding: 14px; }
+  .faq .faq-body { padding: 0 12px 12px; font-size: .85rem; }
+  
+  /* Related firms */
+  .rel-card { padding: 16px; }
+  .rel-card .firm-head { gap: 10px; }
+  .rel-card .firm-logo { width: 40px; height: 40px; font-size: .9rem; }
+  .rel-card .firm-name { font-size: 1rem; }
+}
+
+@media (max-width: 360px) {
+  body { font-size: .9rem; }
+  h2 { font-size: 1.2rem; }
+  .blog-post h1 { font-size: 1.2rem; }
+  .firm-metrics-wide { grid-template-columns: 1fr; }
+  table { font-size: .75rem; }
+  th, td { padding: 6px 4px; }
+}
