@@ -65,6 +65,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
 
+      <section>
       <article className="blog-post">
         <p className="crumb">
           <Link href="/blog">← Blog</Link>
@@ -103,6 +104,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           )}
         </nav>
       </article>
+      </section>
 
       <Footer />
     </>
