@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Footer() {
@@ -24,7 +25,7 @@ export default function Footer() {
         © 2026 Propfundsy. All information is provided for general comparison purposes only and does
         not constitute financial, investment, or legal advice. Pricing, profit splits, and rules are
         drawn from publicly available sources as of July 2026 and may change without notice — always
-        verify details on each firm&apos;s official website before purchasing. Trading futures and
+        verify details on each firm's official website before purchasing. Trading futures and
         forex involves substantial risk of loss and is not suitable for every investor. Propfundsy is
         not affiliated with any firm listed.
       </p>

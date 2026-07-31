@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Nav() {
@@ -11,6 +12,7 @@ export default function Nav() {
           <Link href="/#firms">Firms</Link>
           <Link href="/#plans">Compare Plans</Link>
           <Link href="/#why">Why Propfundsy</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/#faq">FAQ</Link>
           <Link className="nav-cta" href="/#plans">Find Your Firm</Link>
         </div>
