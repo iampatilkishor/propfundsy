@@ -58,7 +58,7 @@
     "from": "$59",
     "sizes": "$6K–$200K",
     "model": "Stellar, Evaluation, Flex",
-    "source": "Third-party reviews, Jul 2026",
+    "source": "Official site (fundednext.com), Aug 2026",
     "officialUrl": "https://fundednext.com",
     "payMethods": [
       "Cards",
@@ -90,7 +90,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "FundedNext, launched in 2022 out of Dubai, differentiates itself with a genuinely unusual perk: 15% of the profits made during the challenge phase itself is paid out once you're funded - most firms pay nothing until the evaluation is cleared. The Stellar 1-Step keeps a 6% EOD-trailing drawdown and news-trading restrictions, while the Stellar 2-Step swaps to a static 10% drawdown with no news or weekend restrictions, giving traders a real choice between speed and flexibility. A 95% split is available as a paid add-on on top of the 80% base, and the newer Flex Challenge (May 2026) drops its consistency rule once funded. Pricing starts around $59 for a $6K account, scaling to just under $1,100 for $200K. FundedNext also runs a futures offering alongside forex, and carries a 4.5/5 rating on Trustpilot from tens of thousands of reviews - one of the stronger reputations in the mid-market tier."
   },
   {
     "id": "t5",
@@ -145,8 +145,8 @@
     "split": "60–100%",
     "from": "$29",
     "sizes": "$5K–$100K",
-    "model": "1-Step, 2-Step, Zero (Instant)",
-    "source": "Third-party reviews, Jul 2026",
+    "model": "2 Step Standard, 1 Step Flex, Zero (Instant)",
+    "source": "Official site (fundingpips.com), Aug 2026",
     "officialUrl": "https://fundingpips.com",
     "payMethods": [
       "Cards",
@@ -180,7 +180,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Funding Pips built its reputation on aggressive pricing - 2-Step challenges start around $36 for a $5K account - paired with a split structure that rewards patience: choose the monthly payout cycle and keep 100% of profits, or take 60% weekly if you want cash faster. The 1-Step Master account can also reach 100% on its monthly cycle, though the 90%-on-demand option carries a 35% consistency rule. The instant Zero account skips evaluation entirely for a fixed 95% split, but enforces a hard rule against holding positions into the weekend - stricter than the firm's evaluated accounts, which only restrict weekend holding on funded accounts as of a January 2026 rule change. Founded in Dubai in late 2022, Funding Pips has since paid out more than $200 million, verifiable on the Rise blockchain, and holds a 4.5/5 Trustpilot rating from over 62,000 reviews - among the highest review volumes in the industry."
   },
   {
     "id": "e8",
@@ -223,7 +223,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "E8 Markets' defining feature is checkout-level customization: on the E8 One challenge, traders pick their own drawdown (4-14%), daily loss limit (3-9.2%) and profit split (80-100%) before paying, with price scaling to match the risk profile chosen - a $5K account starts at $40, a $500K account runs into the thousands. That flexibility is unusual in a market where most firms fix the rules and let you pick only the account size. The newer E8 Zero, launched July 2026, trades that customization for simplicity: a flat 3% static drawdown and 80% split, aimed at traders who'd rather not build their own rule set. E8 also offers the largest account sizes tracked here, up to $500K. Formerly E8 Funding, the firm was founded in November 2021 and carries a 4.4/5 Trustpilot rating from over 3,200 reviews - solid, if with a smaller review base than some larger rivals."
   },
   {
     "id": "ts",
@@ -236,7 +236,7 @@
     "from": "$49/mo",
     "sizes": "$50K–$150K",
     "model": "Trading Combine",
-    "source": "Third-party reviews, Jul 2026",
+    "source": "Official site (topstep.com), Aug 2026",
     "officialUrl": "https://topstep.com",
     "payMethods": [
       "Cards"
@@ -311,7 +311,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Apex Trader Funding is one of the highest-volume names in futures prop trading, built around a simple pitch: pass a one-time-fee evaluation (no monthly subscription) and keep 100% of your first $25K in profit before settling into a 90/10 split. Two evaluation tracks are offered - EOD trailing drawdown or intraday trailing, which follows open equity in real time rather than just closed trades - both with no daily loss limit, unusual for the category. List prices are almost never what traders actually pay: 70-90% discount codes are in near-constant circulation, and a $25K EOD evaluation lists at $137 before those codes. A $99 (EOD) or $79 (intraday) activation fee applies once funded, and payouts run on 8-day cycles gated by a 50% consistency rule. Founded in 2021, Apex has stated it has paid out more than $800 million to traders and holds a Trustpilot rating in the mid-4s from tens of thousands of reviews - a track record few futures firms can match at this scale."
   },
   {
     "id": "mff",
@@ -353,7 +353,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "MyFundedFutures is one of the newer futures firms here, launched in November 2023, but it's already built an unusually strong reputation - a 4.9/5 Trustpilot rating from more than 18,000 reviews, among the highest of any firm tracked. The three-plan lineup (Core, Rapid, Pro) skips activation fees entirely, a real cost saving versus firms that charge $99-$149 once you're funded. Rapid stands out for dropping the consistency rule altogether, though its drawdown floor tracks real-time equity including unrealized P&L rather than just closed trades - worth understanding before you trade it. Core keeps a more traditional EOD drawdown with a 40% consistency requirement and a $5,000 cap per payout cycle, while Pro raises the cumulative payout cap to $100,000 with a $1,000 minimum per request. All three start at a $50K account (Core from $65/mo); pricing above $50K is estimated rather than confirmed. For traders who want a newer firm with a fast-growing review base, this is a strong candidate."
   },
   {
     "id": "td",
@@ -395,7 +395,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "TradeDay keeps its evaluation deliberately simple: one phase, no time limit, and no daily loss limit at all - a rarity among futures prop firms, most of which enforce a hard daily stop. The trade-off is a 30% consistency rule and a trailing max drawdown that follows your account's high-water mark. Payouts are on-demand once you qualify rather than fixed to a calendar, and the split scales through three tiers - 80%, 90%, then 95% - as you build a track record, among the highest ceilings in futures funding. A $50K evaluation starts at $62.50/mo, with $100K and $150K accounts priced proportionally higher. Founded in Chicago in 2020 by James Thorpe and Steve Miley, TradeDay has a smaller but strong review base - a 4.6/5 Trustpilot rating from over 1,300 reviews - putting it toward the top of the pack on reputation, if with less volume behind it than the largest firms."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -479,7 +479,7 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Goat Funded Trader competes almost entirely on price and breadth: a Classic 2-Step challenge on a $5K account lists at just $22, among the cheapest entries in the industry, and the instrument list runs to more than 14,000 symbols including stocks, ETFs and crypto alongside forex - far broader than most challenge providers. Rules on the Classic 2-Step are otherwise standard for the category: 10% static drawdown, 5% daily loss, and news, EA and weekend trading all permitted. Splits start at 80% and can reach 100% via paid add-ons, and scaling runs up to $800K. Goat launched in 2022-2023 (sources differ on the exact date) and is still building a durable trust record - its Trustpilot rating is mixed and inconsistent across sources, with the platform flagged for guideline issues at times, so it's worth reading recent, dated reviews rather than relying on the aggregate score before committing beyond the cheapest entry tier."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -1112,7 +1112,7 @@
     "name": "Alpha Futures",
     "cat": "futures",
     "color": "#0ea5e9",
-    "desc": "UK-based futures-only sister brand of Alpha Capital Group, founded 2024. EOD trailing drawdown with 90% split from day one on Advanced accounts.",
+    "desc": "UK-based futures-only sister brand of Alpha Capital Group, founded 2024. EOD trailing drawdown with 90% split from day one on Advanced accounts. Premium plan discontinued Jul 2026 (see trust warning tag); Zero and Advanced plans continue, migrating to the in-house AlphaTrader platform.",
     "split": "70–90%",
     "from": "$59/mo",
     "sizes": "$50K–$300K",
@@ -1140,13 +1140,13 @@
         ""
       ],
       [
-        "Consistency rule until qualified",
+        "TRUST WARNING: Premium plan closed Jul 12 2026, pending payouts converted to refunds; lost NinjaTrader/Tradovate, migrating to in-house platform",
         ""
       ]
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Alpha Futures is in the middle of a genuine trust event, and traders considering it should know the details before signing up. On July 12, 2026, the firm discontinued its Premium plan entirely - stating it had paid out more than $25 million on that plan in two months at a loss - and simultaneously lost its NinjaTrader and Tradovate integrations after the platforms ended their partnership. Traders on the Premium plan had their accounts closed and fees refunded, but multiple independent reports indicate pending payouts earned under that plan were not honored, which is the more serious concern. The Zero and Advanced plans continue on paper, still offering a 90% split from day one (Advanced) and weekly payouts up to $15,000 per request, but every trader is now migrating to Alpha's in-house AlphaTrader platform rather than the third-party rails they originally signed up for. Until Alpha demonstrates it is honoring outstanding payout obligations and the new platform proves reliable, we'd treat this as a firm to watch from the sidelines rather than fund through right now."
   },
   {
     "id": "spt",
@@ -1183,6 +1183,258 @@
       ],
       [
         "Unregulated broker/platform (DXtrade)",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "bf",
+    "name": "BrightFunded",
+    "cat": "forex",
+    "color": "#fb7185",
+    "desc": "Planet-themed evaluation firm running six account sizes from Pluto ($5K) to Jupiter ($200K), with a scaling plan reaching $400K+.",
+    "split": "80–100%",
+    "from": "€49",
+    "sizes": "$5K–$200K (scaling to $400K+)",
+    "model": "2-Step Classic",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://brightfunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Planet-themed account sizes",
+        ""
+      ],
+      [
+        "Scaling to $400K+",
+        "pos"
+      ],
+      [
+        "90% split add-on",
+        "pos"
+      ],
+      [
+        "4.6★ Trustpilot, 420+ reviews",
+        "pos"
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid Trading",
+    "cat": "futures",
+    "color": "#38bdf8",
+    "desc": "Futures-only firm launched 2025 offering same-day payouts and 100% of the first $10K in profits before a 90/10 split.",
+    "split": "90/10 after first $10K (100%)",
+    "from": "~$110",
+    "sizes": "Multiple (LucidFlex, LucidBlack, LucidDirect)",
+    "model": "LucidFlex, LucidBlack, LucidDirect",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://lucidtrading.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "100% of first $10K profit",
+        "pos"
+      ],
+      [
+        "No DLL on LucidFlex",
+        "pos"
+      ],
+      [
+        "Positions must be flat by daily close",
+        ""
+      ],
+      [
+        "Founded 2025 — short track record",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "aqua",
+    "name": "AquaFunded",
+    "cat": "forex",
+    "color": "#facc15",
+    "desc": "Dubai-based firm spanning forex, crypto and futures with on-demand payouts and scaling to $4M; entries from $39.",
+    "split": "Up to 100%",
+    "from": "$39",
+    "sizes": "$5K–$4M (scaling)",
+    "model": "Two Step Pro, Instant",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://aquafunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Scaling to $4M",
+        "pos"
+      ],
+      [
+        "On-demand payouts",
+        "pos"
+      ],
+      [
+        "Trustpilot flagged the listing for fake-review removal — caution",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "dna",
+    "name": "DNA Funded",
+    "cat": "forex",
+    "color": "#4ade80",
+    "desc": "Five challenge types (Single Helix, Double Helix, Rapid, Instant, 24-Hour) with a 40% daily profit cap and max $600K allocation.",
+    "split": "80–90%",
+    "from": "$59",
+    "sizes": "$5K–$200K (up to $600K allocation)",
+    "model": "Single Helix, Double Helix, Rapid, Instant, 24-Hour",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://dnafunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "5 challenge types",
+        "pos"
+      ],
+      [
+        "Payouts every 14 days (7-day add-on)",
+        "pos"
+      ],
+      [
+        "40% daily profit cap",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "funderpro",
+    "name": "FunderPro",
+    "cat": "forex",
+    "color": "#c084fc",
+    "desc": "Malta-registered firm with One Phase, Swing 2-Phase and Regular 2-Phase challenges; scales funded accounts up to $5M.",
+    "split": "80–90%",
+    "from": "$79",
+    "sizes": "$5K–$200K (scaling to $5M)",
+    "model": "One Phase, Swing 2-Phase, Regular 2-Phase",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://funderpro.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Scaling to $5M",
+        "pos"
+      ],
+      [
+        "Payouts ~8hrs average",
+        "pos"
+      ],
+      [
+        "90% split add-on",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "finotive",
+    "name": "Finotive Funding",
+    "cat": "forex",
+    "color": "#fca5a5",
+    "desc": "Broker-backed firm (Finotive Markets) since 2021 with One/Two-Step, Pro salary and Instant Funding tracks; weekly Friday payouts.",
+    "split": "75–95%",
+    "from": "$35",
+    "sizes": "$2.5K–$200K (scaling to $3M)",
+    "model": "1-Step, 2-Step, Finotive Pro, Instant",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://finotivefunding.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto",
+      "Revolut"
+    ],
+    "tags": [
+      [
+        "Monthly salary option (Finotive Pro)",
+        "pos"
+      ],
+      [
+        "Weekly Friday payouts",
+        "pos"
+      ],
+      [
+        "$20M+ paid since 2021",
+        "pos"
+      ],
+      [
+        "Instant split only 60–65%",
         ""
       ]
     ],
