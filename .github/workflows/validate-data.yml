@@ -1,0 +1,37 @@
+name: Validate data
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/validate-data.mjs"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate data files
+        run: node scripts/validate-data.mjs
+
+      - name: Data-only PR check
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          echo "Changed files:"
+          echo "$CHANGED"
+          NON_DATA=$(echo "$CHANGED" | grep -v '^data/' || true)
+          if [ -n "$NON_DATA" ]; then
+            echo "::warning::This PR changes files outside data/ — needs a developer review, not just data review:"
+            echo "$NON_DATA"
+          fi

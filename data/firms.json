@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "ftmo",
+    "name": "FTMO",
+    "cat": "forex",
+    "color": "#4f8cff",
+    "featured": true,
+    "desc": "The industry benchmark since 2015. 4.5M+ customers, $650M+ paid in rewards, 4.8 Trustpilot.",
+    "split": "80–90%",
+    "from": "€79",
+    "sizes": "$10K–$200K",
+    "model": "1-Step & 2-Step",
+    "source": "Official site (ftmo.com), Jul 2026",
+    "officialUrl": "https://ftmo.com",
+    "payMethods": [
+      "Visa",
+      "Mastercard",
+      "Discover",
+      "Diners Club",
+      "Apple Pay",
+      "Google Pay",
+      "Skrill"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto",
+      "Skrill"
+    ],
+    "tags": [
+      [
+        "2-Step fee 100% refunded",
+        "pos"
+      ],
+      [
+        "90% split day one (1-Step)",
+        "pos"
+      ],
+      [
+        "Swing account: news + weekend OK",
+        "pos"
+      ],
+      [
+        "Best-day ≤50% rule on 1-Step",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). Pricing is mid-market, but you are paying for the firm least likely to change the rules under you."
+  },
+  {
+    "id": "fn",
+    "name": "FundedNext",
+    "cat": "forex",
+    "color": "#3ecf8e",
+    "desc": "Multiple challenge models plus a rare perk: you earn 15% of profits made during the challenge itself.",
+    "split": "80–95%",
+    "from": "$59",
+    "sizes": "$6K–$200K",
+    "model": "Stellar, Evaluation, Flex",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://fundednext.com",
+    "payMethods": [
+      "Cards",
+      "Crypto",
+      "Local payment options"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "15% profit share in challenge",
+        "pos"
+      ],
+      [
+        "95% split add-on",
+        "pos"
+      ],
+      [
+        "New Flex challenge (2026)",
+        ""
+      ],
+      [
+        "Also offers futures",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "t5",
+    "name": "The5ers",
+    "cat": "forex",
+    "color": "#d4af6a",
+    "desc": "Established 2016, 262K funded traders, scaling to $4M. Known for reliable payouts and no hidden rules.",
+    "split": "50–100%",
+    "from": "$39",
+    "sizes": "$5K–$250K",
+    "model": "Instant, 1-Step, High-Stakes, Bootcamp",
+    "source": "Official site (the5ers.com) + reviews, Jul 2026",
+    "officialUrl": "https://the5ers.com",
+    "payMethods": [
+      "Cards",
+      "PayPal",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "PayPal",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Scale to $4M",
+        "pos"
+      ],
+      [
+        "10-year track record",
+        "pos"
+      ],
+      [
+        "Instant funding available",
+        "pos"
+      ],
+      [
+        "Current promo: $100K for $149",
+        "pos"
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "The5ers has built its reputation on paying out without drama - 262K funded traders and a 10-year record back that up. The program menu is broad: instant funding (Hyper Growth), the flagship High-Stakes 2-step, and a Bootcamp route where most of the fee is only due after you pass. Static drawdowns across programs make risk math simpler than trailing-drawdown competitors. Splits start lower than rivals (50-75% on some routes) but scale with account growth, and the $4M scaling ceiling is among the highest anywhere."
+  },
+  {
+    "id": "fp",
+    "name": "Funding Pips",
+    "cat": "forex",
+    "color": "#a78bfa",
+    "desc": "Aggressively priced challenges with payout-cycle-based splits reaching 100% on the monthly cycle.",
+    "split": "60–100%",
+    "from": "$29",
+    "sizes": "$5K–$100K",
+    "model": "1-Step, 2-Step, Zero (Instant)",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://fundingpips.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Crypto",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "Up to 100% split",
+        "pos"
+      ],
+      [
+        "Cheapest entries in class",
+        "pos"
+      ],
+      [
+        "Weekly payouts available",
+        "pos"
+      ],
+      [
+        "News restricted on funded",
+        ""
+      ],
+      [
+        "Weekend holds paused on funded (temp, since Jan 2026)",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "e8",
+    "name": "E8 Markets",
+    "cat": "forex",
+    "color": "#f0616d",
+    "desc": "Build-your-own challenge: choose your drawdown, daily loss limit, and profit split at checkout.",
+    "split": "80–100%",
+    "from": "$40",
+    "sizes": "$5K–$500K",
+    "model": "E8 One, Zero, Signature",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://e8markets.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "Fully customizable rules",
+        "pos"
+      ],
+      [
+        "Largest sizes ($500K)",
+        "pos"
+      ],
+      [
+        "E8 Zero: 3% static DD",
+        ""
+      ],
+      [
+        "Split add-ons to 100%",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "ts",
+    "name": "Topstep",
+    "cat": "futures",
+    "color": "#4f8cff",
+    "featured": true,
+    "desc": "The longest-running futures funding firm. Simple monthly Combines and a strong compliance reputation.",
+    "split": "90/10",
+    "from": "$49/mo",
+    "sizes": "$50K–$150K",
+    "model": "Trading Combine",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://topstep.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "ACH",
+      "Wire/SWIFT",
+      "Aeropay",
+      "Prop-to-Brokerage"
+    ],
+    "tags": [
+      [
+        "15+ year track record",
+        "pos"
+      ],
+      [
+        "Clear, published rules",
+        "pos"
+      ],
+      [
+        "$149 activation fee",
+        ""
+      ],
+      [
+        "Payout caps per request",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Topstep is the conservative pick in futures funding. Its Combines are subscription-based and transparently documented, and the flat 90/10 split from the first dollar (since January 2026) simplified what used to be a tiered mess. Costs stack up: the monthly fee, a $149 activation, and per-request payout caps mean patient scaling rather than fast extraction. What you get in exchange is the longest track record in the space and rules that are enforced as written - which is worth more than most traders think."
+  },
+  {
+    "id": "apex",
+    "name": "Apex Trader Funding",
+    "cat": "futures",
+    "color": "#3ecf8e",
+    "desc": "High-volume favorite. One-time evaluation fees since the 4.0 update, with 100% of your first $25K profit.",
+    "split": "100% first $25K, then 90/10",
+    "from": "$137",
+    "sizes": "$25K–$150K",
+    "model": "EOD / Intraday eval",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://apextraderfunding.com",
+    "payMethods": [
+      "Cards",
+      "PayPal"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "Plane",
+      "ACH (US)"
+    ],
+    "tags": [
+      [
+        "100% of first $25K",
+        "pos"
+      ],
+      [
+        "70–90% discounts common",
+        "pos"
+      ],
+      [
+        "8-day payout cycles",
+        "pos"
+      ],
+      [
+        "50% consistency (funded)",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "mff",
+    "name": "MyFundedFutures",
+    "cat": "futures",
+    "color": "#d4af6a",
+    "desc": "Modern plan lineup (Core, Rapid, Pro) with no activation fees and payout terms tuned per plan.",
+    "split": "80–90%",
+    "from": "$65/mo",
+    "sizes": "$50K–$150K",
+    "model": "Core, Rapid, Pro",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://myfundedfutures.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "Rise",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "No activation fees",
+        "pos"
+      ],
+      [
+        "Rapid: no consistency rule",
+        "pos"
+      ],
+      [
+        "Plan-specific payout caps",
+        ""
+      ],
+      [
+        "Prices beyond $50K estimated",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "td",
+    "name": "TradeDay",
+    "cat": "futures",
+    "color": "#a78bfa",
+    "desc": "Trader-friendly single-phase evaluation with no daily loss limit and splits that scale to 95%.",
+    "split": "80–95%",
+    "from": "$62.50",
+    "sizes": "$50K–$150K",
+    "model": "1-Phase, no time limit",
+    "source": "Third-party reviews, Jul 2026",
+    "officialUrl": "https://tradeday.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wire",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "No daily loss limit",
+        "pos"
+      ],
+      [
+        "On-demand payouts",
+        "pos"
+      ],
+      [
+        "Split scales to 95%",
+        "pos"
+      ],
+      [
+        "30% consistency rule",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "acg",
+    "name": "Alpha Capital Group",
+    "cat": "forex",
+    "color": "#5eead4",
+    "desc": "UK-based firm with four evaluation paths (Alpha One, Pro, Swing, 3-Step) and zero listed commissions.",
+    "split": "80%",
+    "from": "$50",
+    "sizes": "$5K–$200K",
+    "model": "Alpha One, Pro, Swing, 3-Step",
+    "officialUrl": "https://alphacapitalgroup.uk",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Zero commissions",
+        "pos"
+      ],
+      [
+        "4 evaluation paths",
+        "pos"
+      ],
+      [
+        "UK-based",
+        ""
+      ],
+      [
+        "News restricted on funded",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "goat",
+    "name": "Goat Funded Trader",
+    "cat": "forex",
+    "color": "#fbbf24",
+    "desc": "Among the cheapest challenges in the industry, with an unusually broad instrument list (stocks, ETFs, crypto).",
+    "split": "80–100%",
+    "from": "$22",
+    "sizes": "$5K–$800K (scaling)",
+    "model": "1/2/3-Step + Instant",
+    "officialUrl": "https://www.goatfundedtrader.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Cheapest 2-step entries",
+        "pos"
+      ],
+      [
+        "14,000+ instruments",
+        "pos"
+      ],
+      [
+        "Scale to $800K",
+        "pos"
+      ],
+      [
+        "Split add-ons to 100%",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "maven",
+    "name": "Maven Trading",
+    "cat": "forex",
+    "color": "#f472b6",
+    "desc": "Budget-friendly firm with five challenge types from $15 and bi-weekly payouts.",
+    "split": "80%",
+    "from": "$15",
+    "sizes": "$2K–$200K",
+    "model": "1/2/3-Step, Mini, Instant",
+    "officialUrl": "https://maventrading.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Entries from $15",
+        "pos"
+      ],
+      [
+        "Bi-weekly payouts",
+        "pos"
+      ],
+      [
+        "Tight 3% drawdown on Instant",
+        ""
+      ],
+      [
+        "20% consistency on Instant",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "ftuk",
+    "name": "FTUK",
+    "cat": "forex",
+    "color": "#93c5fd",
+    "desc": "Instant funding and evaluations with scaling up to $6.4M and weekly payouts.",
+    "split": "80%",
+    "from": "—",
+    "sizes": "Scaling to $6.4M",
+    "model": "Instant, 1-Step, 2-Step",
+    "officialUrl": "https://ftuk.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Weekly payout cycle",
+        "pos"
+      ],
+      [
+        "Scale to $6.4M",
+        "pos"
+      ],
+      [
+        "Instant funding",
+        "pos"
+      ],
+      [
+        "Plan prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "cti",
+    "name": "City Traders Imperium",
+    "cat": "forex",
+    "color": "#c4b5fd",
+    "desc": "Instant funding with a 6% static drawdown, splits scaling 70→100%, and a $500 monthly salary feature.",
+    "split": "70–100%",
+    "from": "—",
+    "sizes": "$2.5K–$100K",
+    "model": "Challenge + Instant",
+    "officialUrl": "https://citytradersimperium.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "$500/mo salary feature",
+        "pos"
+      ],
+      [
+        "Split scales to 100%",
+        "pos"
+      ],
+      [
+        "6% static drawdown",
+        ""
+      ],
+      [
+        "Plan prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "bg",
+    "name": "Blue Guardian",
+    "cat": "forex",
+    "color": "#60a5fa",
+    "desc": "Four funding plans with a 24-hour payout guarantee and $20M+ in verified payouts.",
+    "split": "up to 90%",
+    "from": "—",
+    "sizes": "$40K–$4M (scaling)",
+    "model": "1/2/3-Step + Instant",
+    "officialUrl": "https://www.blueguardian.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "24h payout guarantee",
+        "pos"
+      ],
+      [
+        "$20M+ verified payouts",
+        "pos"
+      ],
+      [
+        "Instant: 3% daily / 6% overall",
+        ""
+      ],
+      [
+        "Plan prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "think",
+    "name": "ThinkCapital",
+    "cat": "forex",
+    "color": "#a3e635",
+    "desc": "Backed by broker ThinkMarkets (FCA/ASIC-regulated). Bolt instant program with bi-weekly payouts.",
+    "split": "up to 90%",
+    "from": "—",
+    "sizes": "Varies",
+    "model": "Challenges + Bolt (Instant)",
+    "officialUrl": "https://www.thinkcapital.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Broker-backed (ThinkMarkets)",
+        "pos"
+      ],
+      [
+        "Bolt instant funding",
+        "pos"
+      ],
+      [
+        "3% daily loss limit",
+        ""
+      ],
+      [
+        "Plan prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "tfy",
+    "name": "Tradeify",
+    "cat": "futures",
+    "color": "#34d399",
+    "desc": "$150M+ in verified payouts, processed within one business day. No activation fees.",
+    "split": "90/10",
+    "from": "~$145/mo",
+    "sizes": "$50K–$150K",
+    "model": "Advanced, Growth, S2F",
+    "officialUrl": "https://tradeify.co",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "ACH (US)",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "Payouts in 1 business day",
+        "pos"
+      ],
+      [
+        "No activation fee",
+        "pos"
+      ],
+      [
+        "$150M+ paid out",
+        "pos"
+      ],
+      [
+        "EOD trailing drawdown",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "tpt",
+    "name": "Take Profit Trader",
+    "cat": "futures",
+    "color": "#f87171",
+    "desc": "Known for same-day payout access on PRO accounts and a straightforward one-step test.",
+    "split": "80–90%",
+    "from": "~$150/mo",
+    "sizes": "$25K–$150K",
+    "model": "Test + PRO / PRO+",
+    "officialUrl": "https://takeprofittrader.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wire",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Same-day payouts (PRO)",
+        "pos"
+      ],
+      [
+        "PRO+: 90/10 split",
+        "pos"
+      ],
+      [
+        "Daily loss limit applies",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "etf",
+    "name": "Elite Trader Funding",
+    "cat": "futures",
+    "color": "#fde047",
+    "desc": "Budget futures evaluations with frequent sales and multiple drawdown styles.",
+    "split": "100% first $12.5K, then 90/10",
+    "from": "$75/mo",
+    "sizes": "$10K–$300K",
+    "model": "1-Step, Static, Fast Track",
+    "officialUrl": "https://elitetraderfunding.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wise",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "$100K eval at $75/mo",
+        "pos"
+      ],
+      [
+        "100% of first $12.5K",
+        "pos"
+      ],
+      [
+        "Frequent discounts",
+        "pos"
+      ],
+      [
+        "Multiple drawdown styles",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "e2t",
+    "name": "Earn2Trade",
+    "cat": "futures",
+    "color": "#fb923c",
+    "desc": "Education-first futures firm; Gauntlet Mini evaluation feeds funded accounts at partner firms.",
+    "split": "80/20",
+    "from": "~$170/mo",
+    "sizes": "$25K–$200K",
+    "model": "Gauntlet Mini, Trader Career Path",
+    "officialUrl": "https://earn2trade.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "Strong education included",
+        "pos"
+      ],
+      [
+        "Trader Career Path scaling",
+        "pos"
+      ],
+      [
+        "80/20 split",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "blx",
+    "name": "Bulenox",
+    "cat": "futures",
+    "color": "#818cf8",
+    "desc": "Deep-discount futures evaluations — promo pricing regularly cuts list prices by 80–90%.",
+    "split": "90/10",
+    "from": "$16 (promo)",
+    "sizes": "$10K–$250K",
+    "model": "Evaluation (2 drawdown types)",
+    "officialUrl": "https://bulenox.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Wise",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Aggressive promos",
+        "pos"
+      ],
+      [
+        "Trailing or EOD drawdown choice",
+        "pos"
+      ],
+      [
+        "List prices rarely paid",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "source": "Third-party reviews, Jul 2026",
+    "affiliateUrl": null,
+    "discountCode": null,
+    "id": "phi",
+    "name": "Phidias",
+    "cat": "futures",
+    "color": "#2dd4bf",
+    "desc": "Lowest static-drawdown entry point in futures at $55 for a $25K account.",
+    "split": "90/10",
+    "from": "$55",
+    "sizes": "$25K–$150K",
+    "model": "Static & trailing evals",
+    "officialUrl": "https://phidiaspropfirm.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "$25K Static at $55",
+        "pos"
+      ],
+      [
+        "Static drawdown option",
+        "pos"
+      ],
+      [
+        "Newer firm — shorter track record",
+        ""
+      ],
+      [
+        "Prices being verified",
+        ""
+      ]
+    ],
+    "review": null
+  },
+  {
+    "id": "fxify",
+    "name": "FXIFY",
+    "cat": "forex",
+    "color": "#f97316",
+    "desc": "1, 2 & 3-Phase plus Instant models with account sizes up to $400K. EAs, weekend holds and news trading allowed on most plans.",
+    "split": "75–90%",
+    "from": "$39",
+    "sizes": "$5K–$400K",
+    "model": "1, 2, 3-Step & Instant",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://fxify.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Split add-on raises payout to 90%",
+        "pos"
+      ],
+      [
+        "EAs, weekend holds & news allowed",
+        "pos"
+      ],
+      [
+        "Payouts every 2 weeks",
+        ""
+      ],
+      [
+        "HFT & latency arbitrage banned",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "instantfunding",
+    "name": "Instant Funding",
+    "cat": "forex",
+    "color": "#22d3ee",
+    "desc": "No-challenge instant-funded accounts alongside a traditional evaluation option — capital access from day one.",
+    "split": "80%",
+    "from": "~$99",
+    "sizes": "$5K–$200K",
+    "model": "Instant & Evaluation",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://instantfunding.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Trade with real capital on day one",
+        "pos"
+      ],
+      [
+        "Heavy discount codes nearly constant",
+        ""
+      ],
+      [
+        "Stricter drawdown than evaluated accounts",
+        ""
+      ],
+      [
+        "Mixed reviews on payout disputes",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "ftp",
+    "name": "Funded Trading Plus",
+    "cat": "forex",
+    "color": "#eab308",
+    "desc": "Founded 2013 as Trade Room Plus. Simplified 2026 lineup: Instant, 1-Step Express and 2-Step Classic.",
+    "split": "80–100%",
+    "from": "$119",
+    "sizes": "$5K–$200K",
+    "model": "Instant, 1-Step Express, 2-Step Classic",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://www.fundedtradingplus.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Split can reach 100% at milestones",
+        "pos"
+      ],
+      [
+        "No consistency rule, no min trading days",
+        "pos"
+      ],
+      [
+        "Weekly payouts, 1–3 days to arrive",
+        ""
+      ],
+      [
+        "Instant option carries a pricing premium",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "lux",
+    "name": "Lux Trading Firm",
+    "cat": "forex",
+    "color": "#8b5cf6",
+    "desc": "London-based, founded 2020. Real A-book execution with scaling up to $10M across multiple stages.",
+    "split": "75–80%",
+    "from": "£199",
+    "sizes": "$100K–$1M",
+    "model": "2-Step Evaluation",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://luxtradingfirm.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer"
+    ],
+    "tags": [
+      [
+        "Scales to $10M over multiple stages",
+        "pos"
+      ],
+      [
+        "Withdrawn profits still count toward targets",
+        "pos"
+      ],
+      [
+        "Mandatory stop-loss on every trade",
+        ""
+      ],
+      [
+        "0% daily loss allowance on funded accounts",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "alphafutures",
+    "name": "Alpha Futures",
+    "cat": "futures",
+    "color": "#0ea5e9",
+    "desc": "UK-based futures-only sister brand of Alpha Capital Group, founded 2024. EOD trailing drawdown with 90% split from day one on Advanced accounts.",
+    "split": "70–90%",
+    "from": "$59/mo",
+    "sizes": "$50K–$300K",
+    "model": "Standard, Advanced, Zero",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://alpha-futures.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Wise",
+      "ACH"
+    ],
+    "tags": [
+      [
+        "90% split from day one (Advanced)",
+        "pos"
+      ],
+      [
+        "$15,000 max payout per request",
+        "pos"
+      ],
+      [
+        "Zero option has no activation fee",
+        ""
+      ],
+      [
+        "Consistency rule until qualified",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "spt",
+    "name": "Smart Prop Trader",
+    "cat": "forex",
+    "color": "#84cc16",
+    "desc": "2-Step evaluation with no minimum trading days and split scaling from 75% up to 95% based on performance milestones.",
+    "split": "75–95%",
+    "from": "$57",
+    "sizes": "$5K–$200K",
+    "model": "2-Step Evaluation",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://www.smartproptrader.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Split scales to 95% on milestones",
+        "pos"
+      ],
+      [
+        "No minimum trading days",
+        "pos"
+      ],
+      [
+        "Transparent pricing, no hidden fees",
+        ""
+      ],
+      [
+        "Unregulated broker/platform (DXtrade)",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  }
+]
