@@ -113,7 +113,7 @@ export default function PlanTable() {
     else { setSortK(k); setSortDir(1); }
   };
 
-  const Th = ({ k, title, children }: { k?: Exclude<SortKey, null>; title?: string; children: React.ReactNode }) => (
+  const Th = ({ k, title, children }: { k?: Exclude<SortKey, null>; title?: string; children?: React.ReactNode }) => (
     <th className={k ? "sortable" : ""} onClick={k ? () => onSort(k) : undefined} title={title}>
       {children}
       {k && <span className="arrow">{sortK === k ? (sortDir === 1 ? "↑" : "↓") : "↕"}</span>}
@@ -285,7 +285,7 @@ export default function PlanTable() {
               <Th>Consistency</Th>
               <Th title="News trading / EAs / Weekend holding on funded accounts">Style</Th>
               <Th>Data</Th>
-              <Th />
+              <Th><span className="sr-only">Get plan</span></Th>
             </tr>
           </thead>
           <tbody>
