@@ -108,6 +108,20 @@ export default function PlanTable() {
       return next;
     });
 
+  // Firms shown in the dropdown follow the selected market
+  const visibleFirms = cat === "all" ? FIRMS : FIRMS.filter((f) => f.cat === cat);
+
+  const onCatChange = (c: CatFilter) => {
+    setCat(c);
+    // drop selected firms that are no longer in the visible category
+    if (c !== "all") {
+      setFirms((prev) => {
+        const next = new Set([...prev].filter((id) => firmById[id]?.cat === c));
+        return next.size === prev.size ? prev : next;
+      });
+    }
+  };
+
   const onSort = (k: Exclude<SortKey, null>) => {
     if (sortK === k) setSortDir((d) => (d === 1 ? -1 : 1));
     else { setSortK(k); setSortDir(1); }
@@ -132,7 +146,7 @@ export default function PlanTable() {
       <div className="controls">
         <div className="seg">
           {(["all", "forex", "futures"] as CatFilter[]).map((c) => (
-            <button key={c} className={cat === c ? "active" : ""} onClick={() => setCat(c)}>
+            <button key={c} className={cat === c ? "active" : ""} onClick={() => onCatChange(c)}>
               {c === "all" ? "All" : c === "forex" ? "Forex / CFD" : "Futures"}
             </button>
           ))}
@@ -164,7 +178,7 @@ export default function PlanTable() {
               <>
                 <div className="multi-backdrop" onClick={() => setFirmOpen(false)} />
                 <div className="multi-pop">
-                  {FIRMS.map((f) => (
+                  {visibleFirms.map((f) => (
                     <label key={f.id} className="multi-opt">
                       <input
                         type="checkbox"

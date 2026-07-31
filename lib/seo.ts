@@ -1,7 +1,7 @@
 import { FIRMS, PLANS, type Firm, type Plan } from "@/lib/data";
 
-/** Single source of truth for the production origin. TODO: set real domain before launch. */
-export const SITE_URL = "https://propfundsy.com";
+/** Single source of truth for the production origin. */
+export const SITE_URL = "https://propfundsy-delta.vercel.app";
 
 export const slugOf = (f: Firm) =>
   f.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");

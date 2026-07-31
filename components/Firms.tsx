@@ -5,8 +5,16 @@ import Link from "next/link";
 import { FIRMS, firmLink, initials, type Category } from "@/lib/data";
 import { slugOf } from "@/lib/seo";
 
+const PREVIEW_COUNT = 6;
+
 export default function Firms() {
   const [cat, setCat] = useState<Category>("forex");
+  const [showAll, setShowAll] = useState(false);
+
+  const catFirms = FIRMS.filter((f) => f.cat === cat);
+  // featured firms first in the preview
+  const sorted = [...catFirms].sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
+  const visible = showAll ? sorted : sorted.slice(0, PREVIEW_COUNT);
 
   return (
     <section id="firms">
@@ -20,7 +28,7 @@ export default function Firms() {
       <div className="controls">
         <div className="seg">
           {(["forex", "futures"] as Category[]).map((c) => (
-            <button key={c} className={cat === c ? "active" : ""} onClick={() => setCat(c)}>
+            <button key={c} className={cat === c ? "active" : ""} onClick={() => { setCat(c); setShowAll(false); }}>
               {c === "forex" ? "Forex / CFD" : "Futures"}
             </button>
           ))}
@@ -28,7 +36,7 @@ export default function Firms() {
       </div>
 
       <div className="grid">
-        {FIRMS.filter((f) => f.cat === cat).map((f) => (
+        {visible.map((f) => (
           <div key={f.id} className={`firm-card${f.featured ? " featured" : ""}`}>
             <div className="firm-head">
               <div
@@ -75,6 +83,16 @@ export default function Firms() {
           </div>
         ))}
       </div>
+
+      {catFirms.length > PREVIEW_COUNT && (
+        <div className="show-all-row">
+          <button className="btn btn-ghost" onClick={() => setShowAll((s) => !s)}>
+            {showAll
+              ? "Show fewer firms"
+              : `Show all ${catFirms.length} ${cat === "forex" ? "forex" : "futures"} firms`}
+          </button>
+        </div>
+      )}
     </section>
   );
 }
