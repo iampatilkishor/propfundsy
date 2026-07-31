@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { FIRMS, PLANS } from "@/lib/data";
 import { SITE_URL } from "@/lib/seo";
@@ -48,7 +49,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${sora.variable} ${inter.variable}`}>{children}</body>
+      <body className={`${sora.variable} ${inter.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
