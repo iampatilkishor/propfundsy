@@ -437,7 +437,7 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Alpha Capital Group runs four separate evaluation paths - Alpha One, Pro, Swing and a 3-Step - giving traders more route options than most UK-based firms offer, all with zero listed commissions. The Pro 2-Step entry starts at $50 for a $5K account: 80% split, 10% static drawdown, 5% daily loss, and a bi-weekly payout cycle. News trading is restricted once funded, in line with most forex challenge providers. Founded in London in November 2021 by George Kohler, Alpha Capital has scaled quickly and reports having paid out more than $62 million to traders. Its 4.7-star Trustpilot rating from over 21,000 reviews is among the highest of any firm in this comparison - though, as with most large prop firms, a subset of negative reviews cite payout denials and account closures tied to rule violations. Read the specific complaint pattern before committing beyond the entry tier, and keep meticulous records of every trade."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -521,7 +521,7 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Maven Trading competes on accessibility: five challenge types spanning Mini, 1/2/3-Step and Instant, with the cheapest entry in our entire dataset - a 3-Step Mini on a $2K account for $15. That's a genuine low-stakes way to test a strategy before committing real money elsewhere. The Instant Funding option skips evaluation entirely but trades convenience for tighter risk limits: a $100K instant account runs a 3% trailing drawdown, 2% daily loss and a 20% consistency rule, considerably stricter than Maven's staged challenges. Splits are a flat 80% across the lineup, with payouts on a roughly bi-weekly cycle. Founded in 2022, Maven has built a strong reputation fast - a 4.6-star Trustpilot rating from more than 5,000 reviews, with roughly 85% five-star, and the firm reports over $60 million funded to more than 5,000 traders. For traders who want to test Maven cheaply before scaling up, the $15 Mini entry is close to unique in the market."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -729,9 +729,13 @@
       [
         "EOD trailing drawdown",
         ""
+      ],
+      [
+        "Migrated off ProjectX to in-house Rithmic-backed platform, early 2026 — confirm current platform before signing up",
+        ""
       ]
     ],
-    "review": null
+    "review": "Tradeify is one of the newer names in futures prop trading - founded in 2024 - but it's built its reputation almost entirely around payout speed. The firm advertises processing within one business day, and independent reviews frequently confirm same-day or even same-hour withdrawals, an unusually fast turnaround for the category. The lineup runs three tracks (Advanced, Growth, S2F) with a flat 90/10 split and no activation fee - a real saving versus futures firms charging $99-$149 once funded. The Growth plan's $100K account targets $6,000 profit with an EOD trailing drawdown and no daily loss limit, at roughly $145/month. Tradeify reports more than $150 million in verified payouts to date. On Trustpilot, the firm holds a 4.6-star rating from over 2,500 reviews, with traders consistently praising clear rules and fast withdrawals. For a firm this young, that combination of transparency and payout speed is a notably strong start."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -773,7 +777,7 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Take Profit Trader runs a simple one-step Test before funding, then splits its funded tier into PRO (80% split) and PRO+ (90/10), with PRO account holders able to request withdrawals from the day they go live rather than waiting for a set cycle - same-day payout access is the firm's headline differentiator. The $25K Test runs around $150/month, targeting $1,500 profit with an EOD trailing drawdown and a $500 daily loss limit; larger accounts scale proportionally up to $150K. Founded in 2021 by James Sixsmith in Orlando, Florida, Take Profit Trader has built a strong track record relatively quickly - a 4.4-star Trustpilot rating from over 9,000 reviews, rated 'Excellent,' with traders regularly praising the payout process and customer service. For traders who value being able to pull profits immediately rather than on a fixed cycle, the PRO account's same-day access is a genuine edge over subscription-based competitors that gate withdrawals to specific windows."
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -981,7 +985,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "FXIFY's core appeal is flexibility: 1, 2 and 3-Phase evaluations plus an Instant option, scaling to $400K accounts, with EAs, weekend holding and news trading allowed on most plans - a looser rule set than most forex competitors, who typically restrict at least one of those. The catch is that HFT and latency arbitrage are explicitly banned, so the leniency has limits. Base split is 75-90%, with a paid add-on pushing it to 90% on the base 1-Step. List pricing looks mid-pack ($199 for a $25K 1-Step, ~$550 for $100K) but 30-60% discount codes are close to constant, so few traders pay sticker price. Payouts run on a two-week cycle with roughly 24-hour processing once approved. On Trustpilot, FXIFY sits in the 4.3-4.5 range across several thousand reviews, with the five-star count growing faster than the one-star count even as both rise - a reasonably healthy trend for a firm scaling this fast."
   },
   {
     "id": "instantfunding",
@@ -1023,7 +1027,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Instant Funding's pitch is straightforward: trade with real capital from day one via its no-challenge Instant accounts, or take the cheaper traditional Evaluation route if you'd rather prove yourself first - a $50K 2-Step evaluation runs around $89, while a $10K Instant account lists near $199. The catch on the Instant side is a tighter, intraday-trailing 10% drawdown with a 4% daily loss cap and no weekend holding, notably stricter than the firm's own evaluated accounts. List prices are close to meaningless in practice, since 30-60% discount codes run almost constantly. Trustpilot data on this firm is genuinely inconsistent across sources - ratings ranging from as low as 3.1 to as high as 4.5-4.6 depending on when and where you look - and a meaningful share of negative reviews describe payout requests denied over alleged rule violations, including at least one reported case involving a withheld payout above $21,000. That spread is wide enough that we'd treat any single aggregate score with caution and recommend reading recent, dated reviews before funding beyond the cheapest tier."
   },
   {
     "id": "ftp",
@@ -1065,7 +1069,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Funded Trading Plus traces back to 2013 as Trade Room Plus, giving it a longer operating history than most prop firms competing today, and its 2026 lineup has been simplified to three tracks: Instant, 1-Step Express and 2-Step Classic. The 1-Step Express starts at $119 for a $25K account - 80-100% split, 6% trailing drawdown, 4% daily loss - with no consistency rule and no minimum trading days on either evaluation path, a real convenience for traders who don't want their schedule dictated by the firm. Splits climb from 80% toward 100% at profit milestones (roughly 30% cumulative), among the higher ceilings in the forex category. Payouts run weekly, arriving in 1-3 days; the Instant option carries a pricing premium over the evaluated tracks. Funded Trading Plus reports paying out more than $19.5 million to over 60,000 traders across 180+ countries, and holds a 4.7-star Trustpilot rating from more than 2,400 reviews - 92% of them five-star, one of the stronger reputations in this comparison."
   },
   {
     "id": "lux",
@@ -1105,7 +1109,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Lux Trading Firm's defining feature is its execution model: unlike the vast majority of prop firms running simulated accounts, Lux operates on a genuine A-Book basis, routing funded trades directly to liquidity providers with no dealing desk - and its payout track record has been KPMG-audited, a rare third-party verification in an industry that mostly asks you to take its word for it. The single 2-Step Evaluation scales all the way to $10M across multiple funding stages, among the highest ceilings tracked here, and withdrawn profits still count toward your scaling targets rather than resetting progress. The trade-offs are real: a mandatory stop-loss on every trade and a 0% daily loss allowance on funded accounts, both stricter than typical forex challenge terms. A $100K evaluation runs around £199 (~$269). London-based and launched in 2020-2021 (sources vary on the exact date) under founder Petra Pirova, Lux carries a Trustpilot rating in the 4.0-4.4 range from several hundred reviews - solid, though a smaller sample than the largest retail-focused firms."
   },
   {
     "id": "alphafutures",
@@ -1435,6 +1439,300 @@
       ],
       [
         "Instant split only 60–65%",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "hola",
+    "name": "Hola Prime",
+    "cat": "forex",
+    "color": "#22c55e",
+    "desc": "Hong Kong-based, FSC Mauritius-regulated. Brought in Deloitte to audit payouts (Jul 2026). Refundable challenge fees, ~1-hour payout processing, splits to 95%, scaling to $4M.",
+    "split": "up to 95%",
+    "from": "$48",
+    "sizes": "$5K–$400K (scaling to $4M)",
+    "model": "1-Step, 2-Step, Instant",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://holaprime.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "~1-hour payout processing",
+        "pos"
+      ],
+      [
+        "Deloitte-audited payouts (announced Jul 2026)",
+        "pos"
+      ],
+      [
+        "Scaling to $4M",
+        "pos"
+      ],
+      [
+        "Also offers a separate futures track",
+        ""
+      ],
+      [
+        "Mixed Trustpilot: 83% five-star, 8% one-star",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "ttp",
+    "name": "The Trading Pit",
+    "cat": "forex",
+    "color": "#e879f9",
+    "desc": "Vienna-based firm, 10,000+ active accounts monthly, $4M+ paid out. Separate CFD and Futures challenge tracks, up to 80% split.",
+    "split": "up to 80%",
+    "from": "$49",
+    "sizes": "$10K–$250K",
+    "model": "CFD & Futures Challenges",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://www.thetradingpit.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "10,000+ active accounts monthly",
+        "pos"
+      ],
+      [
+        "Signup under 5 min, no document upload",
+        "pos"
+      ],
+      [
+        "Futures track priced/rules separate from CFD track",
+        ""
+      ],
+      [
+        "Trustpilot status flagged as suspended by one Jul 2026 tracker — verify",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "bbf",
+    "name": "Blueberry Funded",
+    "cat": "forex",
+    "color": "#3b82f6",
+    "desc": "Broker-backed by Blueberry Markets. Six paths including Instant, 1-Step, 2-Step and Prime 2-Step across MT4/MT5/TradeLocker/DXtrade.",
+    "split": "80–85%",
+    "from": "$145",
+    "sizes": "$1.25K–$200K",
+    "model": "1-Step, 2-Step, Prime 2-Step, Instant",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://blueberryfunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Broker-backed (Blueberry Markets)",
+        "pos"
+      ],
+      [
+        "Bi-weekly payouts",
+        "pos"
+      ],
+      [
+        "Instant Lite from $145",
+        ""
+      ],
+      [
+        "Rule set changed Mar 2026 — confirm current terms",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "yrm",
+    "name": "YRM Prop",
+    "cat": "futures",
+    "color": "#f43f5e",
+    "desc": "Futures-only firm (CME/CBOT/NYMEX/COMEX) launched Jun 2025. Up to 90/10 split on larger accounts and 24-hour payout processing.",
+    "split": "80–90%",
+    "from": "$69",
+    "sizes": "$50K–$450K",
+    "model": "Starter Challenge, Instant Prime",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://yrmprop.com",
+    "payMethods": [
+      "Cards",
+      "PayPal"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "90/10 split on $100K+ accounts",
+        "pos"
+      ],
+      [
+        "24-hour payout processing",
+        "pos"
+      ],
+      [
+        "$0 activation fee launch promo (normally $99)",
+        ""
+      ],
+      [
+        "Founded 2025 — short track record",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "tyard",
+    "name": "TradersYard",
+    "cat": "forex",
+    "color": "#06b6d4",
+    "desc": "Swiss-backed FX firm offering custom 1-Step and 2-Step challenges up to $300K simulated capital, with a 48-hour payout guarantee.",
+    "split": "up to 100%",
+    "from": "~$50",
+    "sizes": "$10K–$300K",
+    "model": "Custom 1-Step & 2-Step",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://tradersyard.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "48-hour payout guarantee (+$500 if delayed)",
+        "pos"
+      ],
+      [
+        "Scalable Reward Split up to 100%",
+        "pos"
+      ],
+      [
+        "New funding round closed Jul 2026 (Andromeda Capital Partners)",
+        "pos"
+      ],
+      [
+        "Newer firm — shorter track record",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "uprofit",
+    "name": "UProfit",
+    "cat": "futures",
+    "color": "#a855f7",
+    "desc": "Futures evaluation firm operating since 2019. Up to $300K in virtual capital, funded after 4 winning days, free NinjaTrader platform.",
+    "split": "80%",
+    "from": "$39/mo",
+    "sizes": "$50K–$200K",
+    "model": "Day Programs, Legacy Programs",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://uprofit.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "24-hour withdrawals from day one",
+        "pos"
+      ],
+      [
+        "Free NinjaTrader platform",
+        "pos"
+      ],
+      [
+        "30% consistency rule during evaluation",
+        ""
+      ],
+      [
+        "$150 activation fee to go live",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null
+  },
+  {
+    "id": "aud",
+    "name": "Audacity Capital",
+    "cat": "forex",
+    "color": "#64748b",
+    "desc": "UK firm operating since 2012. Two-step Ability Challenge plus a Funded Trader track, with splits up to 85% and EAs allowed within risk rules.",
+    "split": "50–85%",
+    "from": "$129",
+    "sizes": "$7.5K–$240K",
+    "model": "Ability Challenge, Funded Trader",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://audacity.capital",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer"
+    ],
+    "tags": [
+      [
+        "Operating since 2012",
+        "pos"
+      ],
+      [
+        "EAs allowed within risk rules",
+        "pos"
+      ],
+      [
+        "HFT/Martingale/DCA restricted",
+        ""
+      ],
+      [
+        "Prices being verified",
         ""
       ]
     ],
