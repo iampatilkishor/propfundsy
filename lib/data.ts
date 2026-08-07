@@ -25,6 +25,9 @@ export interface Firm {
   promoActive: boolean;         // true if the discount code is currently active
   review: string | null;        // editorial take shown on the firm page; null = not written yet
   tags: [string, "pos" | ""][];
+  yearsInOperation: number;     // years the firm has been operating
+  platforms: string[];          // trading platforms (e.g., "MT5", "cTrader", "MT4")
+  country: string;              // country the firm is registered in
 }
 
 export interface Plan {

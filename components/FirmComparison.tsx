@@ -12,6 +12,9 @@ interface ComparisonRow {
 const COMPARISON_GROUPS: ComparisonRow[] = [
   { group: "Market & Basics", label: "Market", key: "cat" },
   { group: "Market & Basics", label: "Evaluation Model", key: "model" },
+  { group: "Market & Basics", label: "Years in Operation", key: "yearsInOperation" },
+  { group: "Market & Basics", label: "Country", key: "country" },
+  { group: "Market & Basics", label: "Trading Platforms", key: "platforms" },
 
   { group: "Pricing & Fees", label: "Fee Range", key: "from" },
   { group: "Pricing & Fees", label: "Cheapest Plan Tracked", key: "cheapestPlan" },
@@ -37,6 +40,9 @@ export default function FirmComparison({ firm1, firm2 }: { firm1: Firm; firm2: F
     if (key === "paymentInfo") return firm.payMethods.join(", ");
     if (key === "payoutMethods") return firm.payoutMethods.join(", ");
     if (key === "discountCode") return firm.discountCode || "—";
+    if (key === "yearsInOperation") return `${firm.yearsInOperation} years`;
+    if (key === "country") return firm.country;
+    if (key === "platforms") return firm.platforms.join(", ");
     if (key === "cheapestPlan") {
       const c = cheapestPlan(firm.id);
       return c ? `${c.priceLabel} (${c.sizeLabel})` : "Being verified";
