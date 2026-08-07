@@ -20,3 +20,13 @@ export const relatedFirms = (f: Firm, n = 3): Firm[] =>
 /** Cheapest plan label for a firm, if it has plans. */
 export const cheapestPlan = (firmId: string): Plan | undefined =>
   plansOfFirm(firmId).slice().sort((a, b) => a.price - b.price)[0];
+
+/** Hard-caps a meta description so it never exceeds Google's ~160-char snippet
+ * window, regardless of how long the underlying data (firm names, size ranges,
+ * counts) happens to be. Truncates on a word boundary. */
+export const truncateDesc = (s: string, max = 160): string => {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${cut.slice(0, lastSpace > 0 ? lastSpace : cut.length)}…`;
+};

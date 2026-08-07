@@ -6,10 +6,14 @@ import { getAllPosts } from "@/lib/blog";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  // Generate all comparison URLs
+  // Generate comparison URLs — same-category pairs only (forex-vs-forex,
+  // futures-vs-futures). Cross-category pairs aren't real search intent and
+  // are excluded here to keep the sitemap free of low-value near-duplicates;
+  // see the matching filter in app/compare/[firms]/page.tsx.
   const comparisons = [];
   for (let i = 0; i < FIRMS.length; i++) {
     for (let j = i + 1; j < FIRMS.length; j++) {
+      if (FIRMS[i].cat !== FIRMS[j].cat) continue;
       comparisons.push({
         url: `${SITE_URL}/compare/${slugOf(FIRMS[i])}-vs-${slugOf(FIRMS[j])}`,
         lastModified: now,

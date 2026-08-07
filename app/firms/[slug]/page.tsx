@@ -8,7 +8,7 @@ import {
   type Firm, type Plan, type TriState,
 } from "@/lib/data";
 import {
-  SITE_URL, slugOf, firmBySlug, plansOfFirm, firmUrl, relatedFirms, cheapestPlan,
+  SITE_URL, slugOf, firmBySlug, plansOfFirm, firmUrl, relatedFirms, cheapestPlan, truncateDesc,
 } from "@/lib/seo";
 
 export const dynamicParams = false;
@@ -24,7 +24,9 @@ export async function generateMetadata(
   const f = firmBySlug(slug);
   if (!f) return {};
   const cheapest = cheapestPlan(f.id);
-  const desc = `${f.name} compared (2026): plans from ${cheapest ? cheapest.priceLabel : f.from}, ${f.split} split, ${f.sizes} accounts. Rules, payout speed & how it stacks up vs other ${f.cat} prop firms.`;
+  const desc = truncateDesc(
+    `${f.name} compared (2026): plans from ${cheapest ? cheapest.priceLabel : f.from}, ${f.split} split, ${f.sizes} accounts. Rules, payout speed & how it stacks up vs other ${f.cat} prop firms.`,
+  );
   return {
     title: `${f.name} — Plans, Pricing & Rules (2026)`,
     description: desc,
@@ -134,6 +136,18 @@ export default async function FirmPage({ params }: { params: Promise<{ slug: str
           acceptedAnswer: { "@type": "Answer", text: it.a },
         })),
       },
+      ...(f.review
+        ? [
+            {
+              "@type": "Review",
+              "@id": `${firmUrl(f)}#review`,
+              itemReviewed: { "@type": "Organization", name: f.name, url: f.officialUrl },
+              author: { "@id": `${SITE_URL}/#org` },
+              publisher: { "@id": `${SITE_URL}/#org` },
+              reviewBody: f.review,
+            },
+          ]
+        : []),
     ],
   };
 

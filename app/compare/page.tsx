@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Compare any two prop trading firms directly. See profit splits, fees, account sizes, evaluation models, and trading rules side by side.",
   keywords:
     "prop firm comparison, forex funded accounts, futures prop trading, compare trading firms",
-  canonical: `${SITE_URL}/compare`,
+  alternates: { canonical: "/compare" },
   openGraph: {
     title: "Compare Prop Firms",
     description: "Find the best prop firm for you by comparing two firms directly.",

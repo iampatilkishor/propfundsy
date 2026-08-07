@@ -1,12 +1,12 @@
 "use client";
 
-import { Firm } from "@/lib/data";
-import { firmLink } from "@/lib/data";
+import { Firm, firmLink } from "@/lib/data";
+import { plansOfFirm, cheapestPlan } from "@/lib/seo";
 
 interface ComparisonRow {
   group: string;
   label: string;
-  key: keyof Firm | "pricing" | "evaluation" | "paymentInfo";
+  key: string;
 }
 
 const COMPARISON_GROUPS: ComparisonRow[] = [
@@ -14,12 +14,14 @@ const COMPARISON_GROUPS: ComparisonRow[] = [
   { group: "Market & Basics", label: "Evaluation Model", key: "model" },
 
   { group: "Pricing & Fees", label: "Fee Range", key: "from" },
-  { group: "Pricing & Fees", label: "Refundable", key: "from" },
+  { group: "Pricing & Fees", label: "Cheapest Plan Tracked", key: "cheapestPlan" },
+  { group: "Pricing & Fees", label: "Fee Refund", key: "refund" },
 
   { group: "Profit Split", label: "Profit Split", key: "split" },
+  { group: "Profit Split", label: "Best Split Tracked", key: "bestSplit" },
 
   { group: "Account Sizes", label: "Available Sizes", key: "sizes" },
-  { group: "Account Sizes", label: "Scaling Limit", key: "sizes" },
+  { group: "Account Sizes", label: "Plans Tracked", key: "plansTracked" },
 
   { group: "Payment", label: "Pay With", key: "paymentInfo" },
   { group: "Payment", label: "Payout Methods", key: "payoutMethods" },
@@ -29,10 +31,26 @@ const COMPARISON_GROUPS: ComparisonRow[] = [
 
 export default function FirmComparison({ firm1, firm2 }: { firm1: Firm; firm2: Firm }) {
   const getValue = (firm: Firm, key: string) => {
+    const plans = plansOfFirm(firm.id);
+
     if (key === "cat") return firm.cat === "forex" ? "Forex / CFD" : "Futures";
     if (key === "paymentInfo") return firm.payMethods.join(", ");
     if (key === "payoutMethods") return firm.payoutMethods.join(", ");
     if (key === "discountCode") return firm.discountCode || "—";
+    if (key === "cheapestPlan") {
+      const c = cheapestPlan(firm.id);
+      return c ? `${c.priceLabel} (${c.sizeLabel})` : "Being verified";
+    }
+    if (key === "refund") {
+      const terms = [...new Set(plans.map((p) => p.refund).filter((r): r is string => !!r))];
+      if (!plans.length) return "Being verified";
+      return terms.length ? terms.join(" · ") : "No refund noted";
+    }
+    if (key === "bestSplit") {
+      if (!plans.length) return "—";
+      return `${Math.max(...plans.map((p) => p.splitSort))}%`;
+    }
+    if (key === "plansTracked") return plans.length || "Being verified";
     return (firm as any)[key] || "—";
   };
 

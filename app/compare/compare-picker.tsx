@@ -89,7 +89,7 @@ export default function ComparePicker() {
         </div>
       </div>
 
-      {isValid && (
+      {isValid && comparisonUrl && (
         <Link href={comparisonUrl} className="btn btn-gold btn-compare">
           Compare Now →
         </Link>

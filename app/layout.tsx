@@ -3,7 +3,7 @@ import { Sora, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { FIRMS, PLANS } from "@/lib/data";
-import { SITE_URL } from "@/lib/seo";
+import { SITE_URL, truncateDesc } from "@/lib/seo";
 
 const sora = Sora({ subsets: ["latin"], variable: "--sora", weight: ["400", "600", "700", "800"] });
 const inter = Inter({ subsets: ["latin"], variable: "--inter", weight: ["400", "500", "600"] });
@@ -17,8 +17,9 @@ export const metadata: Metadata = {
     default: "Propfundsy — Compare Prop Trading Firms & Plans (2026)",
     template: "%s | Propfundsy",
   },
-  description:
+  description: truncateDesc(
     `Compare ${firmCount}+ forex and futures prop trading firms side by side — challenge prices, profit splits, drawdown rules, payout speed and payment methods, updated for 2026.`,
+  ),
   keywords: [
     "prop firm comparison", "prop trading firms", "funded trading account",
     "prop firm challenge", "FTMO alternative", "futures prop firm",
