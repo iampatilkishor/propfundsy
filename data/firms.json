@@ -1909,5 +1909,49 @@
     "discountCode": null,
     "review": null,
     "promoActive": false
+  },
+  {
+    "id": "equityedge",
+    "name": "Equity Edge",
+    "cat": "forex",
+    "color": "#22c55e",
+    "desc": "Low-cost CFD challenges from $24, up to 90% split, and 1-Step, 2-Step or Instant funding paths.",
+    "split": "80–90%",
+    "from": "$24",
+    "sizes": "$2.5K–$300K",
+    "model": "1-Step, 2-Step, Instant",
+    "source": "Official site (equityedge.io), Aug 2026",
+    "officialUrl": "https://equityedge.io",
+    "payMethods": [
+      "Cards",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Cheapest entry in dataset — $24 for $2.5K",
+        "pos"
+      ],
+      [
+        "Instant (no-evaluation) accounts up to $300K",
+        "pos"
+      ],
+      [
+        "New firm — registered Saint Lucia, 2025",
+        ""
+      ],
+      [
+        "Mixed reputation — 3.3/5 Trustpilot, denied-payout reports",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Equity Edge is a budget CFD prop firm that launched in 2025, registered in Saint Lucia rather than a regulated jurisdiction. Its pitch is price: a $2,500 1-Step Legacy challenge runs $24 and a $10K challenge is $54-59 depending on 1-Step or 2-Step, among the cheapest entry costs in this dataset. The split starts at 80% and only reaches 90% through an on-demand VIP tier that requires 16 payouts and 40% total profit share — a slow climb compared to firms that offer 90%+ from day one. Rules are unusually well-documented for a firm this size: trailing drawdowns on 1-Step accounts, a static max-loss on 2-Step accounts, a 4-16 minute no-trade window around high-impact news depending on account type, and a hard ban on EAs and copy trading. Instant accounts skip evaluation entirely but forbid weekend holding and cap total traded Instant capital at $300K. Third-party reviews put Equity Edge at a middling 3.3/5 on Trustpilot with a minority of traders reporting payout denials tied to IP-address flags and group-trading detection — worth weighing against the low sticker price before committing capital.",
+    "promoActive": false
   }
 ]

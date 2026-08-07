@@ -4,21 +4,27 @@ import { Firm } from "@/lib/data";
 import { firmLink } from "@/lib/data";
 
 interface ComparisonRow {
+  group: string;
   label: string;
   key: keyof Firm | "pricing" | "evaluation" | "paymentInfo";
-  highlight?: boolean;
 }
 
-const COMPARISON_ROWS: ComparisonRow[] = [
-  { label: "Market", key: "cat" },
-  { label: "Evaluation Model", key: "model" },
-  { label: "Profit Split", key: "split", highlight: true },
-  { label: "Account Sizes", key: "sizes" },
-  { label: "Fee Range", key: "from" },
-  { label: "Scaling Limit", key: "sizes" },
-  { label: "Pay With", key: "paymentInfo" },
-  { label: "Payout Methods", key: "payoutMethods" },
-  { label: "Promo Code", key: "discountCode" },
+const COMPARISON_GROUPS: ComparisonRow[] = [
+  { group: "Market & Basics", label: "Market", key: "cat" },
+  { group: "Market & Basics", label: "Evaluation Model", key: "model" },
+
+  { group: "Pricing & Fees", label: "Fee Range", key: "from" },
+  { group: "Pricing & Fees", label: "Refundable", key: "from" },
+
+  { group: "Profit Split", label: "Profit Split", key: "split" },
+
+  { group: "Account Sizes", label: "Available Sizes", key: "sizes" },
+  { group: "Account Sizes", label: "Scaling Limit", key: "sizes" },
+
+  { group: "Payment", label: "Pay With", key: "paymentInfo" },
+  { group: "Payment", label: "Payout Methods", key: "payoutMethods" },
+
+  { group: "Promo", label: "Discount Code", key: "discountCode" },
 ];
 
 export default function FirmComparison({ firm1, firm2 }: { firm1: Firm; firm2: Firm }) {
@@ -30,39 +36,58 @@ export default function FirmComparison({ firm1, firm2 }: { firm1: Firm; firm2: F
     return (firm as any)[key] || "—";
   };
 
+  const groupedRows = COMPARISON_GROUPS.reduce((acc, row) => {
+    if (!acc[row.group]) acc[row.group] = [];
+    acc[row.group].push(row);
+    return acc;
+  }, {} as Record<string, ComparisonRow[]>);
+
   return (
-    <div className="firm-comparison">
-      <div className="comparison-header">
-        <div className="comp-firm">
-          <div className="comp-logo" style={{ background: `linear-gradient(135deg, ${firm1.color}, ${firm1.color}aa)` }}>
+    <div className="firm-comparison-grouped">
+      <div className="comp-header-fixed">
+        <div className="comp-firm-header">
+          <div className="comp-logo-small" style={{ background: `linear-gradient(135deg, ${firm1.color}, ${firm1.color}aa)` }}>
             {firm1.name.split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase()}
           </div>
-          <h2>{firm1.name}</h2>
+          <div className="comp-firm-name">{firm1.name}</div>
         </div>
-        <div className="comp-vs">vs</div>
-        <div className="comp-firm">
-          <div className="comp-logo" style={{ background: `linear-gradient(135deg, ${firm2.color}, ${firm2.color}aa)` }}>
+        <div className="comp-divider">vs</div>
+        <div className="comp-firm-header">
+          <div className="comp-logo-small" style={{ background: `linear-gradient(135deg, ${firm2.color}, ${firm2.color}aa)` }}>
             {firm2.name.split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase()}
           </div>
-          <h2>{firm2.name}</h2>
+          <div className="comp-firm-name">{firm2.name}</div>
         </div>
       </div>
 
-      <table className="comparison-table">
-        <tbody>
-          {COMPARISON_ROWS.map((row) => (
-            <tr key={row.label} className={row.highlight ? "highlight" : ""}>
-              <td className="comp-label">{row.label}</td>
-              <td className="comp-value">
-                {getValue(firm1, row.key)}
-              </td>
-              <td className="comp-value">
-                {getValue(firm2, row.key)}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <div className="comp-groups-wrapper">
+        {Object.entries(groupedRows).map(([groupName, rows]) => (
+          <div key={groupName} className="comp-group">
+            <h3 className="comp-group-title">{groupName}</h3>
+            <div className="comp-group-content">
+              <div className="comp-column comp-column-label">
+                {rows.map((row) => (
+                  <div key={row.label} className="comp-row-label">{row.label}</div>
+                ))}
+              </div>
+              <div className="comp-column comp-column-firm1">
+                {rows.map((row) => (
+                  <div key={row.label} className="comp-row-value">
+                    {getValue(firm1, row.key)}
+                  </div>
+                ))}
+              </div>
+              <div className="comp-column comp-column-firm2">
+                {rows.map((row) => (
+                  <div key={row.label} className="comp-row-value">
+                    {getValue(firm2, row.key)}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
 
       <div className="comparison-actions">
         <a className="btn btn-gold" href={firmLink(firm1)} target="_blank" rel="sponsored nofollow noopener">

@@ -16,7 +16,8 @@ export default function Hero() {
       </p>
       <div className="hero-actions">
         <a className="btn btn-gold" href="#plans">Compare Plans</a>
-        <a className="btn btn-ghost" href="#firms">Browse Firms</a>
+        <a className="btn btn-ghost" href="/compare">Compare Firms</a>
+        <a className="btn btn-ghost" href="#firms">Browse All</a>
       </div>
       <div className="hero-stats">
         <div className="hstat"><b>{FIRMS.length}</b><span>Firms tracked</span></div>
