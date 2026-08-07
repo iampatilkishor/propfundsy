@@ -49,6 +49,7 @@ export default function PlanTable() {
   const [firmOpen, setFirmOpen] = useState(false);
   const [dd, setDd] = useState<DdKind | "all">("all");
   const [chips, setChips] = useState<Set<string>>(new Set());
+  const [firmSearch, setFirmSearch] = useState("");
   const [payoutMax, setPayoutMax] = useState<number>(MAX_PAYOUT);
   const [costMax, setCostMax] = useState<number>(MAX_COST);
   const [feeMax, setFeeMax] = useState<number>(MAX_FEE);
@@ -110,6 +111,9 @@ export default function PlanTable() {
 
   // Firms shown in the dropdown follow the selected market
   const visibleFirms = cat === "all" ? FIRMS : FIRMS.filter((f) => f.cat === cat);
+  const filteredFirms = visibleFirms.filter((f) =>
+    f.name.toLowerCase().includes(firmSearch.toLowerCase())
+  );
 
   const onCatChange = (c: CatFilter) => {
     setCat(c);
@@ -176,24 +180,36 @@ export default function PlanTable() {
             </button>
             {firmOpen && (
               <>
-                <div className="multi-backdrop" onClick={() => setFirmOpen(false)} />
+                <div className="multi-backdrop" onClick={() => { setFirmOpen(false); setFirmSearch(""); }} />
                 <div className="multi-pop">
-                  {visibleFirms.map((f) => (
-                    <label key={f.id} className="multi-opt">
-                      <input
-                        type="checkbox"
-                        checked={firms.has(f.id)}
-                        onChange={() => toggleFirm(f.id)}
-                      />
-                      <span
-                        className="multi-dot"
-                        style={{ background: f.color }}
-                      />
-                      {f.name}
-                      <span className="multi-cat">{f.cat === "forex" ? "FX" : "FUT"}</span>
-                    </label>
-                  ))}
-                  <button className="multi-clear" onClick={() => setFirms(new Set())}>
+                  <input
+                    type="text"
+                    className="multi-search"
+                    placeholder="Search firms..."
+                    value={firmSearch}
+                    onChange={(e) => setFirmSearch(e.target.value)}
+                    autoFocus
+                  />
+                  {filteredFirms.length > 0 ? (
+                    filteredFirms.map((f) => (
+                      <label key={f.id} className="multi-opt">
+                        <input
+                          type="checkbox"
+                          checked={firms.has(f.id)}
+                          onChange={() => toggleFirm(f.id)}
+                        />
+                        <span
+                          className="multi-dot"
+                          style={{ background: f.color }}
+                        />
+                        {f.name}
+                        <span className="multi-cat">{f.cat === "forex" ? "FX" : "FUT"}</span>
+                      </label>
+                    ))
+                  ) : (
+                    <div className="multi-empty">No firms found</div>
+                  )}
+                  <button className="multi-clear" onClick={() => { setFirms(new Set()); setFirmSearch(""); }}>
                     Clear — show all firms
                   </button>
                 </div>

@@ -10,8 +10,9 @@ const PREVIEW_COUNT = 6;
 export default function Firms() {
   const [cat, setCat] = useState<Category>("forex");
   const [showAll, setShowAll] = useState(false);
+  const [search, setSearch] = useState("");
 
-  const catFirms = FIRMS.filter((f) => f.cat === cat);
+  const catFirms = FIRMS.filter((f) => f.cat === cat && f.name.toLowerCase().includes(search.toLowerCase()));
   // featured firms first in the preview
   const sorted = [...catFirms].sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
   const visible = showAll ? sorted : sorted.slice(0, PREVIEW_COUNT);
@@ -33,8 +34,18 @@ export default function Firms() {
             </button>
           ))}
         </div>
+        <input
+          type="text"
+          placeholder="Search firms..."
+          className="firms-search"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
       </div>
 
+      {visible.length === 0 ? (
+        <div className="no-results">No firms found matching "{search}"</div>
+      ) : (
       <div className="grid">
         {visible.map((f) => (
           <div key={f.id} className={`firm-card${f.featured ? " featured" : ""}`}>
@@ -83,8 +94,9 @@ export default function Firms() {
           </div>
         ))}
       </div>
+      )}
 
-      {catFirms.length > PREVIEW_COUNT && (
+      {visible.length > 0 && catFirms.length > PREVIEW_COUNT && (
         <div className="show-all-row">
           <button className="btn btn-ghost" onClick={() => setShowAll((s) => !s)}>
             {showAll

@@ -46,7 +46,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). Pricing is mid-market, but you are paying for the firm least likely to change the rules under you."
+    "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). Pricing is mid-market, but you are paying for the firm least likely to change the rules under you.",
+    "promoActive": false
   },
   {
     "id": "fn",
@@ -90,7 +91,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "FundedNext, launched in 2022 out of Dubai, differentiates itself with a genuinely unusual perk: 15% of the profits made during the challenge phase itself is paid out once you're funded - most firms pay nothing until the evaluation is cleared. The Stellar 1-Step keeps a 6% EOD-trailing drawdown and news-trading restrictions, while the Stellar 2-Step swaps to a static 10% drawdown with no news or weekend restrictions, giving traders a real choice between speed and flexibility. A 95% split is available as a paid add-on on top of the 80% base, and the newer Flex Challenge (May 2026) drops its consistency rule once funded. Pricing starts around $59 for a $6K account, scaling to just under $1,100 for $200K. FundedNext also runs a futures offering alongside forex, and carries a 4.5/5 rating on Trustpilot from tens of thousands of reviews - one of the stronger reputations in the mid-market tier."
+    "review": "FundedNext, launched in 2022 out of Dubai, differentiates itself with a genuinely unusual perk: 15% of the profits made during the challenge phase itself is paid out once you're funded - most firms pay nothing until the evaluation is cleared. The Stellar 1-Step keeps a 6% EOD-trailing drawdown and news-trading restrictions, while the Stellar 2-Step swaps to a static 10% drawdown with no news or weekend restrictions, giving traders a real choice between speed and flexibility. A 95% split is available as a paid add-on on top of the 80% base, and the newer Flex Challenge (May 2026) drops its consistency rule once funded. Pricing starts around $59 for a $6K account, scaling to just under $1,100 for $200K. FundedNext also runs a futures offering alongside forex, and carries a 4.5/5 rating on Trustpilot from tens of thousands of reviews - one of the stronger reputations in the mid-market tier.",
+    "promoActive": false
   },
   {
     "id": "t5",
@@ -132,9 +134,10 @@
         "pos"
       ]
     ],
-    "affiliateUrl": null,
-    "discountCode": null,
-    "review": "The5ers has built its reputation on paying out without drama - 262K funded traders and a 10-year record back that up. The program menu is broad: instant funding (Hyper Growth), the flagship High-Stakes 2-step, and a Bootcamp route where most of the fee is only due after you pass. Static drawdowns across programs make risk math simpler than trailing-drawdown competitors. Splits start lower than rivals (50-75% on some routes) but scale with account growth, and the $4M scaling ceiling is among the highest anywhere."
+    "affiliateUrl": "https://www.the5ers.com/?afmc=1e31",
+    "discountCode": "MZDXS0",
+    "review": "The5ers has built its reputation on paying out without drama - 262K funded traders and a 10-year record back that up. The program menu is broad: instant funding (Hyper Growth), the flagship High-Stakes 2-step, and a Bootcamp route where most of the fee is only due after you pass. Static drawdowns across programs make risk math simpler than trailing-drawdown competitors. Splits start lower than rivals (50-75% on some routes) but scale with account growth, and the $4M scaling ceiling is among the highest anywhere.",
+    "promoActive": true
   },
   {
     "id": "fp",
@@ -178,9 +181,10 @@
         ""
       ]
     ],
-    "affiliateUrl": null,
-    "discountCode": null,
-    "review": "Funding Pips built its reputation on aggressive pricing - 2-Step challenges start around $36 for a $5K account - paired with a split structure that rewards patience: choose the monthly payout cycle and keep 100% of profits, or take 60% weekly if you want cash faster. The 1-Step Master account can also reach 100% on its monthly cycle, though the 90%-on-demand option carries a 35% consistency rule. The instant Zero account skips evaluation entirely for a fixed 95% split, but enforces a hard rule against holding positions into the weekend - stricter than the firm's evaluated accounts, which only restrict weekend holding on funded accounts as of a January 2026 rule change. Founded in Dubai in late 2022, Funding Pips has since paid out more than $200 million, verifiable on the Rise blockchain, and holds a 4.5/5 Trustpilot rating from over 62,000 reviews - among the highest review volumes in the industry."
+    "affiliateUrl": "https://app.fundingpips.com/register?referral_code=68AD0454",
+    "discountCode": "68AD0454",
+    "review": "Funding Pips built its reputation on aggressive pricing - 2-Step challenges start around $36 for a $5K account - paired with a split structure that rewards patience: choose the monthly payout cycle and keep 100% of profits, or take 60% weekly if you want cash faster. The 1-Step Master account can also reach 100% on its monthly cycle, though the 90%-on-demand option carries a 35% consistency rule. The instant Zero account skips evaluation entirely for a fixed 95% split, but enforces a hard rule against holding positions into the weekend - stricter than the firm's evaluated accounts, which only restrict weekend holding on funded accounts as of a January 2026 rule change. Founded in Dubai in late 2022, Funding Pips has since paid out more than $200 million, verifiable on the Rise blockchain, and holds a 4.5/5 Trustpilot rating from over 62,000 reviews - among the highest review volumes in the industry.",
+    "promoActive": true
   },
   {
     "id": "e8",
@@ -223,7 +227,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "E8 Markets' defining feature is checkout-level customization: on the E8 One challenge, traders pick their own drawdown (4-14%), daily loss limit (3-9.2%) and profit split (80-100%) before paying, with price scaling to match the risk profile chosen - a $5K account starts at $40, a $500K account runs into the thousands. That flexibility is unusual in a market where most firms fix the rules and let you pick only the account size. The newer E8 Zero, launched July 2026, trades that customization for simplicity: a flat 3% static drawdown and 80% split, aimed at traders who'd rather not build their own rule set. E8 also offers the largest account sizes tracked here, up to $500K. Formerly E8 Funding, the firm was founded in November 2021 and carries a 4.4/5 Trustpilot rating from over 3,200 reviews - solid, if with a smaller review base than some larger rivals."
+    "review": "E8 Markets' defining feature is checkout-level customization: on the E8 One challenge, traders pick their own drawdown (4-14%), daily loss limit (3-9.2%) and profit split (80-100%) before paying, with price scaling to match the risk profile chosen - a $5K account starts at $40, a $500K account runs into the thousands. That flexibility is unusual in a market where most firms fix the rules and let you pick only the account size. The newer E8 Zero, launched July 2026, trades that customization for simplicity: a flat 3% static drawdown and 80% split, aimed at traders who'd rather not build their own rule set. E8 also offers the largest account sizes tracked here, up to $500K. Formerly E8 Funding, the firm was founded in November 2021 and carries a 4.4/5 Trustpilot rating from over 3,200 reviews - solid, if with a smaller review base than some larger rivals.",
+    "promoActive": false
   },
   {
     "id": "ts",
@@ -268,7 +273,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Topstep is the conservative pick in futures funding. Its Combines are subscription-based and transparently documented, and the flat 90/10 split from the first dollar (since January 2026) simplified what used to be a tiered mess. Costs stack up: the monthly fee, a $149 activation, and per-request payout caps mean patient scaling rather than fast extraction. What you get in exchange is the longest track record in the space and rules that are enforced as written - which is worth more than most traders think."
+    "review": "Topstep is the conservative pick in futures funding. Its Combines are subscription-based and transparently documented, and the flat 90/10 split from the first dollar (since January 2026) simplified what used to be a tiered mess. Costs stack up: the monthly fee, a $149 activation, and per-request payout caps mean patient scaling rather than fast extraction. What you get in exchange is the longest track record in the space and rules that are enforced as written - which is worth more than most traders think.",
+    "promoActive": false
   },
   {
     "id": "apex",
@@ -280,7 +286,7 @@
     "from": "$137",
     "sizes": "$25K–$150K",
     "model": "EOD / Intraday eval",
-    "source": "Third-party reviews, Jul 2026",
+    "source": "Official site (apextraderfunding.com), Aug 2026",
     "officialUrl": "https://apextraderfunding.com",
     "payMethods": [
       "Cards",
@@ -301,7 +307,7 @@
         "pos"
       ],
       [
-        "8-day payout cycles",
+        "5-day payout cycles",
         "pos"
       ],
       [
@@ -311,7 +317,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Apex Trader Funding is one of the highest-volume names in futures prop trading, built around a simple pitch: pass a one-time-fee evaluation (no monthly subscription) and keep 100% of your first $25K in profit before settling into a 90/10 split. Two evaluation tracks are offered - EOD trailing drawdown or intraday trailing, which follows open equity in real time rather than just closed trades - both with no daily loss limit, unusual for the category. List prices are almost never what traders actually pay: 70-90% discount codes are in near-constant circulation, and a $25K EOD evaluation lists at $137 before those codes. A $99 (EOD) or $79 (intraday) activation fee applies once funded, and payouts run on 8-day cycles gated by a 50% consistency rule. Founded in 2021, Apex has stated it has paid out more than $800 million to traders and holds a Trustpilot rating in the mid-4s from tens of thousands of reviews - a track record few futures firms can match at this scale."
+    "review": "Apex Trader Funding is one of the highest-volume names in futures prop trading, built around a simple pitch: pass a one-time-fee evaluation (no monthly subscription) and keep 100% of your first $25K in profit before settling into a 90/10 split. Two evaluation tracks are offered - EOD trailing drawdown or intraday trailing, which follows open equity in real time rather than just closed trades - both with no daily loss limit, unusual for the category. List prices are almost never what traders actually pay: 70-90% discount codes are in near-constant circulation, and a $25K EOD evaluation lists at $137 before those codes. A $99 (EOD) or $79 (intraday) activation fee applies once funded, and payouts run on 5-day cycles gated by a 50% consistency rule. Founded in 2021, Apex has stated it has paid out more than $800 million to traders and holds a Trustpilot rating in the mid-4s from tens of thousands of reviews - a track record few futures firms can match at this scale.",
+    "promoActive": true
   },
   {
     "id": "mff",
@@ -353,7 +360,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "MyFundedFutures is one of the newer futures firms here, launched in November 2023, but it's already built an unusually strong reputation - a 4.9/5 Trustpilot rating from more than 18,000 reviews, among the highest of any firm tracked. The three-plan lineup (Core, Rapid, Pro) skips activation fees entirely, a real cost saving versus firms that charge $99-$149 once you're funded. Rapid stands out for dropping the consistency rule altogether, though its drawdown floor tracks real-time equity including unrealized P&L rather than just closed trades - worth understanding before you trade it. Core keeps a more traditional EOD drawdown with a 40% consistency requirement and a $5,000 cap per payout cycle, while Pro raises the cumulative payout cap to $100,000 with a $1,000 minimum per request. All three start at a $50K account (Core from $65/mo); pricing above $50K is estimated rather than confirmed. For traders who want a newer firm with a fast-growing review base, this is a strong candidate."
+    "review": "MyFundedFutures is one of the newer futures firms here, launched in November 2023, but it's already built an unusually strong reputation - a 4.9/5 Trustpilot rating from more than 18,000 reviews, among the highest of any firm tracked. The three-plan lineup (Core, Rapid, Pro) skips activation fees entirely, a real cost saving versus firms that charge $99-$149 once you're funded. Rapid stands out for dropping the consistency rule altogether, though its drawdown floor tracks real-time equity including unrealized P&L rather than just closed trades - worth understanding before you trade it. Core keeps a more traditional EOD drawdown with a 40% consistency requirement and a $5,000 cap per payout cycle, while Pro raises the cumulative payout cap to $100,000 with a $1,000 minimum per request. All three start at a $50K account (Core from $65/mo); pricing above $50K is estimated rather than confirmed. For traders who want a newer firm with a fast-growing review base, this is a strong candidate.",
+    "promoActive": false
   },
   {
     "id": "td",
@@ -395,12 +403,13 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "TradeDay keeps its evaluation deliberately simple: one phase, no time limit, and no daily loss limit at all - a rarity among futures prop firms, most of which enforce a hard daily stop. The trade-off is a 30% consistency rule and a trailing max drawdown that follows your account's high-water mark. Payouts are on-demand once you qualify rather than fixed to a calendar, and the split scales through three tiers - 80%, 90%, then 95% - as you build a track record, among the highest ceilings in futures funding. A $50K evaluation starts at $62.50/mo, with $100K and $150K accounts priced proportionally higher. Founded in Chicago in 2020 by James Thorpe and Steve Miley, TradeDay has a smaller but strong review base - a 4.6/5 Trustpilot rating from over 1,300 reviews - putting it toward the top of the pack on reputation, if with less volume behind it than the largest firms."
+    "review": "TradeDay keeps its evaluation deliberately simple: one phase, no time limit, and no daily loss limit at all - a rarity among futures prop firms, most of which enforce a hard daily stop. The trade-off is a 30% consistency rule and a trailing max drawdown that follows your account's high-water mark. Payouts are on-demand once you qualify rather than fixed to a calendar, and the split scales through three tiers - 80%, 90%, then 95% - as you build a track record, among the highest ceilings in futures funding. A $50K evaluation starts at $62.50/mo, with $100K and $150K accounts priced proportionally higher. Founded in Chicago in 2020 by James Thorpe and Steve Miley, TradeDay has a smaller but strong review base - a 4.6/5 Trustpilot rating from over 1,300 reviews - putting it toward the top of the pack on reputation, if with less volume behind it than the largest firms.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
-    "affiliateUrl": null,
-    "discountCode": null,
+    "affiliateUrl": "https://app.alphacapitalgroup.uk/signup/OCG8P",
+    "discountCode": "OCG8P",
     "id": "acg",
     "name": "Alpha Capital Group",
     "cat": "forex",
@@ -437,7 +446,8 @@
         ""
       ]
     ],
-    "review": "Alpha Capital Group runs four separate evaluation paths - Alpha One, Pro, Swing and a 3-Step - giving traders more route options than most UK-based firms offer, all with zero listed commissions. The Pro 2-Step entry starts at $50 for a $5K account: 80% split, 10% static drawdown, 5% daily loss, and a bi-weekly payout cycle. News trading is restricted once funded, in line with most forex challenge providers. Founded in London in November 2021 by George Kohler, Alpha Capital has scaled quickly and reports having paid out more than $62 million to traders. Its 4.7-star Trustpilot rating from over 21,000 reviews is among the highest of any firm in this comparison - though, as with most large prop firms, a subset of negative reviews cite payout denials and account closures tied to rule violations. Read the specific complaint pattern before committing beyond the entry tier, and keep meticulous records of every trade."
+    "review": "Alpha Capital Group runs four separate evaluation paths - Alpha One, Pro, Swing and a 3-Step - giving traders more route options than most UK-based firms offer, all with zero listed commissions. The Pro 2-Step entry starts at $50 for a $5K account: 80% split, 10% static drawdown, 5% daily loss, and a bi-weekly payout cycle. News trading is restricted once funded, in line with most forex challenge providers. Founded in London in November 2021 by George Kohler, Alpha Capital has scaled quickly and reports having paid out more than $62 million to traders. Its 4.7-star Trustpilot rating from over 21,000 reviews is among the highest of any firm in this comparison - though, as with most large prop firms, a subset of negative reviews cite payout denials and account closures tied to rule violations. Read the specific complaint pattern before committing beyond the entry tier, and keep meticulous records of every trade.",
+    "promoActive": true
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -479,7 +489,8 @@
         ""
       ]
     ],
-    "review": "Goat Funded Trader competes almost entirely on price and breadth: a Classic 2-Step challenge on a $5K account lists at just $22, among the cheapest entries in the industry, and the instrument list runs to more than 14,000 symbols including stocks, ETFs and crypto alongside forex - far broader than most challenge providers. Rules on the Classic 2-Step are otherwise standard for the category: 10% static drawdown, 5% daily loss, and news, EA and weekend trading all permitted. Splits start at 80% and can reach 100% via paid add-ons, and scaling runs up to $800K. Goat launched in 2022-2023 (sources differ on the exact date) and is still building a durable trust record - its Trustpilot rating is mixed and inconsistent across sources, with the platform flagged for guideline issues at times, so it's worth reading recent, dated reviews rather than relying on the aggregate score before committing beyond the cheapest entry tier."
+    "review": "Goat Funded Trader competes almost entirely on price and breadth: a Classic 2-Step challenge on a $5K account lists at just $22, among the cheapest entries in the industry, and the instrument list runs to more than 14,000 symbols including stocks, ETFs and crypto alongside forex - far broader than most challenge providers. Rules on the Classic 2-Step are otherwise standard for the category: 10% static drawdown, 5% daily loss, and news, EA and weekend trading all permitted. Splits start at 80% and can reach 100% via paid add-ons, and scaling runs up to $800K. Goat launched in 2022-2023 (sources differ on the exact date) and is still building a durable trust record - its Trustpilot rating is mixed and inconsistent across sources, with the platform flagged for guideline issues at times, so it's worth reading recent, dated reviews rather than relying on the aggregate score before committing beyond the cheapest entry tier.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -521,7 +532,8 @@
         ""
       ]
     ],
-    "review": "Maven Trading competes on accessibility: five challenge types spanning Mini, 1/2/3-Step and Instant, with the cheapest entry in our entire dataset - a 3-Step Mini on a $2K account for $15. That's a genuine low-stakes way to test a strategy before committing real money elsewhere. The Instant Funding option skips evaluation entirely but trades convenience for tighter risk limits: a $100K instant account runs a 3% trailing drawdown, 2% daily loss and a 20% consistency rule, considerably stricter than Maven's staged challenges. Splits are a flat 80% across the lineup, with payouts on a roughly bi-weekly cycle. Founded in 2022, Maven has built a strong reputation fast - a 4.6-star Trustpilot rating from more than 5,000 reviews, with roughly 85% five-star, and the firm reports over $60 million funded to more than 5,000 traders. For traders who want to test Maven cheaply before scaling up, the $15 Mini entry is close to unique in the market."
+    "review": "Maven Trading competes on accessibility: five challenge types spanning Mini, 1/2/3-Step and Instant, with the cheapest entry in our entire dataset - a 3-Step Mini on a $2K account for $15. That's a genuine low-stakes way to test a strategy before committing real money elsewhere. The Instant Funding option skips evaluation entirely but trades convenience for tighter risk limits: a $100K instant account runs a 3% trailing drawdown, 2% daily loss and a 20% consistency rule, considerably stricter than Maven's staged challenges. Splits are a flat 80% across the lineup, with payouts on a roughly bi-weekly cycle. Founded in 2022, Maven has built a strong reputation fast - a 4.6-star Trustpilot rating from more than 5,000 reviews, with roughly 85% five-star, and the firm reports over $60 million funded to more than 5,000 traders. For traders who want to test Maven cheaply before scaling up, the $15 Mini entry is close to unique in the market.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -563,7 +575,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -605,7 +618,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -647,7 +661,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -689,7 +704,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -735,7 +751,8 @@
         ""
       ]
     ],
-    "review": "Tradeify is one of the newer names in futures prop trading - founded in 2024 - but it's built its reputation almost entirely around payout speed. The firm advertises processing within one business day, and independent reviews frequently confirm same-day or even same-hour withdrawals, an unusually fast turnaround for the category. The lineup runs three tracks (Advanced, Growth, S2F) with a flat 90/10 split and no activation fee - a real saving versus futures firms charging $99-$149 once funded. The Growth plan's $100K account targets $6,000 profit with an EOD trailing drawdown and no daily loss limit, at roughly $145/month. Tradeify reports more than $150 million in verified payouts to date. On Trustpilot, the firm holds a 4.6-star rating from over 2,500 reviews, with traders consistently praising clear rules and fast withdrawals. For a firm this young, that combination of transparency and payout speed is a notably strong start."
+    "review": "Tradeify is one of the newer names in futures prop trading - founded in 2024 - but it's built its reputation almost entirely around payout speed. The firm advertises processing within one business day, and independent reviews frequently confirm same-day or even same-hour withdrawals, an unusually fast turnaround for the category. The lineup runs three tracks (Advanced, Growth, S2F) with a flat 90/10 split and no activation fee - a real saving versus futures firms charging $99-$149 once funded. The Growth plan's $100K account targets $6,000 profit with an EOD trailing drawdown and no daily loss limit, at roughly $145/month. Tradeify reports more than $150 million in verified payouts to date. On Trustpilot, the firm holds a 4.6-star rating from over 2,500 reviews, with traders consistently praising clear rules and fast withdrawals. For a firm this young, that combination of transparency and payout speed is a notably strong start.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -777,7 +794,8 @@
         ""
       ]
     ],
-    "review": "Take Profit Trader runs a simple one-step Test before funding, then splits its funded tier into PRO (80% split) and PRO+ (90/10), with PRO account holders able to request withdrawals from the day they go live rather than waiting for a set cycle - same-day payout access is the firm's headline differentiator. The $25K Test runs around $150/month, targeting $1,500 profit with an EOD trailing drawdown and a $500 daily loss limit; larger accounts scale proportionally up to $150K. Founded in 2021 by James Sixsmith in Orlando, Florida, Take Profit Trader has built a strong track record relatively quickly - a 4.4-star Trustpilot rating from over 9,000 reviews, rated 'Excellent,' with traders regularly praising the payout process and customer service. For traders who value being able to pull profits immediately rather than on a fixed cycle, the PRO account's same-day access is a genuine edge over subscription-based competitors that gate withdrawals to specific windows."
+    "review": "Take Profit Trader runs a simple one-step Test before funding, then splits its funded tier into PRO (80% split) and PRO+ (90/10), with PRO account holders able to request withdrawals from the day they go live rather than waiting for a set cycle - same-day payout access is the firm's headline differentiator. The $25K Test runs around $150/month, targeting $1,500 profit with an EOD trailing drawdown and a $500 daily loss limit; larger accounts scale proportionally up to $150K. Founded in 2021 by James Sixsmith in Orlando, Florida, Take Profit Trader has built a strong track record relatively quickly - a 4.4-star Trustpilot rating from over 9,000 reviews, rated 'Excellent,' with traders regularly praising the payout process and customer service. For traders who value being able to pull profits immediately rather than on a fixed cycle, the PRO account's same-day access is a genuine edge over subscription-based competitors that gate withdrawals to specific windows.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -819,7 +837,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Elite Trader Funding's pitch is straightforward: cheap futures evaluations that get cheaper. The tracked $100K 1-Step eval runs $75/mo before discounts, and frequent sales push that lower still — among the least expensive $100K futures challenges we track. The split structure is unusual and trader-friendly on paper: you keep 100% of the first $12.5K in profits before the split drops to 90/10. Multiple drawdown styles (static and trailing options) add flexibility other budget futures firms skip. Trustpilot backs this up at scale — 3.8/5 from over 1,000 reviews, rated \"Great\" — with traders reporting payouts inside 48 hours and one first payout confirmed within six trading sessions. But nearly a quarter of reviews are one-star, clustered around payout declines and rule disputes after traders hit meaningful profit. Elite Trader Funding isn't broker-backed, so read recent reviews before funding a larger account, and keep records of every trade in case a payout is contested.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -860,7 +879,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Earn2Trade differentiates itself by leading with education rather than a bare evaluation. The Gauntlet Mini — the plan we track, ~$170/mo for a $50K account — bundles structured coursework with the challenge itself, and passing traders move onto the Trader Career Path for further scaling at partner funders. The 80/20 split is below the futures-firm norm (most competitors offer 90/10), the trade-off for the education layer and career-path structure. Founded in 2016, Earn2Trade is one of the longer-tenured names in futures prop trading, and it shows in the Trustpilot record: 4.6–4.7/5 \"Excellent\" from thousands of reviews, among the strongest ratings of any firm in this dataset. The catch is that Earn2Trade funds traders via partner firms rather than its own balance sheet, so payout terms and account details ultimately depend on which partner you land with — worth confirming before you commit to the $170/mo subscription.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -902,7 +922,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Bulenox's list prices are close to meaningless — the firm runs near-constant promo pricing that cuts 80–90% off, and the $16 entry we track for a $10K futures evaluation reflects that reality rather than an outlier. Founded in 2022 and based in Wilmington, Delaware, Bulenox has built a strong reputation fast: 4.7–4.8/5 \"Excellent\" on Trustpilot from close to 1,000 reviews, with traders consistently citing transparent rules and reliable payouts. The 90/10 split matches the futures-firm standard, and a choice between trailing and EOD drawdown gives some flexibility on risk style. The main thing to watch is that this is a young firm still building its long-term track record, and — as with any deep-discount model — it's worth checking that the promo price you're quoted matches what's live on their site before you buy, since list-price comparisons across firms won't reflect what anyone actually pays here.",
+    "promoActive": false
   },
   {
     "source": "Third-party reviews, Jul 2026",
@@ -943,7 +964,8 @@
         ""
       ]
     ],
-    "review": null
+    "review": "Phidias carved out a specific niche: the lowest static-drawdown entry point we track in futures, $55 for a $25K account with no daily loss limit. Founded in 2023 by two French traders and based in Gibraltar, it's a newer name — the firm reports over 10,000 registered traders as of early 2026, and offers four account types (Static, Fundamental, Swing, and the larger Master Account) up to $1M in funding, with a 90/10 split on the plan we track. Trustpilot paints a polarized picture: 3.9/5 from 273 reviews, but the breakdown is bimodal — 68% five-star against 25% one-star, not a smooth middle-of-the-road score. Positive reviews cite reliable payouts and responsive support; negative ones center on platform stability and how outages, including Rithmic feed issues, were handled. Given the short operating history and the split rating, this is one to size cautiously into rather than fund a large account with on day one.",
+    "promoActive": false
   },
   {
     "id": "fxify",
@@ -985,7 +1007,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "FXIFY's core appeal is flexibility: 1, 2 and 3-Phase evaluations plus an Instant option, scaling to $400K accounts, with EAs, weekend holding and news trading allowed on most plans - a looser rule set than most forex competitors, who typically restrict at least one of those. The catch is that HFT and latency arbitrage are explicitly banned, so the leniency has limits. Base split is 75-90%, with a paid add-on pushing it to 90% on the base 1-Step. List pricing looks mid-pack ($199 for a $25K 1-Step, ~$550 for $100K) but 30-60% discount codes are close to constant, so few traders pay sticker price. Payouts run on a two-week cycle with roughly 24-hour processing once approved. On Trustpilot, FXIFY sits in the 4.3-4.5 range across several thousand reviews, with the five-star count growing faster than the one-star count even as both rise - a reasonably healthy trend for a firm scaling this fast."
+    "review": "FXIFY's core appeal is flexibility: 1, 2 and 3-Phase evaluations plus an Instant option, scaling to $400K accounts, with EAs, weekend holding and news trading allowed on most plans - a looser rule set than most forex competitors, who typically restrict at least one of those. The catch is that HFT and latency arbitrage are explicitly banned, so the leniency has limits. Base split is 75-90%, with a paid add-on pushing it to 90% on the base 1-Step. List pricing looks mid-pack ($199 for a $25K 1-Step, ~$550 for $100K) but 30-60% discount codes are close to constant, so few traders pay sticker price. Payouts run on a two-week cycle with roughly 24-hour processing once approved. On Trustpilot, FXIFY sits in the 4.3-4.5 range across several thousand reviews, with the five-star count growing faster than the one-star count even as both rise - a reasonably healthy trend for a firm scaling this fast.",
+    "promoActive": false
   },
   {
     "id": "instantfunding",
@@ -1027,7 +1050,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Instant Funding's pitch is straightforward: trade with real capital from day one via its no-challenge Instant accounts, or take the cheaper traditional Evaluation route if you'd rather prove yourself first - a $50K 2-Step evaluation runs around $89, while a $10K Instant account lists near $199. The catch on the Instant side is a tighter, intraday-trailing 10% drawdown with a 4% daily loss cap and no weekend holding, notably stricter than the firm's own evaluated accounts. List prices are close to meaningless in practice, since 30-60% discount codes run almost constantly. Trustpilot data on this firm is genuinely inconsistent across sources - ratings ranging from as low as 3.1 to as high as 4.5-4.6 depending on when and where you look - and a meaningful share of negative reviews describe payout requests denied over alleged rule violations, including at least one reported case involving a withheld payout above $21,000. That spread is wide enough that we'd treat any single aggregate score with caution and recommend reading recent, dated reviews before funding beyond the cheapest tier."
+    "review": "Instant Funding's pitch is straightforward: trade with real capital from day one via its no-challenge Instant accounts, or take the cheaper traditional Evaluation route if you'd rather prove yourself first - a $50K 2-Step evaluation runs around $89, while a $10K Instant account lists near $199. The catch on the Instant side is a tighter, intraday-trailing 10% drawdown with a 4% daily loss cap and no weekend holding, notably stricter than the firm's own evaluated accounts. List prices are close to meaningless in practice, since 30-60% discount codes run almost constantly. Trustpilot data on this firm is genuinely inconsistent across sources - ratings ranging from as low as 3.1 to as high as 4.5-4.6 depending on when and where you look - and a meaningful share of negative reviews describe payout requests denied over alleged rule violations, including at least one reported case involving a withheld payout above $21,000. That spread is wide enough that we'd treat any single aggregate score with caution and recommend reading recent, dated reviews before funding beyond the cheapest tier.",
+    "promoActive": false
   },
   {
     "id": "ftp",
@@ -1069,7 +1093,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Funded Trading Plus traces back to 2013 as Trade Room Plus, giving it a longer operating history than most prop firms competing today, and its 2026 lineup has been simplified to three tracks: Instant, 1-Step Express and 2-Step Classic. The 1-Step Express starts at $119 for a $25K account - 80-100% split, 6% trailing drawdown, 4% daily loss - with no consistency rule and no minimum trading days on either evaluation path, a real convenience for traders who don't want their schedule dictated by the firm. Splits climb from 80% toward 100% at profit milestones (roughly 30% cumulative), among the higher ceilings in the forex category. Payouts run weekly, arriving in 1-3 days; the Instant option carries a pricing premium over the evaluated tracks. Funded Trading Plus reports paying out more than $19.5 million to over 60,000 traders across 180+ countries, and holds a 4.7-star Trustpilot rating from more than 2,400 reviews - 92% of them five-star, one of the stronger reputations in this comparison."
+    "review": "Funded Trading Plus traces back to 2013 as Trade Room Plus, giving it a longer operating history than most prop firms competing today, and its 2026 lineup has been simplified to three tracks: Instant, 1-Step Express and 2-Step Classic. The 1-Step Express starts at $119 for a $25K account - 80-100% split, 6% trailing drawdown, 4% daily loss - with no consistency rule and no minimum trading days on either evaluation path, a real convenience for traders who don't want their schedule dictated by the firm. Splits climb from 80% toward 100% at profit milestones (roughly 30% cumulative), among the higher ceilings in the forex category. Payouts run weekly, arriving in 1-3 days; the Instant option carries a pricing premium over the evaluated tracks. Funded Trading Plus reports paying out more than $19.5 million to over 60,000 traders across 180+ countries, and holds a 4.7-star Trustpilot rating from more than 2,400 reviews - 92% of them five-star, one of the stronger reputations in this comparison.",
+    "promoActive": false
   },
   {
     "id": "lux",
@@ -1109,7 +1134,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Lux Trading Firm's defining feature is its execution model: unlike the vast majority of prop firms running simulated accounts, Lux operates on a genuine A-Book basis, routing funded trades directly to liquidity providers with no dealing desk - and its payout track record has been KPMG-audited, a rare third-party verification in an industry that mostly asks you to take its word for it. The single 2-Step Evaluation scales all the way to $10M across multiple funding stages, among the highest ceilings tracked here, and withdrawn profits still count toward your scaling targets rather than resetting progress. The trade-offs are real: a mandatory stop-loss on every trade and a 0% daily loss allowance on funded accounts, both stricter than typical forex challenge terms. A $100K evaluation runs around £199 (~$269). London-based and launched in 2020-2021 (sources vary on the exact date) under founder Petra Pirova, Lux carries a Trustpilot rating in the 4.0-4.4 range from several hundred reviews - solid, though a smaller sample than the largest retail-focused firms."
+    "review": "Lux Trading Firm's defining feature is its execution model: unlike the vast majority of prop firms running simulated accounts, Lux operates on a genuine A-Book basis, routing funded trades directly to liquidity providers with no dealing desk - and its payout track record has been KPMG-audited, a rare third-party verification in an industry that mostly asks you to take its word for it. The single 2-Step Evaluation scales all the way to $10M across multiple funding stages, among the highest ceilings tracked here, and withdrawn profits still count toward your scaling targets rather than resetting progress. The trade-offs are real: a mandatory stop-loss on every trade and a 0% daily loss allowance on funded accounts, both stricter than typical forex challenge terms. A $100K evaluation runs around £199 (~$269). London-based and launched in 2020-2021 (sources vary on the exact date) under founder Petra Pirova, Lux carries a Trustpilot rating in the 4.0-4.4 range from several hundred reviews - solid, though a smaller sample than the largest retail-focused firms.",
+    "promoActive": false
   },
   {
     "id": "alphafutures",
@@ -1150,7 +1176,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Alpha Futures is in the middle of a genuine trust event, and traders considering it should know the details before signing up. On July 12, 2026, the firm discontinued its Premium plan entirely - stating it had paid out more than $25 million on that plan in two months at a loss - and simultaneously lost its NinjaTrader and Tradovate integrations after the platforms ended their partnership. Traders on the Premium plan had their accounts closed and fees refunded, but multiple independent reports indicate pending payouts earned under that plan were not honored, which is the more serious concern. The Zero and Advanced plans continue on paper, still offering a 90% split from day one (Advanced) and weekly payouts up to $15,000 per request, but every trader is now migrating to Alpha's in-house AlphaTrader platform rather than the third-party rails they originally signed up for. Until Alpha demonstrates it is honoring outstanding payout obligations and the new platform proves reliable, we'd treat this as a firm to watch from the sidelines rather than fund through right now."
+    "review": "Alpha Futures is in the middle of a genuine trust event, and traders considering it should know the details before signing up. On July 12, 2026, the firm discontinued its Premium plan entirely - stating it had paid out more than $25 million on that plan in two months at a loss - and simultaneously lost its NinjaTrader and Tradovate integrations after the platforms ended their partnership. Traders on the Premium plan had their accounts closed and fees refunded, but multiple independent reports indicate pending payouts earned under that plan were not honored, which is the more serious concern. The Zero and Advanced plans continue on paper, still offering a 90% split from day one (Advanced) and weekly payouts up to $15,000 per request, but every trader is now migrating to Alpha's in-house AlphaTrader platform rather than the third-party rails they originally signed up for. Until Alpha demonstrates it is honoring outstanding payout obligations and the new platform proves reliable, we'd treat this as a firm to watch from the sidelines rather than fund through right now.",
+    "promoActive": false
   },
   {
     "id": "spt",
@@ -1192,7 +1219,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "bf",
@@ -1234,7 +1262,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "lucid",
@@ -1275,7 +1304,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "aqua",
@@ -1317,7 +1347,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "dna",
@@ -1359,7 +1390,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "funderpro",
@@ -1401,7 +1433,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "finotive",
@@ -1444,7 +1477,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Finotive Funding is broker-backed by Finotive Markets and has operated since 2021, giving it more institutional grounding than many forex challenge firms. The lineup is broad — One-Step, Two-Step, a salaried Finotive Pro track, and Instant Funding — with weekly Friday payouts and a firm-reported $20M+ paid out since launch. Splits scale from 75% up to 95% on the standard tracks, though Instant accounts pay out a lower 60–65%. Pricing is accessible: the $2.5K 2-Step we track runs ~$50, scaling to ~$950 for $200K, with account sizes going as high as $3M after scaling. Trustpilot rates the firm 4.0/5, a genuinely mixed score — about one in five reviews is negative, with complaints centered on mid-evaluation rule changes and payout denials in disputed cases, alongside plenty of traders reporting fast, repeat withdrawals. Read the current rules on your account's purchase date before trading, since Finotive has changed terms on existing cohorts before.",
+    "promoActive": false
   },
   {
     "id": "hola",
@@ -1490,7 +1524,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "ttp",
@@ -1531,7 +1566,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "The Trading Pit is a Vienna-based firm with real scale — 10,000+ active accounts monthly and $4M+ paid out — running separate CFD and Futures challenge tracks (we track the CFD Challenge, from $49 for a $25K account) with splits up to 80% and a signup process the firm advertises as under five minutes with no document upload. That said, this is the one review this month with a genuine trust flag: as of July 2026, The Trading Pit's Trustpilot profile has been suspended or flagged for fake/manipulated reviews by independent trackers, which means any star rating quoted elsewhere is not currently reliable. We're not citing a Trustpilot number here as a result. If you're considering The Trading Pit, treat the account scale and payout total as the only verified-feeling numbers, look for recent independent trader reports rather than an aggregate score, and confirm current terms directly with the firm before funding a challenge.",
+    "promoActive": false
   },
   {
     "id": "bbf",
@@ -1573,7 +1609,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Blueberry Funded is backed by Blueberry Markets and offers unusual platform breadth for a challenge firm — MT4, MT5, TradeLocker and DXtrade — across six paths including Instant, 1-Step, 2-Step and a Prime 2-Step track, with splits of 80–85% and bi-weekly payouts. The Instant Lite plan we track starts at $145 for a $5K account. Two things are worth flagging before you buy: first, the firm updated its funded-account rule set on March 12, 2026, removing position stacking, martingale and grid strategies in favor of a flat 1.5% risk-per-trade limit, and accounts purchased before that date may still run under the older rules — check your dashboard's purchase date rather than a summary written earlier in the year. Second, Trustpilot currently shows the rating as unavailable following a guideline-breach notice, after showing roughly 4.3–4.5/5 from 1,400+ reviews earlier in 2026. Confirm your account's active rule set directly with support before trading it.",
+    "promoActive": false
   },
   {
     "id": "yrm",
@@ -1615,7 +1652,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "tyard",
@@ -1657,7 +1695,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "uprofit",
@@ -1698,7 +1737,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": null,
+    "promoActive": false
   },
   {
     "id": "aud",
@@ -1738,6 +1778,136 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null
+    "review": "Audacity Capital is one of the older names in this dataset, operating out of London since 2012 under CEO Karim Yousfi — more than a decade before most of the firms on this list existed. The two-step Ability Challenge (from $129 for a $10K account) leads into a Funded Trader track, with splits ranging 50–85% depending on stage, and EAs are allowed as long as they stay within the firm's risk rules (HFT, martingale, and DCA strategies are restricted). The firm reports $250M+ paid out and 500K+ traders across 140+ countries since inception. Trustpilot ratings vary noticeably by source and snapshot — recent figures range from 4.3 to 4.7 out of 5, both comfortably in \"Excellent\" territory, though the spread is wide enough that it's worth reading current reviews rather than trusting one number. Pricing sits toward the higher end of the forex challenges tracked here for the entry account size, which is the tradeoff for the longer track record.",
+    "promoActive": false
+  },
+  {
+    "id": "sharkfunded",
+    "name": "Shark Funded",
+    "cat": "forex",
+    "color": "#14b8a6",
+    "desc": "Saint Lucia-registered instant-payout firm with Prime (1/2-Step), Lite and Bolt tracks; performance rewards processed daily via crypto.",
+    "split": "70–80%",
+    "from": "$39",
+    "sizes": "$5K–$100K",
+    "model": "Instant Funding, 1-Phase, 2-Phase (Prime); Lite; Bolt",
+    "source": "Official site (sharkfunded.com), Aug 2026",
+    "officialUrl": "https://www.sharkfunded.com",
+    "payMethods": [
+      "Visa",
+      "Mastercard",
+      "UPI",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Daily performance rewards (crypto)",
+        "pos"
+      ],
+      [
+        "150,000+ traders, $7.8M+ distributed",
+        "pos"
+      ],
+      [
+        "Weekend holding fully permitted",
+        "pos"
+      ],
+      [
+        "Founded 2025 — short track record",
+        ""
+      ]
+    ],
+    "affiliateUrl": "https://app.sharkfunded.com/signup?ref=da596956",
+    "discountCode": "da596956",
+    "review": "Shark Funded's headline draw is payout speed: performance rewards on the Prime account are processed daily via crypto, with the firm citing roughly 6–24 hour turnaround and $7.8M+ distributed since launch. The Prime track runs Instant Funding, 1-Phase and 2-Step evaluations across $5K–$100K accounts, with a 9% profit target on Step 1, 4% daily drawdown, and max drawdown tightening from 10% to 7% once funded — weekend holding is permitted throughout, unusually lenient for a forex challenge. Registered and licensed in Saint Lucia, the firm is explicit on its own site that every account is a simulated/demo environment rather than a live brokerage account, standard language in this niche but worth reading closely. Pricing runs on near-constant discount codes (30% off is typical at time of writing), and payouts are crypto-only. Barely a year old, Shark Funded's numbers are promising but its track record is still short — worth watching rather than betting large on yet.",
+    "promoActive": true
+  },
+  {
+    "id": "nexgenprotrader",
+    "name": "NexGen ProTrader Funding",
+    "cat": "futures",
+    "color": "#7c3aed",
+    "desc": "Futures-only firm from trading educator John Novak (Nexgen Software Services). 1-day evaluation pass, EOD drawdown, and a path to 100% sim/live splits after 16 payouts.",
+    "split": "up to 100% (sim/live), 90/10 (live cash)",
+    "from": "$29.80/mo",
+    "sizes": "$25K–$150K",
+    "model": "Evaluation (monthly), Instant",
+    "source": "Official site (nexgenprotraderfunding.com), Aug 2026",
+    "officialUrl": "https://nexgenprotraderfunding.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "PayPal",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "1-day evaluation pass",
+        "pos"
+      ],
+      [
+        "No daily loss limit",
+        "pos"
+      ],
+      [
+        "Path to 100% split after 16 payouts",
+        "pos"
+      ],
+      [
+        "News/EA rules not published on marketing site — confirm before funding",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "NexGen ProTrader Funding, launched in 2024 by longtime futures educator John Novak, keeps its evaluation deliberately fast: a 1-day pass is possible on either its monthly Evaluation track ($29.80/mo for a $25K account, scaling to $79.80/mo for $150K) or its one-time-fee Instant track, both with no daily loss limit and an EOD trailing drawdown. Payouts run every 7 trading days, and the sim/live funded stage advertises a 100% profit split, though moving to a live cash account requires 16 clean payouts and a discretionary review by the firm's risk desk — the 90/10 split only applies once you're there. Trustpilot shows a strong early reputation (4.8/5 from roughly 190 reviews), but with the firm not yet two years old and its published rules focused on drawdown mechanics rather than news/EA/weekend policy, traders should read the full evaluation rules doc before committing beyond the entry tier.",
+    "promoActive": false
+  },
+  {
+    "id": "halcyon",
+    "name": "Halcyon Trader Funding",
+    "cat": "futures",
+    "color": "#f59e0b",
+    "desc": "Detroit-based futures firm (Jan 2025) with Evaluation, Funded Direct, Ultra and Lite tracks via broker partner Ironbeam; no daily loss limit on evaluations.",
+    "split": "90% (up to 100% on Ultra)",
+    "from": "~$53",
+    "sizes": "$25K–$150K",
+    "model": "Evaluation, Funded Direct, Ultra, Lite",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://halcyontraderfunding.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wire",
+      "Plaid"
+    ],
+    "tags": [
+      [
+        "One-time fees, no subscriptions (Eval/Funded Direct)",
+        "pos"
+      ],
+      [
+        "No daily loss limit in evaluation",
+        "pos"
+      ],
+      [
+        "100% split on Ultra (mini contracts)",
+        "pos"
+      ],
+      [
+        "Founded Jan 2025 — pricing unconfirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "promoActive": false
   }
 ]

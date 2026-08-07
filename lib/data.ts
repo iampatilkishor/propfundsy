@@ -22,6 +22,7 @@ export interface Firm {
   payoutMethods: string[]; // how the firm pays you
   affiliateUrl: string | null;  // your referral link; null = not joined yet
   discountCode: string | null;  // your promo code, shown to users
+  promoActive: boolean;         // true if the discount code is currently active
   review: string | null;        // editorial take shown on the firm page; null = not written yet
   tags: [string, "pos" | ""][];
 }

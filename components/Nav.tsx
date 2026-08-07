@@ -10,6 +10,7 @@ export default function Nav() {
         </Link>
         <div className="nav-links">
           <Link href="/#firms">Firms</Link>
+          <Link href="/compare">Compare Firms</Link>
           <Link href="/#plans">Compare Plans</Link>
           <Link href="/#why">Why Propfundsy</Link>
           <Link href="/blog">Blog</Link>

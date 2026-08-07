@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import PromoHero from "@/components/PromoHero";
 import Firms from "@/components/Firms";
 import PlanTable from "@/components/PlanTable";
 import Why from "@/components/Why";
@@ -14,6 +15,7 @@ export default function Home() {
       <JsonLd />
       <Nav />
       <Hero />
+      <PromoHero />
       <Firms />
       <PlanTable />
       <Why />

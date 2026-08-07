@@ -10,10 +10,15 @@ This guide is for whoever maintains the firm/plan data. You never touch code —
 1. Check each firm for changes (fastest sources first):
    - Firm's Discord / announcement channel and newsletter — changes are announced here first
    - Firm's pricing page and rules page
-   - Promo banners (promos change weekly)
-2. If nothing changed for a firm — done, move on.
-3. If something changed, edit the matching entry in `data/plans.json` (or `data/firms.json`).
-4. Open a pull request (see below). The validation robot checks your edit. When it's green, it gets merged and is live ~2 minutes later.
+   - Promo banners and discount codes (promos change weekly)
+2. **Check active promo codes:**
+   - Look for any active discount/promo codes displayed on the firm's homepage
+   - Verify the code is currently running (check expiry date if listed)
+   - If active, ensure `promoActive: true` in `data/firms.json`
+   - If expired or removed, set `promoActive: false`
+3. If nothing changed for a firm — done, move on.
+4. If something changed, edit the matching entry in `data/plans.json` (or `data/firms.json`).
+5. Open a pull request (see below). The validation robot checks your edit. When it's green, it gets merged and is live ~2 minutes later.
 
 ## How to edit (no tools needed)
 
@@ -47,8 +52,9 @@ This guide is for whoever maintains the firm/plan data. You never touch code —
 |---|---|
 | `affiliateUrl` | Our referral link for the firm. `null` until we join their program — buttons then fall back to the official site. Must start with `https://`. |
 | `discountCode` | Our promo code, shown on the buttons ("Get Funded · CODE10"). `null` if none. |
+| `promoActive` | Is this promo code currently running? Set to `true` if the code is active on their site, `false` if expired/inactive. **Updated daily during data checks.** |
 
-Only the site owner updates these two fields.
+Only the site owner updates `affiliateUrl` and `discountCode`. Update `promoActive` daily when checking for active promotions.
 
 | `review` | Editorial "Our Take" paragraph shown on the firm's page. `null` until written. Minimum 80 characters; must be grounded in the data — no invented claims. Normally written by the monthly content agent. |
 

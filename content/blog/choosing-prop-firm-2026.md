@@ -7,7 +7,7 @@ category: "Guides"
 featured: true
 ---
 
-Choosing a prop firm is one of the most consequential decisions a trader makes. With 28+ firms now competing for your capital, the decision isn't just about who pays the most split — it's about finding a firm that aligns with your trading style, risk tolerance, and financial situation.
+Choosing a prop firm is one of the most consequential decisions a trader makes. With 44+ firms now competing for your capital, the decision isn't just about who pays the most split — it's about finding a firm that aligns with your trading style, risk tolerance, and financial situation.
 
 ## The Real Cost of Entry
 
