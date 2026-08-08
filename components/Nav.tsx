@@ -21,6 +21,7 @@ export default function Nav() {
           <Link href="/compare" onClick={() => setMenuOpen(false)}>Compare Firms</Link>
           <Link href="/#plans" onClick={() => setMenuOpen(false)}>Compare Plans</Link>
           <Link href="/tools" onClick={() => setMenuOpen(false)}>Tools</Link>
+          <Link href="/how-to-verify" onClick={() => setMenuOpen(false)}>How to Verify</Link>
           <Link href="/#why" onClick={() => setMenuOpen(false)}>Why Propfundsy</Link>
           <Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
           <Link href="/#faq" onClick={() => setMenuOpen(false)}>FAQ</Link>
