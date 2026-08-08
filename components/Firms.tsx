@@ -15,7 +15,13 @@ export default function Firms() {
   const catFirms = FIRMS.filter((f) => f.cat === cat && f.name.toLowerCase().includes(search.toLowerCase()));
   // featured firms first in the preview
   const sorted = [...catFirms].sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
-  const visible = showAll ? sorted : sorted.slice(0, PREVIEW_COUNT);
+  // Render every firm card in the DOM at all times (all with a real /firms/[slug]
+  // link) and only hide the ones past the preview count with CSS. Search engines
+  // don't click "Show all" buttons — if extra cards are only added to the DOM on
+  // click, their links never appear in the crawled HTML and those pages become
+  // undiscoverable except via the sitemap. Hiding via CSS keeps the same UX while
+  // keeping every link crawlable from the start.
+  const visible = sorted;
 
   return (
     <section id="firms">
@@ -47,8 +53,12 @@ export default function Firms() {
         <div className="no-results">No firms found matching "{search}"</div>
       ) : (
       <div className="grid">
-        {visible.map((f) => (
-          <div key={f.id} className={`firm-card${f.featured ? " featured" : ""}`}>
+        {visible.map((f, i) => (
+          <div
+            key={f.id}
+            className={`firm-card${f.featured ? " featured" : ""}`}
+            style={!showAll && i >= PREVIEW_COUNT ? { display: "none" } : undefined}
+          >
             <div className="firm-head">
               <div
                 className="firm-logo"

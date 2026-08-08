@@ -30,18 +30,33 @@ const isNum = (v) => typeof v === "number" && Number.isFinite(v);
 const isBool = (v) => typeof v === "boolean";
 const isStrArr = (v) => Array.isArray(v) && v.length > 0 && v.every((x) => isStr(x));
 
+// Mirrors lib/seo.ts's slugOf() exactly — every firm's /firms/[slug] page and
+// sitemap entry are keyed off this, not off `id`. Two firms with different
+// ids but colliding slugified names would silently shadow one another's
+// static page (or fail the build) without this check.
+const slugOf = (name) =>
+  (name ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
 const firms = loadJson("data/firms.json");
 const plans = loadJson("data/plans.json");
 
 if (firms) {
   if (!Array.isArray(firms) || firms.length === 0) err("firms.json: must be a non-empty array");
   const ids = new Set();
+  const slugs = new Map(); // slug -> first firm id that claimed it
   for (const [i, f] of (firms ?? []).entries()) {
     const at = `firms[${i}]${f?.id ? ` (${f.id})` : ""}`;
     if (!isStr(f.id)) err(`${at}: missing id`);
     else if (ids.has(f.id)) err(`${at}: duplicate id "${f.id}"`);
     else ids.add(f.id);
     if (!isStr(f.name)) err(`${at}: missing name`);
+    else {
+      const slug = slugOf(f.name);
+      if (!slug) err(`${at}: name "${f.name}" produces an empty slug`);
+      else if (slugs.has(slug))
+        err(`${at}: name "${f.name}" collides with "${slugs.get(slug)}" — both slugify to "${slug}", which would break /firms/${slug} (one page silently shadows the other)`);
+      else slugs.set(slug, f.name);
+    }
     if (!CATS.includes(f.cat)) err(`${at}: cat must be one of ${CATS.join("|")}`);
     if (!isStr(f.color) || !/^#[0-9a-fA-F]{6}$/.test(f.color)) err(`${at}: color must be a #rrggbb hex`);
     for (const k of ["desc", "split", "from", "sizes", "model", "source", "officialUrl"])

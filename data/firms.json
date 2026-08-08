@@ -42,11 +42,15 @@
       [
         "Best-day ≤50% rule on 1-Step",
         ""
+      ],
+      [
+        "Completed acquisition of regulated broker OANDA from CVC, Dec 2025",
+        "pos"
       ]
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). Pricing is mid-market, but you are paying for the firm least likely to change the rules under you.",
+    "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). In December 2025, FTMO completed its acquisition of OANDA — one of the oldest regulated forex brokers globally — from CVC Capital Partners, making FTMO the parent of a licensed brokerage rather than just a challenge provider. Pricing is mid-market, but you are paying for the firm least likely to change the rules under you.",
     "promoActive": false,
     "yearsInOperation": 11,
     "platforms": ["MT5", "cTrader"],
@@ -292,11 +296,15 @@
       [
         "2026 federal lawsuit alleges deceptive Live Program rule changes and cut payout caps ~50-60% in April 2026 — not addressed on Topstep's own site; unconfirmed beyond trader/legal reporting",
         ""
+      ],
+      [
+        "Data breach disclosed Aug 4, 2026 — names, SSNs, DOB and medical info reportedly exposed; reported to IL/TX Attorneys General",
+        ""
       ]
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Topstep is the original futures prop firm — 15+ years in, $1.5B+ paid out, and a 99.26% payout approval rate it advertises prominently. The Trading Combine is subscription-based ($49-$199/month by size) with a flat 90/10 split on qualifying payouts and a single 'One Rule' max-loss limit that replaced the old daily-loss-plus-trailing-drawdown structure — simpler to track, though it also means there's no separate daily circuit breaker. An optional 'Responsible Trading Advantage' toggle doubles your payout caps for a small monthly add-on. Getting funded requires hitting the profit target without breaching the One Rule and clearing a 50% consistency target; payouts are capped at 50% of account balance per request, up to $12,000 on the $150K tier. Reset fees and a $149 Express Funded activation fee apply on top of the subscription. Worth knowing before signing up: a federal lawsuit filed in 2026 accuses Topstep of retroactively tightening rules on its Live Program and trapping earned capital behind near-impossible reserve requirements, and trader communities reported payout caps were cut roughly 50-60% in April 2026. Topstep hasn't addressed either publicly on its own site as of this writing — worth independently checking court records and recent trader reports before committing capital.",
+    "review": "Topstep is the original futures prop firm — 15+ years in, $1.5B+ paid out, and a 99.26% payout approval rate it advertises prominently. The Trading Combine is subscription-based ($49-$199/month by size) with a flat 90/10 split on qualifying payouts and a single 'One Rule' max-loss limit that replaced the old daily-loss-plus-trailing-drawdown structure — simpler to track, though it also means there's no separate daily circuit breaker. An optional 'Responsible Trading Advantage' toggle doubles your payout caps for a small monthly add-on. Getting funded requires hitting the profit target without breaching the One Rule and clearing a 50% consistency target; payouts are capped at 50% of account balance per request, up to $12,000 on the $150K tier. Reset fees and a $149 Express Funded activation fee apply on top of the subscription. Worth knowing before signing up: a federal lawsuit filed in 2026 accuses Topstep of retroactively tightening rules on its Live Program and trapping earned capital behind near-impossible reserve requirements, and trader communities reported payout caps were cut roughly 50-60% in April 2026. Topstep hasn't addressed either publicly on its own site as of this writing — worth independently checking court records and recent trader reports before committing capital. Separately, Topstep disclosed a data breach to the Illinois and Texas Attorneys General on August 4, 2026, reportedly involving names, Social Security numbers, dates of birth and medical information — worth watching for a customer notification and considering a credit freeze if you're an affected user.",
     "promoActive": false,
     "yearsInOperation": 15,
     "platforms": ["TopstepX", "NinjaTrader"],
@@ -704,6 +712,10 @@
       ],
       [
         "Instant: 3% daily / 6% overall",
+        ""
+      ],
+      [
+        "Now also offers futures evaluations (added 2026)",
         ""
       ],
       [
@@ -1271,7 +1283,7 @@
     "review": "Alpha Futures is in the middle of a genuine trust event, and traders considering it should know the details before signing up. On July 12, 2026, the firm discontinued its Premium plan entirely - stating it had paid out more than $25 million on that plan in two months at a loss - and simultaneously lost its NinjaTrader and Tradovate integrations after the platforms ended their partnership. Traders on the Premium plan had their accounts closed and fees refunded, but multiple independent reports indicate pending payouts earned under that plan were not honored, which is the more serious concern. The Zero and Advanced plans continue on paper, still offering a 90% split from day one (Advanced) and weekly payouts up to $15,000 per request, but every trader is now migrating to Alpha's in-house AlphaTrader platform rather than the third-party rails they originally signed up for. Until Alpha demonstrates it is honoring outstanding payout obligations and the new platform proves reliable, we'd treat this as a firm to watch from the sidelines rather than fund through right now.",
     "promoActive": false,
     "yearsInOperation": 2,
-    "platforms": ["NinjaTrader", "AlphaTrader"],
+    "platforms": ["AlphaTrader"],
     "country": "UK"
   },
   {
@@ -1371,11 +1383,11 @@
     "name": "Lucid Trading",
     "cat": "futures",
     "color": "#38bdf8",
-    "desc": "Futures-only firm launched 2025 offering same-day payouts and 100% of the first $10K in profits before a 90/10 split.",
+    "desc": "Futures-only firm launched 2025 offering same-day payouts and 100% of the first $10K in profits before a 90/10 split. LucidBlack was discontinued Feb 2026 and folded into an upgraded LucidPro.",
     "split": "90/10 after first $10K (100%)",
-    "from": "~$110",
-    "sizes": "Multiple (LucidFlex, LucidBlack, LucidDirect)",
-    "model": "LucidFlex, LucidBlack, LucidDirect",
+    "from": "~$75",
+    "sizes": "$25K–$150K",
+    "model": "LucidFlex, LucidPro, LucidDirect",
     "source": "Third-party reviews, Aug 2026",
     "officialUrl": "https://lucidtrading.com",
     "payMethods": [
@@ -1396,6 +1408,10 @@
       ],
       [
         "Positions must be flat by daily close",
+        ""
+      ],
+      [
+        "LucidBlack discontinued Feb 2026 — merged into LucidPro",
         ""
       ],
       [
@@ -2252,5 +2268,237 @@
     "yearsInOperation": 2,
     "platforms": ["MT5", "TradeLocker", "cTrader", "Match-Trader"],
     "country": "UAE"
+  },
+  {
+    "id": "leeloo",
+    "name": "Leeloo Trading",
+    "cat": "futures",
+    "color": "#0891b2",
+    "desc": "Dallas-based futures-only firm (operating since ~2020) with eight account tracks from Express to Explode, no daily loss limit, and weekend/holiday/news holding permitted.",
+    "split": "80–90% (100% of first $8K)",
+    "from": "~$26/mo",
+    "sizes": "$25K–$300K",
+    "model": "Express, Aspire, Launch, Climb, Cruise, Burst, Explode, Glide",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://leelootrading.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "PayPal"
+    ],
+    "tags": [
+      [
+        "100% of first $8K profit",
+        "pos"
+      ],
+      [
+        "No daily loss limit",
+        "pos"
+      ],
+      [
+        "Weekend, holiday & news holding all permitted",
+        "pos"
+      ],
+      [
+        "Monthly payout window closes on the 15th — late requests roll to next month",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Leeloo Trading is a Dallas-based futures-only prop firm that has quietly built a loyal following since around 2020, largely on the strength of its relaxed rule set: no daily drawdown limit, and traders can hold positions through weekends, holidays and news events — restrictions most futures firms still enforce. The profit-sharing structure is a real draw too, with traders keeping 100% of their first $8,000 before settling into an 80-90% split. Eight account tracks (Express, Aspire, Launch, Climb, Cruise, Burst, Explode and the smaller Glide) cover a range of budgets and funding sizes up to $300K, and every account ships with a free NinjaTrader SIM license alongside support for Bookmap, Rithmic Pro and several other charting platforms. The main friction point is payout timing: profit withdrawals process only on the 15th of each month, so a request submitted just after that date waits a full extra month — worth planning around rather than assuming payouts are on-demand. Pricing here is third-party sourced and not yet independently confirmed against the firm's live checkout.",
+    "promoActive": false,
+    "yearsInOperation": 6,
+    "platforms": ["NinjaTrader"],
+    "country": "USA"
+  },
+  {
+    "id": "velotrade",
+    "name": "Velotrade",
+    "cat": "forex",
+    "color": "#db2777",
+    "desc": "Multi-asset firm (crypto, forex, stocks, indices, commodities) launched early 2026 on DXtrade. EOD-trailing or static drawdown, no consistency rule, and news/weekend trading allowed on every challenge type.",
+    "split": "up to 90%",
+    "from": "$35",
+    "sizes": "$5K–$200K",
+    "model": "CLASSIC 2-Step, CLASSIC 1-Step, PRO 1-Step",
+    "source": "Official site (velotrade.com), Aug 2026",
+    "officialUrl": "https://velotrade.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Crypto",
+      "Bank transfer"
+    ],
+    "tags": [
+      [
+        "No consistency rule on any challenge",
+        "pos"
+      ],
+      [
+        "EOD-trailing (CLASSIC) or fixed-static (PRO) drawdown — no intraday traps",
+        "pos"
+      ],
+      [
+        "News trading & weekend holding allowed on every plan",
+        "pos"
+      ],
+      [
+        "Launched early 2026 — no multi-year payout track record yet",
+        ""
+      ],
+      [
+        "Payment/payout methods not fully confirmed — verify at checkout",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": "AIRCON20",
+    "review": "Velotrade launched its prop offering in early 2026 with an unusually clear pitch: fix the friction points — tick-by-tick trailing drawdowns, consistency caps, weekend bans, vague rule language — that the founders (who came out of JP Morgan, Dresdner Kleinwort and Bank of America) argue plague most challenge firms once they bolt crypto onto forex-era rules. The CLASSIC 2-Step and 1-Step use an EOD-trailing drawdown that only moves at day close, never intraday; the PRO 1-Step instead uses a static floor fixed from your opening balance, so your buffer grows every profitable session. All three formats skip the consistency rule entirely and allow news trading and weekend holding, running on DXtrade with full API access for bots from evaluation through funded. Entry pricing starts at $35 for a $5K PRO 1-Step, scaling to roughly $1,550-$1,680 for a $200K CLASSIC account. As a firm not yet a year old, Velotrade doesn't have a multi-year payout record to point to — the institutional pedigree is a credibility signal, not a substitute for a track record, so confirm current terms directly before funding beyond the entry tier.",
+    "promoActive": true,
+    "yearsInOperation": 1,
+    "platforms": ["DXtrade"],
+    "country": "Hong Kong"
+  },
+  {
+    "id": "ofp",
+    "name": "OFP Funding",
+    "cat": "forex",
+    "color": "#65a30d",
+    "desc": "UAE-based CFD firm (founded 2022) running Instant Funding and 1-Step paths on MT4/MT5, with low entry pricing and a profit split that scales 80% to 90%.",
+    "split": "80–90%",
+    "from": "$67",
+    "sizes": "$10K–$200K",
+    "model": "1-Step, Instant Funding",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://ofpfunding.com",
+    "payMethods": [
+      "Apple Pay",
+      "Cards",
+      "Crypto",
+      "Google Pay"
+    ],
+    "payoutMethods": [
+      "Rise",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "$67 entry — among the cheapest 1-Step tiers tracked",
+        "pos"
+      ],
+      [
+        "Both Instant Funding and 1-Step evaluation paths",
+        "pos"
+      ],
+      [
+        "Split scales 80% → 90%",
+        "pos"
+      ],
+      [
+        "Not yet fully listed/verified by major aggregators — limited independent review depth",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "OFP Funding is a UAE-based CFD prop firm, founded in 2022, that competes mainly on price: a $10K 1-Step evaluation runs $67, among the cheapest entries in this category, scaling to $449 for $100K and $799 for a $200K Instant Funding account. The lineup is deliberately simple — a single 1-Step evaluation (10% target, 5% daily loss, 10% max drawdown) or Instant Funding that skips evaluation for a tighter 4% daily / 8% max drawdown — running on the standard MT4/MT5 stack, with a profit split that starts at 80% and scales to 90%. The catch is verification depth: OFP appears on prop-firm aggregators' 'unlisted' or community-suggested pages rather than fully-vetted listings, meaning published rule detail (news/EA/weekend policy, exact payout cadence) is thinner than for longer-established peers. Reviews skew mixed-to-positive on price and instant-funding mechanics but light on volume. Treat this as a budget option worth sizing cautiously into rather than a firm with a fully verified track record.",
+    "promoActive": false,
+    "yearsInOperation": 4,
+    "platforms": ["MT4", "MT5"],
+    "country": "UAE"
+  },
+  {
+    "id": "vanta",
+    "name": "Vanta Trading",
+    "cat": "forex",
+    "color": "#6366f1",
+    "desc": "Decentralized, blockchain-based simulated trading platform from Taoshi (Bittensor ecosystem), launched 2026. Single 1-Step evaluation with a 100% profit split; not yet listed or verified by major prop-firm aggregators.",
+    "split": "100%",
+    "from": "$199",
+    "sizes": "$25K–$100K",
+    "model": "1-Step Evaluation",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://www.vantatrading.io",
+    "payMethods": [
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "100% profit split after passing",
+        "pos"
+      ],
+      [
+        "Blockchain-based, verifiable-payout pitch",
+        "pos"
+      ],
+      [
+        "Brand new (2026) — not yet listed/verified by major aggregators",
+        ""
+      ],
+      [
+        "Rules and payout terms beyond the profit target are thinly documented — confirm directly before funding",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "platforms": ["Web platform"],
+    "country": "Decentralized (Bittensor network)"
+  },
+  {
+    "id": "blusky",
+    "name": "BluSky Trading Company",
+    "cat": "futures",
+    "color": "#0d9488",
+    "desc": "Florida-based futures firm (2022) with a multi-plan lineup (Launch, Propel Premium/Static, Orbit, Instant Sim, Direct 2 Funded), splits up to 90%, and daily Mon–Fri payouts.",
+    "split": "up to 90%",
+    "from": "~$59",
+    "sizes": "$25K–$300K",
+    "model": "Launch, Propel, Orbit, Instant Sim, Direct 2 Funded",
+    "source": "Third-party reviews, Aug 2026",
+    "officialUrl": "https://blusky.pro",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "90% profit split on top-tier plans",
+        "pos"
+      ],
+      [
+        "Daily Mon–Fri payouts once funded",
+        "pos"
+      ],
+      [
+        "7 supported platforms incl. NinjaTrader, Tradovate, Rithmic",
+        "pos"
+      ],
+      [
+        "30% consistency rule — no single day may exceed 30% of profit target",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": "30OFF",
+    "review": "BluSky Trading Company is a Florida-based futures firm operating since 2022 with a broad account menu: Launch (a 4-phase evaluation aimed at the lowest entry cost), Propel Premium and Propel Static (EOD-trailing vs. fixed drawdown), Orbit (funded in as little as a day, no evaluation-phase consistency rule), Instant Sim (no evaluation at all), and Direct 2 Funded (split scaling 50%→80%). The firm's headline features are daily Monday-through-Friday payouts with no minimum trading-day requirement on several plans, splits up to 90%, and support for seven platforms including NinjaTrader, Tradovate and Rithmic. The main rule to plan around is a 30% consistency requirement — no single trading day can account for more than 30% of your profit target — which applies across most plans. BluSky reports over $10 million paid out since launch and carries a strong Trustpilot reputation (5.0/5 from 800+ reviews). Rule specifics like exact drawdown percentages vary meaningfully by plan and aren't fully confirmed here — verify the current terms on blusky.pro before funding.",
+    "promoActive": true,
+    "yearsInOperation": 4,
+    "platforms": ["NinjaTrader", "Tradovate", "Rithmic"],
+    "country": "USA"
   }
 ]
