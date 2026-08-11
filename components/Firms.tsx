@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { FIRMS, firmLink, initials, type Category } from "@/lib/data";
 import { slugOf } from "@/lib/seo";
+import { TrustCell } from "@/components/PlanTable";
 
 const PREVIEW_COUNT = 6;
 
@@ -71,6 +72,7 @@ export default function Firms() {
                 <div className="firm-cat">
                   {f.cat === "forex" ? "Forex / CFD" : "Futures"} · {f.model}
                 </div>
+                <div className="firm-trust"><TrustCell f={f} /></div>
               </div>
             </div>
             <p className="firm-desc">{f.desc}</p>

@@ -24,6 +24,8 @@ function loadJson(rel) {
 const CATS = ["forex", "futures"];
 const TRIS = ["yes", "restricted", "no", "na"];
 const DD_KINDS = ["static", "eod-trail", "intraday-trail", "custom"];
+const TRUST_BANDS = ["Excellent", "Great", "Average", "Poor", "Bad"];
+const TRUST_FLAGS = ["ok", "caution", "unrated"];
 
 const isStr = (v) => typeof v === "string" && v.length > 0;
 const isNum = (v) => typeof v === "number" && Number.isFinite(v);
@@ -71,6 +73,18 @@ if (firms) {
     if (!isStrArr(f.payoutMethods)) err(`${at}: payoutMethods must be a non-empty string array`);
     if (!Array.isArray(f.tags) || !f.tags.every((t) => Array.isArray(t) && t.length === 2 && isStr(t[0]) && ["pos", ""].includes(t[1])))
       err(`${at}: tags must be [text, "pos"|""] pairs`);
+    if (!(f.trustScore === null || (isNum(f.trustScore) && f.trustScore >= 0 && f.trustScore <= 5)))
+      err(`${at}: trustScore must be null or a number 0–5`);
+    if (!(f.trustReviewCount === null || (isNum(f.trustReviewCount) && f.trustReviewCount >= 0)))
+      err(`${at}: trustReviewCount must be null or a non-negative number`);
+    if (!(f.trustBand === null || TRUST_BANDS.includes(f.trustBand)))
+      err(`${at}: trustBand must be null or one of ${TRUST_BANDS.join("|")}`);
+    if (f.trustScore !== null && f.trustBand === null)
+      err(`${at}: trustBand must be set whenever trustScore is set`);
+    if (!TRUST_FLAGS.includes(f.trustFlag)) err(`${at}: trustFlag must be one of ${TRUST_FLAGS.join("|")}`);
+    if (f.trustFlag !== "ok" && !isStr(f.trustNote))
+      err(`${at}: trustNote is required text when trustFlag is "${f.trustFlag}"`);
+    if (!(f.trustNote === null || isStr(f.trustNote))) err(`${at}: trustNote must be null or text`);
   }
 }
 

@@ -11,7 +11,14 @@ export default function Footer() {
         <div className="foot-links">
           <Link href="/#firms">Firms</Link>
           <Link href="/#plans">Plans</Link>
-          <Link href="/#faq">FAQ</Link>
+          <Link href="/tools">Tools</Link>
+          <Link href="/how-to-verify">How to Verify</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+          <Link href="/disclaimer">Disclaimer</Link>
+          <Link href="/cookie-policy">Cookies</Link>
         </div>
       </div>
       <p className="disclaimer">

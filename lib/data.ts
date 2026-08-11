@@ -4,6 +4,8 @@ import plansJson from "@/data/plans.json";
 export type Category = "forex" | "futures";
 export type TriState = "yes" | "restricted" | "no" | "na";
 export type DdKind = "static" | "eod-trail" | "intraday-trail" | "custom";
+export type TrustBand = "Excellent" | "Great" | "Average" | "Poor" | "Bad";
+export type TrustFlag = "ok" | "caution" | "unrated";
 
 export interface Firm {
   id: string;
@@ -28,6 +30,11 @@ export interface Firm {
   yearsInOperation: number;     // years the firm has been operating
   platforms: string[];          // trading platforms (e.g., "MT5", "cTrader", "MT4")
   country: string;              // country the firm is registered in
+  trustScore: number | null;        // Trustpilot score out of 5, e.g. 4.7; null if not confirmed or not currently reliable
+  trustReviewCount: number | null;  // Trustpilot review count backing trustScore; null if unknown
+  trustBand: TrustBand | null;      // Trustpilot's own label for trustScore; null if trustScore is null
+  trustFlag: TrustFlag;             // "ok" = normal rating; "caution" = suspended/flagged/conflicting/systemic complaint pattern; "unrated" = no usable Trustpilot data found
+  trustNote: string | null;         // required context when trustFlag !== "ok", or to explain a null/approximate score
 }
 
 export interface Plan {

@@ -58,6 +58,20 @@ Only the site owner updates `affiliateUrl` and `discountCode`. Update `promoActi
 
 | `review` | Editorial "Our Take" paragraph shown on the firm's page. `null` until written. Minimum 80 characters; must be grounded in the data — no invented claims. Normally written by the monthly content agent. |
 
+## Trustpilot fields (firms.json)
+
+Shown as a badge on the homepage plans table and firm cards.
+
+| Field | What it is | Allowed values |
+|---|---|---|
+| `trustScore` | Trustpilot score out of 5, e.g. `4.7` | number 0–5, or `null` if not confirmed / not currently reliable |
+| `trustReviewCount` | Review count backing `trustScore` | number, or `null` if unknown |
+| `trustBand` | Trustpilot's own label for the score | `"Excellent"` (≥4.5), `"Great"` (4.0–4.4), `"Average"` (3.0–3.9), `"Poor"` (2.0–2.9), `"Bad"` (<2.0) — must be set whenever `trustScore` is set, else `null` |
+| `trustFlag` | Reliability of the rating itself | `"ok"` (normal rating), `"caution"` (suspended, flagged for fake reviews, widely conflicting across sources, or a systemic payout-denial complaint pattern), `"unrated"` (no usable Trustpilot data found) |
+| `trustNote` | Context shown in the badge tooltip | text — **required** whenever `trustFlag` isn't `"ok"`, or to explain an approximate/null score. `null` otherwise. |
+
+When a firm's Trustpilot listing is suspended, guideline-flagged, or shows wildly different scores across sources, set `trustScore`/`trustReviewCount`/`trustBand` to `null` and `trustFlag: "caution"` rather than picking one number — explain why in `trustNote`. Don't recompute `trustScore` yourself from a star breakdown; only enter a number that a source states directly.
+
 ## Rules
 
 - **Only edit files inside `data/`.** Anything else needs a developer.

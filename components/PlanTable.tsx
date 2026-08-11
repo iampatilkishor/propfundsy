@@ -4,14 +4,14 @@ import { useMemo, useState } from "react";
 import {
   FIRMS, PLANS, firmById, firmLink, initials, DD_LABEL,
   DISTINCT_SIZES, sizeLabelOf, costPer10k, costPer10kNum, payoutSpeedLabel,
-  type Plan, type DdKind, type TriState,
+  type Plan, type DdKind, type TriState, type Firm,
 } from "@/lib/data";
 import Link from "next/link";
 import { slugOf } from "@/lib/seo";
 import ComparePanel from "@/components/ComparePanel";
 
 type CatFilter = "all" | "forex" | "futures";
-type SortKey = "firm" | "size" | "price" | "cost" | "split" | "payout" | null;
+type SortKey = "firm" | "size" | "price" | "cost" | "split" | "trust" | "payout" | null;
 
 const sortValue = (p: Plan, k: Exclude<SortKey, null>): string | number => {
   switch (k) {
@@ -20,6 +20,7 @@ const sortValue = (p: Plan, k: Exclude<SortKey, null>): string | number => {
     case "price": return p.price;
     case "cost": return costPer10kNum(p);
     case "split": return p.splitSort;
+    case "trust": return firmById[p.firmId].trustScore ?? -1;
     case "payout": return p.payoutDays;
   }
 };
@@ -306,6 +307,7 @@ export default function PlanTable() {
             <tr>
               <Th>Cmp</Th>
               <Th k="firm">Firm / Plan</Th>
+              <Th k="trust" title="Firm's Trustpilot score — hover for review count and any reliability flags">Trust</Th>
               <Th k="size">Account</Th>
               <Th k="price">Fee</Th>
               <Th k="cost" title="Fee per $10,000 of buying power — normalizes cost across account sizes">Cost/$10K</Th>
@@ -314,7 +316,7 @@ export default function PlanTable() {
               <Th>Drawdown</Th>
               <Th>Consistency</Th>
               <Th title="News trading / EAs / Weekend holding on funded accounts">Style</Th>
-              <Th>Data</Th>
+              <Th title="Verified from official source or sourced from reviews">Verified</Th>
               <Th><span className="sr-only">Get plan</span></Th>
             </tr>
           </thead>
@@ -349,6 +351,7 @@ export default function PlanTable() {
                       </div>
                     </div>
                   </td>
+                  <td><TrustCell f={f} /></td>
                   <td><b>{p.sizeLabel}</b></td>
                   <td><span className="pill price">{p.priceLabel}</span></td>
                   <td>{costPer10k(p)}</td>
@@ -409,6 +412,9 @@ export default function PlanTable() {
           <div className="legend-items">
             <span className="legend-item"><b>Cost/$10K</b>&nbsp; Fee per $10,000 of account size — compares value across sizes</span>
             <span className="legend-item"><b>Payout</b>&nbsp; Typical days between payouts (hover for full terms)</span>
+            <span className="legend-item"><span className="si ok">4.7★</span> Trustpilot score</span>
+            <span className="legend-item"><span className="si warn">⚠ Caution</span> Suspended, flagged, or conflicting Trustpilot data — hover for detail</span>
+            <span className="legend-item"><span className="si dim">Unrated</span> No usable Trustpilot data found</span>
           </div>
         </div>
       </div>
@@ -436,6 +442,38 @@ export default function PlanTable() {
         <ComparePanel plans={selected} onClose={() => setShowCompare(false)} />
       )}
     </section>
+  );
+}
+
+export function TrustCell({ f }: { f: Firm }) {
+  if (f.trustFlag === "caution") {
+    return (
+      <span className="si warn" title={f.trustNote ?? "Trustpilot data for this firm is currently unreliable — verify independently."}>
+        ⚠ Caution
+      </span>
+    );
+  }
+  if (f.trustFlag === "unrated" || f.trustScore === null) {
+    return (
+      <span className="si dim" title={f.trustNote ?? "No Trustpilot data confirmed for this firm."}>
+        Unrated
+      </span>
+    );
+  }
+  const cls = f.trustBand === "Excellent" || f.trustBand === "Great"
+    ? "si ok"
+    : f.trustBand === "Average"
+      ? "si warn"
+      : "si bad";
+  const title = [
+    f.trustReviewCount ? `${f.trustReviewCount.toLocaleString()} reviews` : null,
+    f.trustBand,
+    f.trustNote,
+  ].filter(Boolean).join(" · ");
+  return (
+    <span className={cls} title={title || undefined}>
+      {f.trustScore.toFixed(1)}★
+    </span>
   );
 }
 
