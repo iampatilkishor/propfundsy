@@ -2405,8 +2405,8 @@
     "trustScore": 4.5,
     "trustReviewCount": 107,
     "trustBand": "Excellent",
-    "trustFlag": "ok",
-    "trustNote": null,
+    "trustFlag": "caution",
+    "trustNote": "Delisted by at least one independent prop-firm tracker (ThePropFirmGuide, Jul 2026) over a livestreamed relaunch where promised free accounts were substituted with pass-now-pay-later accounts, plus growing complaints about EOD drawdowns being trailed against profitable trades. Trustpilot score above is unaffected but predates this incident — treat with added caution pending official response.",
     "name": "NYS Markets",
     "cat": "forex",
     "color": "#f59e0b",
@@ -2444,11 +2444,15 @@
       [
         "Payment processing routed via NYS Corp Limited (Hong Kong) per third-party reporting — unconfirmed on official site",
         ""
+      ],
+      [
+        "TRUST WARNING: Delisted by ThePropFirmGuide (Jul 2026) over relaunch bait-and-switch on promised free accounts",
+        ""
       ]
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "NYS Markets is a CFD prop firm built around a low entry price and a standing quantity promo: buy 2 accounts and get 2 more of the same size free, on top of per-account prices that are already discounted by half or more (a $10K 2-Step evaluation lists at $79 but is shown at $39). The lineup runs four paths — Instant (skip evaluation entirely), Flash (lower entry, quick evaluation), One Trade (pass in a single day), and the standard 2-Step — with accounts scaling to $200K. Evaluation accounts carry no consistency rule, unlimited trading period, and no minimum trading days, but Instant funded accounts add a 15% consistency rule and cap the first payout ($1,000-$4,000 depending on size). The profit split is a flat 80/20 on every path confirmed on the pricing page; third-party sources describe a scaling path to 90-100% with consistent payouts, but that isn't shown on the official pricing tables and should be treated as unconfirmed. Payment administration reportedly runs through a Hong Kong entity per third-party reviews - worth confirming directly with support before funding an account, since NYS Markets is a newer name without a long public track record.",
+    "review": "NYS Markets is a CFD prop firm built around a low entry price and a standing quantity promo: buy 2 accounts and get 2 more of the same size free, on top of per-account prices that are already discounted by half or more (a $10K 2-Step evaluation lists at $79 but is shown at $39). The lineup runs four paths — Instant (skip evaluation entirely), Flash (lower entry, quick evaluation), One Trade (pass in a single day), and the standard 2-Step — with accounts scaling to $200K. Evaluation accounts carry no consistency rule, unlimited trading period, and no minimum trading days, but Instant funded accounts add a 15% consistency rule and cap the first payout ($1,000-$4,000 depending on size). The profit split is a flat 80/20 on every path confirmed on the pricing page; third-party sources describe a scaling path to 90-100% with consistent payouts, but that isn't shown on the official pricing tables and should be treated as unconfirmed. Payment administration reportedly runs through a Hong Kong entity per third-party reviews - worth confirming directly with support before funding an account, since NYS Markets is a newer name without a long public track record. Trust event to weigh: at least one independent prop-firm tracker (ThePropFirmGuide) delisted NYS Markets in July 2026, citing a livestreamed relaunch where promised free accounts were substituted with pass-now-pay-later accounts and describing management as increasingly evasive afterward. We haven't independently confirmed this beyond the tracker's public writeup and Trustpilot complaint patterns — worth checking current trader sentiment before funding.",
     "promoActive": true,
     "yearsInOperation": 2,
     "platforms": ["MT5", "cTrader"],
