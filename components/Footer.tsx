@@ -5,20 +5,37 @@ export default function Footer() {
   return (
     <footer>
       <div className="foot-top">
-        <Link className="logo" href="/">
-          Prop<span>fundsy</span>
-        </Link>
-        <div className="foot-links">
-          <Link href="/#firms">Firms</Link>
-          <Link href="/#plans">Plans</Link>
-          <Link href="/tools">Tools</Link>
-          <Link href="/how-to-verify">How to Verify</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
-          <Link href="/disclaimer">Disclaimer</Link>
-          <Link href="/cookie-policy">Cookies</Link>
+        <div className="foot-brand">
+          <Link className="logo" href="/">
+            Prop<span>fundsy</span>
+          </Link>
+          <p className="foot-tagline">Find legitimate prop firms. Master risk. Trade smarter.</p>
+        </div>
+
+        <div className="foot-columns">
+          <div className="foot-column">
+            <h4>Product</h4>
+            <Link href="/#firms">Firms</Link>
+            <Link href="/compare">Compare</Link>
+            <Link href="/tools">Tools</Link>
+            <Link href="/how-to-verify">Verify</Link>
+            <Link href="/blog">Blog</Link>
+          </div>
+
+          <div className="foot-column">
+            <h4>Support</h4>
+            <Link href="/#faq">FAQ</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/about">About</Link>
+          </div>
+
+          <div className="foot-column">
+            <h4>Legal</h4>
+            <Link href="/privacy">Privacy</Link>
+            <Link href="/terms">Terms</Link>
+            <Link href="/disclaimer">Disclaimer</Link>
+            <Link href="/cookie-policy">Cookies</Link>
+          </div>
         </div>
       </div>
       <p className="disclaimer">

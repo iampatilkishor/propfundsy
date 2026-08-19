@@ -19,8 +19,10 @@ export const metadata: Metadata = {
 
 export default function BlogIndex() {
   const posts = getAllPosts();
-  const featured = posts.filter((p) => p.featured);
-  const recent = posts.slice(0, 10);
+  // Remove duplicates by slug
+  const uniquePosts = Array.from(new Map(posts.map(p => [p.slug, p])).values());
+  const featured = uniquePosts.filter((p) => p.featured);
+  const recent = uniquePosts.slice(0, 10);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -42,18 +44,20 @@ export default function BlogIndex() {
 
       {featured.length > 0 && (
         <section>
-          <div className="sec-label">Featured</div>
+          <h2 className="sec-label">Featured</h2>
           <div className="blog-featured">
             {featured.map((p) => (
               <article key={p.slug} className="blog-card featured">
                 <div>
-                  <h2>
+                  <h3>
                     <Link href={`/blog/${p.slug}`}>{p.title}</Link>
-                  </h2>
-                  <p className="blog-meta">
-                    {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
-                    {p.category && ` · ${p.category}`}
-                  </p>
+                  </h3>
+                  <div className="blog-meta">
+                    <time>
+                      {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
+                    </time>
+                    {p.category && <span className="blog-cat">{p.category}</span>}
+                  </div>
                   <p className="blog-desc">{p.description}</p>
                   <Link href={`/blog/${p.slug}`} className="read-more">
                     Read more →
@@ -67,7 +71,7 @@ export default function BlogIndex() {
 
       {recent.length > 0 && (
         <section>
-          <div className="sec-label">Latest</div>
+          <h2 className="sec-label">Latest</h2>
           <div className="blog-list">
             {recent.map((p) => (
               <article key={p.slug} className="blog-item">
@@ -75,19 +79,21 @@ export default function BlogIndex() {
                   <h3>
                     <Link href={`/blog/${p.slug}`}>{p.title}</Link>
                   </h3>
-                  <time className="blog-date">
-                    {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
-                  </time>
+                  <div className="blog-meta">
+                    <time className="blog-date">
+                      {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
+                    </time>
+                    {p.category && <span className="blog-cat">{p.category}</span>}
+                  </div>
                 </div>
                 <p className="blog-desc">{p.description}</p>
-                {p.category && <span className="blog-cat">{p.category}</span>}
               </article>
             ))}
           </div>
         </section>
       )}
 
-      {posts.length === 0 && (
+      {uniquePosts.length === 0 && (
         <section>
           <p className="sec-sub">No posts yet. Check back soon.</p>
         </section>
