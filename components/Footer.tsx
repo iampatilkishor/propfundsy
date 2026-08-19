@@ -18,13 +18,21 @@ export default function Footer() {
             <Link href="/#firms">Firms</Link>
             <Link href="/compare">Compare</Link>
             <Link href="/tools">Tools</Link>
+            <Link href="/blog/trading-journal-guide">Journal</Link>
             <Link href="/how-to-verify">Verify</Link>
             <Link href="/blog">Blog</Link>
           </div>
 
           <div className="foot-column">
+            <h4>Resources</h4>
+            <Link href="/blog/how-to-choose-prop-firm">Choose a Firm</Link>
+            <Link href="/blog/pass-prop-firm-evaluation">Pass Evaluation</Link>
+            <Link href="/blog/common-prop-trading-mistakes">Avoid Mistakes</Link>
+            <Link href="/blog/trading-psychology-mistakes">Psychology Guide</Link>
+          </div>
+
+          <div className="foot-column">
             <h4>Support</h4>
-            <Link href="/#faq">FAQ</Link>
             <Link href="/contact">Contact</Link>
             <Link href="/about">About</Link>
           </div>
@@ -53,6 +61,9 @@ export default function Footer() {
         forex involves substantial risk of loss and is not suitable for every investor. Propfundsy is
         not affiliated with any firm listed.
       </p>
+      <div className="foot-copyright">
+        <p>&copy; {new Date().getFullYear()} Propfundsy. All rights reserved.</p>
+      </div>
     </footer>
   );
 }

@@ -2,34 +2,61 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import BlogSearch from "@/components/BlogSearch";
 import { getAllPosts } from "@/lib/blog";
 import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Blog — Propfundsy",
-  description: "Latest insights on prop trading firms, funding strategies, and market trends. Updated regularly with analysis, guides, and trader tips.",
+  title: "Prop Trading Blog: Strategies, Guides & Trader Insights — Propfundsy",
+  description:
+    "Expert prop trading blog with guides on firm evaluation, risk management, trading psychology, and proven strategies. Real trader experiences and actionable tips.",
+  keywords:
+    "prop trading blog, prop firm guides, trading strategies, prop evaluation, risk management, trading psychology, trader guides",
   alternates: { canonical: "/blog" },
   openGraph: {
     type: "website",
     url: `${SITE_URL}/blog`,
-    title: "Propfundsy Blog",
-    description: "Prop trading insights and guides",
+    title: "Prop Trading Blog: Strategies & Guides — Propfundsy",
+    description:
+      "Expert insights on prop trading firms, evaluation strategies, and proven trader techniques",
+    siteName: "Propfundsy",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prop Trading Blog — Propfundsy",
+    description: "Expert strategies and guides for prop traders",
   },
 };
 
 export default function BlogIndex() {
   const posts = getAllPosts();
   // Remove duplicates by slug
-  const uniquePosts = Array.from(new Map(posts.map(p => [p.slug, p])).values());
+  const uniquePosts = Array.from(
+    new Map(posts.map((p) => [p.slug, p])).values(),
+  );
   const featured = uniquePosts.filter((p) => p.featured);
   const recent = uniquePosts.slice(0, 10);
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
+    "@type": "Blog",
     name: "Propfundsy Blog",
     url: `${SITE_URL}/blog`,
-    description: "Prop trading insights and guides",
+    description: "Expert insights on prop trading firms, evaluation strategies, risk management, and trading psychology. Learn from real trader experiences.",
+    publisher: {
+      "@type": "Organization",
+      name: "Propfundsy",
+      url: SITE_URL,
+      logo: `${SITE_URL}/logo.png`,
+    },
+    blogPost: uniquePosts.slice(0, 6).map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.title,
+      description: p.description,
+      datePublished: p.date,
+      author: { "@type": "Person", name: p.author || "Propfundsy" },
+      url: `${SITE_URL}/blog/${p.slug}`,
+    })),
   };
 
   return (
@@ -38,8 +65,13 @@ export default function BlogIndex() {
       <Nav />
 
       <section>
-        <h1>Propfundsy Blog</h1>
-        <p className="sec-sub">Insights on prop trading firms, funding strategies, and market trends.</p>
+        <h1>Prop Trading Blog: Guides, Strategies & Market Insights</h1>
+        <p className="sec-sub">Expert insights on prop trading firms, evaluation strategies, risk management, and trading psychology. Learn from real trader experiences and proven techniques to pass evaluations and build consistent profits.</p>
+        <p style={{ color: 'var(--muted)', fontSize: '0.95rem', maxWidth: '640px', marginTop: '12px', lineHeight: '1.6' }}>
+          Our blog covers everything from choosing legitimate prop firms and avoiding scams to mastering position sizing, journaling, and psychological discipline. Read authentic trader perspectives and actionable strategies.
+        </p>
+
+        <BlogSearch allPosts={uniquePosts} />
       </section>
 
       {featured.length > 0 && (
