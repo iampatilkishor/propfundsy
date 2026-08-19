@@ -83,7 +83,7 @@ export default function ToolsPage() {
           <h2>Ready to Trade Smarter?</h2>
           <p>Use these tools to understand your risk, plan your positions, and build lasting wealth through consistent trading.</p>
           <div className="tools-cta-buttons">
-            <Link href="/firms" className="btn btn-gold">
+            <Link href="/#firms" className="btn btn-gold">
               Find Your Firm
             </Link>
             <Link href="/compare" className="btn btn-ghost">

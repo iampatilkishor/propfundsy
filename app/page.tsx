@@ -8,10 +8,12 @@ import Faq from "@/components/Faq";
 import CtaBand from "@/components/CtaBand";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
     <>
+      <SpeedInsights />
       <JsonLd />
       <Nav />
       <Hero />
