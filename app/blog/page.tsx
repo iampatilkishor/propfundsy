@@ -6,6 +6,18 @@ import BlogSearch from "@/components/BlogSearch";
 import { getAllPosts } from "@/lib/blog";
 import { SITE_URL } from "@/lib/seo";
 
+// Auto-submit new blog posts to IndexNow when page loads
+async function autoSubmitNewPosts() {
+  try {
+    await fetch(`${SITE_URL}/api/auto-submit-blogs`, {
+      method: "GET",
+      cache: "no-store",
+    });
+  } catch (error) {
+    console.error("[Blog] Error auto-submitting posts:", error);
+  }
+}
+
 export const metadata: Metadata = {
   title: "Prop Trading Blog: Strategies, Guides & Trader Insights — Propfundsy",
   description:
@@ -28,7 +40,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogIndex() {
+export default async function BlogIndex() {
+  // Auto-submit new posts to IndexNow (runs in background)
+  autoSubmitNewPosts();
+
   const posts = getAllPosts();
   // Remove duplicates by slug
   const uniquePosts = Array.from(
