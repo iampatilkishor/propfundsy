@@ -1601,6 +1601,7 @@
   },
   {
     "id": "lucid",
+    "review": "Lucid Trading launched in 2025 as a futures-only firm built around speed: same-day payouts and 100% of your first $10K in profit before a 90/10 split, with LucidFlex requiring no daily loss limit. LucidPro (added Feb 2026) absorbed the discontinued LucidBlack tier, and NinjaTrader is the only supported platform. Trustpilot shows an \"Excellent\" band, though the review count varies by source — our figure is roughly 4,000, other trackers report 4,800–5,200+ — and some reviews describe slow support during payout disputes alongside minor trade-journal bugs. One thing worth flagging for a firm this young: as of August 2026, Lucid stopped listing per-challenge prices upfront, showing \"get final price at checkout\" instead, which cuts against the transparency its fast-payout reputation is built on. With just a year of track record, size in cautiously and confirm current pricing directly before funding.",
     "trustScore": 4.7,
     "trustReviewCount": 4000,
     "trustBand": "Excellent",
@@ -1647,7 +1648,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 1,
     "platforms": [
@@ -1671,6 +1671,7 @@
     "sizes": "$5K–$4M (scaling)",
     "model": "Two Step Pro, Instant",
     "source": "Third-party reviews, Aug 2026",
+    "review": "AquaFunded is a Dubai-based firm (operating since 2023) spanning forex, crypto and futures, with on-demand payouts and scaling up to $4M — a genuinely wide account range for an entry fee that's almost always discounted near 50% off list price. The number worth weighing more carefully is trust: Trustpilot has hidden AquaFunded's rating entirely and posted a breach-of-guidelines warning after detecting fake reviews, a more serious step than a low score, since it means the review population itself was judged unreliable. That sits awkwardly next to AquaFunded's own claim of a 9.4/10 rating from 5,000+ reviews on its own site. The firm says it has paid over $6.4M to more than 190,000 users, and some traders do report clean payouts — but with the independent verification signal currently unavailable and detailed rule terms not independently confirmed, treat AquaFunded as unverified until you confirm current pricing and payout terms directly.",
     "officialUrl": "https://aquafunded.com",
     "payMethods": [
       "Cards",
@@ -1700,7 +1701,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 2,
     "platforms": [
@@ -1779,6 +1779,7 @@
     "sizes": "$5K–$200K (scaling to $5M)",
     "model": "One Phase, Swing 2-Phase, Regular 2-Phase",
     "source": "Third-party reviews, Aug 2026",
+    "review": "FunderPro is a Malta-registered firm offering One Phase, Swing 2-Phase and Regular 2-Phase challenges, with a 100% fee refund on your first payout and scaling up to $5M — and payout speed genuinely stands out, averaging roughly 8 hours, backing a reported $21.5M paid to traders in 2025. The catch is what happens right before that payout: Trustpilot placed a Consumer Warning on FunderPro's profile, and a recurring complaint pattern describes payouts rejected over \"shared IP\" or \"unauthorized access\" flags with little supporting detail given to the trader. FunderPro's own January 2026 transparency statement attributes the warning to coordinated one-star attacks and fake five-star reviews from third parties rather than to the underlying complaints. Both can be true at once — real attempts to game the rating, and legitimate trader grievances — so treat the fast-payout numbers as real, but read recent reviews before funding a size you can't afford to have flagged.",
     "officialUrl": "https://funderpro.com",
     "payMethods": [
       "Cards",
@@ -1808,7 +1809,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 4,
     "platforms": [
@@ -1888,6 +1888,7 @@
     "sizes": "$5K–$400K (scaling to $4M)",
     "model": "1-Step, 2-Step, Instant",
     "source": "Third-party reviews, Aug 2026",
+    "review": "Hola Prime is a Hong Kong-based, FSC Mauritius-regulated firm offering 1-Step, 2-Step and Instant challenges with a refundable fee, splits up to 95%, and scaling to $4M. What sets it apart is verification: Hola commissioned Deloitte to independently review its payout processing from October 2025 through March 2026, and the results were genuinely strong — 98.35% of payouts processed within an hour, zero payouts denied across the period, with the remaining 1.65% attributed to added validation checks or incomplete trader information rather than to rejections. That's an unusually concrete, third-party-verified claim in an industry where most payout numbers come from internal dashboards. Trustpilot sentiment is more mixed than the audit suggests — roughly 83% five-star reviews against 8% one-star, with no single confirmed aggregate score. At just a year old, Hola is short on long-term track record, but the Deloitte review is a real transparency signal few competitors can match.",
     "officialUrl": "https://holaprime.com",
     "payMethods": [
       "Cards",
@@ -1921,7 +1922,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 1,
     "platforms": [
@@ -2108,6 +2108,7 @@
     "sizes": "$10K–$300K",
     "model": "Custom 1-Step & 2-Step",
     "source": "Third-party reviews, Aug 2026",
+    "review": "TradersYard is a Swiss-backed forex firm offering custom 1-Step and 2-Step challenges up to $300K, built around a straightforward pitch: a 48-hour payout guarantee (with a $500 penalty to the firm if it's missed) and a Scalable Reward Split reaching up to 100%. In practice payouts run well ahead of that guarantee — trader reports describe processing in under 4 hours, with some receiving multiple payouts in a day. Trustpilot backs that up with a 4.7/5 rating, though the sample is small at roughly 66 reviews, so treat it as an encouraging early signal rather than a settled reputation. The firm closed a new funding round with Andromeda Capital Partners in July 2026, a useful data point on financial backing for a firm only two years old. Rules and drawdown terms are customizable at checkout rather than fixed, so confirm your specific configuration before buying, and start with one account given the limited review history.",
     "officialUrl": "https://tradersyard.com",
     "payMethods": [
       "Cards",
@@ -2137,7 +2138,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 2,
     "platforms": [
@@ -2162,6 +2162,7 @@
     "sizes": "$50K–$200K",
     "model": "Day Programs, Legacy Programs",
     "source": "Third-party reviews, Aug 2026",
+    "review": "UProfit is a US-based futures firm that's been operating since 2019 — a genuinely long track record for this space — offering up to $300K in virtual buying power, funding after 4 winning days, and a free NinjaTrader platform. The subscription model ($39–$196/month depending on size) plus a $150 one-time activation fee once you go live is a different cost structure than most one-time-fee futures firms, and a 30% consistency rule caps how much evaluation profit can come from a single day. The main flag: in May 2026, Trustpilot cited UProfit for a guidelines breach and removed a batch of fake reviews. Before that action the visible score was a strong 4.8/5 from roughly 6,000 reviews — but with fake reviews confirmed in the mix, that historical number is no longer a reliable read on current service quality. Seven years in business is a real point in UProfit's favor; confirm recent trader experience directly rather than leaning on the pre-flag Trustpilot number.",
     "officialUrl": "https://uprofit.com",
     "payMethods": [
       "Cards"
@@ -2190,7 +2191,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 7,
     "platforms": [
@@ -2372,6 +2372,7 @@
     "sizes": "$25K–$150K",
     "model": "Evaluation, Funded Direct, Ultra, Lite",
     "source": "Third-party reviews, Aug 2026",
+    "review": "Halcyon Trader Funding is a Detroit-based futures firm that launched in January 2025, running four tracks — Evaluation, Funded Direct, Ultra and Lite — through broker partner Ironbeam, with Rithmic, Quantower and TradingView also supported. Two rules stand out as genuinely trader-friendly for a firm this new: no daily loss limit on the base Evaluation track, and a 100% profit split on the Ultra (mini-contract) tier. Eval and Funded Direct also charge one-time fees rather than subscriptions, and payouts run every 10 trading days via Plaid, ACH or Wire. The caveat is verification: Halcyon has no confirmed Trustpilot profile as of August 2026, and its own site is JS-rendered in a way that didn't expose a static pricing table on our last check, so the pricing tracked here is sourced from third-party review sites rather than confirmed directly. With about a year and a half of operating history and no independent reputation data yet, treat Halcyon as promising but unproven — verify pricing and rules directly before funding.",
     "officialUrl": "https://halcyontraderfunding.com",
     "payMethods": [
       "Cards"
@@ -2401,7 +2402,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 1,
     "platforms": [
@@ -2825,6 +2825,7 @@
     "sizes": "$25K–$100K",
     "model": "1-Step Evaluation",
     "source": "Third-party reviews, Aug 2026",
+    "review": "Vanta Trading is the newest and most unusual firm we track: a decentralized, blockchain-based evaluation platform launched in 2026 by Taoshi, the team behind Bittensor Subnet 8. The pitch is a single 1-Step evaluation with a 100% profit split and blockchain-verifiable performance and payouts — a genuinely different transparency model than the dashboard-based reporting most firms use, with scaling potential reported up to $2.5M for top performers per company statements. Everything else about Vanta is early: it launched in 2026, carries only 13 Trustpilot reviews (rated 4.5, too small a sample to be meaningful), and isn't yet listed or verified by the major prop-firm aggregators traders normally cross-check against. Rules beyond the 8% profit target — drawdown limits, daily loss, payout timing — aren't clearly published yet, and everything trades in a simulated environment rather than live markets or customer funds. An interesting concept worth watching, but confirm the actual rulebook directly before risking a $199–$549 entry fee on it.",
     "officialUrl": "https://www.vantatrading.io",
     "payMethods": [
       "Crypto"
@@ -2852,7 +2853,6 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
     "promoActive": false,
     "yearsInOperation": 1,
     "platforms": [
