@@ -62,16 +62,25 @@ export default async function BlogIndex() {
       "@type": "Organization",
       name: "Propfundsy",
       url: SITE_URL,
-      logo: `${SITE_URL}/logo.png`,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+      },
     },
-    blogPost: uniquePosts.slice(0, 6).map((p) => ({
-      "@type": "BlogPosting",
-      headline: p.title,
-      description: p.description,
-      datePublished: p.date,
-      author: { "@type": "Person", name: p.author || "Propfundsy" },
-      url: `${SITE_URL}/blog/${p.slug}`,
-    })),
+    blogPost: uniquePosts.slice(0, 6).map((p) => {
+      const authorName = p.author && p.author.trim() ? p.author.trim() : "Propfundsy";
+      return {
+        "@type": "BlogPosting",
+        headline: p.title,
+        description: p.description,
+        datePublished: p.date,
+        author: {
+          "@type": authorName === "Propfundsy" ? "Organization" : "Person",
+          name: authorName,
+        },
+        url: `${SITE_URL}/blog/${p.slug}`,
+      };
+    }),
   };
 
   return (

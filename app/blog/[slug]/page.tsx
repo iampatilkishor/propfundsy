@@ -45,6 +45,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const next = idx > 0 ? allPosts[idx - 1] : null;
   const prev = idx < allPosts.length - 1 ? allPosts[idx + 1] : null;
 
+  const authorName = p.author && p.author.trim() ? p.author.trim() : "Propfundsy";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -52,11 +54,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     description: p.description,
     datePublished: p.date,
     dateModified: p.updated ?? p.date,
-    author: { "@type": "Person", name: p.author ?? "Propfundsy" },
+    author: {
+      "@type": authorName === "Propfundsy" ? "Organization" : "Person",
+      name: authorName,
+    },
     publisher: {
       "@type": "Organization",
       name: "Propfundsy",
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+      },
     },
   };
 
