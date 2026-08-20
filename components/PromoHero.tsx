@@ -14,7 +14,7 @@ export default function PromoHero() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  const autoScrollRef = useRef<NodeJS.Timeout>();
+  const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
 
   if (promos.length === 0) return null;
 
