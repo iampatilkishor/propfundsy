@@ -142,8 +142,16 @@ export default async function FirmPage({ params }: { params: Promise<{ slug: str
               "@type": "Review",
               "@id": `${firmUrl(f)}#review`,
               itemReviewed: { "@type": "Organization", name: f.name, url: f.officialUrl },
-              author: { "@id": `${SITE_URL}/#org` },
-              publisher: { "@id": `${SITE_URL}/#org` },
+              author: {
+                "@type": "Organization",
+                name: "Propfundsy",
+                url: SITE_URL,
+              },
+              publisher: {
+                "@type": "Organization",
+                name: "Propfundsy",
+                url: SITE_URL,
+              },
               reviewBody: f.review,
             },
           ]
