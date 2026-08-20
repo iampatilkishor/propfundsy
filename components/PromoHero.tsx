@@ -35,7 +35,11 @@ export default function PromoHero() {
       });
     }, 5000);
 
-    return () => clearInterval(autoScrollRef.current);
+    return () => {
+      if (autoScrollRef.current !== null) {
+        clearInterval(autoScrollRef.current);
+      }
+    };
   }, [isHovering, promos.length]);
 
   const scrollToCard = (index: number) => {
