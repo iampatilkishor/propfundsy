@@ -100,6 +100,7 @@ export default function Nav() {
           <Link href="/blog/trading-journal-guide" onClick={() => setMenuOpen(false)}>Journal</Link>
           <Link href="/how-to-verify" onClick={() => setMenuOpen(false)}>Verify</Link>
           <Link href="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
+          <Link href="/learn-trading" onClick={() => setMenuOpen(false)}>Learn</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
 
           <div className="nav-search">
