@@ -15,7 +15,7 @@
     "from": "€79",
     "sizes": "$10K–$200K",
     "model": "1-Step & 2-Step",
-    "source": "Official site (ftmo.com), Jul 2026",
+    "source": "Official site (ftmo.com), Oct 2026",
     "officialUrl": "https://ftmo.com",
     "payMethods": [
       "Visa",
@@ -51,12 +51,16 @@
       [
         "Completed acquisition of regulated broker OANDA from CVC, Dec 2025",
         "pos"
+      ],
+      [
+        "Current promo: 20% off $100K 1-Step Challenge (no code needed)",
+        "pos"
       ]
     ],
     "affiliateUrl": null,
     "discountCode": null,
     "review": "FTMO remains the reference point the rest of the industry is measured against. The numbers that matter: a 90% split from day one on the 1-Step, a fully refunded fee on the 2-Step, and a decade-long payout record - $650M+ paid since 2015. The trade-off is discipline: the 1-Step carries an EOD-trailing drawdown and a best-day rule, and Standard accounts face news and weekend restrictions once funded (choose the Swing account type to remove both). In December 2025, FTMO completed its acquisition of OANDA — one of the oldest regulated forex brokers globally — from CVC Capital Partners, making FTMO the parent of a licensed brokerage rather than just a challenge provider. Pricing is mid-market, but you are paying for the firm least likely to change the rules under you.",
-    "promoActive": false,
+    "promoActive": true,
     "yearsInOperation": 11,
     "platforms": [
       "MT5",
@@ -427,8 +431,8 @@
     "split": "80–90%",
     "from": "$65/mo",
     "sizes": "$50K–$150K",
-    "model": "Core, Rapid, Pro",
-    "source": "Third-party reviews, Jul 2026",
+    "model": "Core, Rapid, Pro, Flex, Builder",
+    "source": "Third-party reviews + help.myfundedfutures.com, Oct 2026",
     "officialUrl": "https://myfundedfutures.com",
     "payMethods": [
       "Cards"
@@ -453,6 +457,10 @@
       ],
       [
         "Prices beyond $50K estimated",
+        ""
+      ],
+      [
+        "Flex and Builder plans confirmed live on official help docs — not yet itemized in plan table",
         ""
       ]
     ],
@@ -506,6 +514,10 @@
       ],
       [
         "30% consistency rule",
+        ""
+      ],
+      [
+        "Review sites report a May 2026 \"TradeDay 2.0\" restructuring (Quick Pay / Fast Pass tracks, new Funded Live account) — not yet reflected in this plan table, needs official-site confirmation",
         ""
       ]
     ],
@@ -902,9 +914,9 @@
     "country": "Australia"
   },
   {
-    "source": "Official site (tradeify.co), Aug 2026",
+    "source": "Official site (tradeify.co), Oct 2026",
     "affiliateUrl": null,
-    "discountCode": "AUG",
+    "discountCode": null,
     "id": "tfy",
     "trustScore": 4.8,
     "trustReviewCount": null,
@@ -952,12 +964,12 @@
         ""
       ],
       [
-        "Time-limited code AUG: 40% off (5 uses), then 30% off, ends 31 Aug 2026",
+        "Rotating time-limited promo codes (~30-40% off) — exact current code unconfirmed, check site",
         ""
       ]
     ],
-    "review": "Tradeify has grown quickly since its 2024 launch by leaning hard into two things: payout speed and rule simplicity. All three account tracks - Growth (pass in 1 day), Select (pass in 3 days, daily payouts once funded) and Lightning (instant funding, no evaluation) - use an end-of-day trailing drawdown rather than an intraday one, which the firm markets as eliminating \"intraday traps.\" Pricing is a one-time payment with no activation fee: a $25K Growth evaluation lists at $99, Select at $109, and a $25K Lightning (instant) account at $345, though a limited-time code (AUG, 40% off first 5 uses then 30% off, expiring 31 Aug 2026) cuts those meaningfully at checkout. Growth carries no consistency rule but a modest daily loss limit; Select drops the daily loss limit but adds a 40% consistency requirement; Lightning funded accounts carry a 20% consistency rule and a capped first-payout amount. The flat 90/10 split applies across all three. Tradeify reports over $250 million in verified payouts and a 0% payout-denial rate, with a 4.8 Trustpilot rating - strong numbers for a firm this young, though the multiple account types and reset-fee structure are worth reading closely before choosing a track.",
-    "promoActive": true,
+    "review": "Tradeify has grown quickly since its 2024 launch by leaning hard into two things: payout speed and rule simplicity. All three account tracks - Growth (pass in 1 day), Select (pass in 3 days, daily payouts once funded) and Lightning (instant funding, no evaluation) - use an end-of-day trailing drawdown rather than an intraday one, which the firm markets as eliminating \"intraday traps.\" Pricing is a one-time payment with no activation fee: a $25K Growth evaluation lists at $99, Select at $109, and a $25K Lightning (instant) account at $345, though Tradeify runs frequent rotating promo codes (historically 30-40% off) that cut those meaningfully at checkout - check the site for the current code. Growth carries no consistency rule but a modest daily loss limit; Select drops the daily loss limit but adds a 40% consistency requirement; Lightning funded accounts carry a 20% consistency rule and a capped first-payout amount. The flat 90/10 split applies across all three. Tradeify reports over $250 million in verified payouts and a 0% payout-denial rate, with a 4.8 Trustpilot rating - strong numbers for a firm this young, though the multiple account types and reset-fee structure are worth reading closely before choosing a track.",
+    "promoActive": false,
     "yearsInOperation": 2,
     "platforms": [
       "NinjaTrader"
@@ -3065,6 +3077,10 @@
       [
         "Young firm, founded 2023 — short track record",
         ""
+      ],
+      [
+        "Multiple review sites report Oct 2026 rule relaxation (removed profit-concentration, stop-loss-timing and margin caps) — not yet confirmed on official site",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -3187,5 +3203,291 @@
       "MT5"
     ],
     "country": "Canada"
+  },
+  {
+    "id": "pipfarm",
+    "name": "PipFarm",
+    "cat": "forex",
+    "color": "#0ea5e9",
+    "featured": false,
+    "desc": "cTrader-only firm with an XP loyalty system that scales your profit split from 70% up to 99% as you build a track record.",
+    "split": "70-99%",
+    "from": "$40",
+    "sizes": "$2.5K–$300K",
+    "model": "1-Step & 2-Step",
+    "source": "Third-party reviews, Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://pipfarm.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "XP loyalty system — profit split scales 70% up to 99%",
+        "pos"
+      ],
+      [
+        "cTrader only — no MT4/MT5",
+        ""
+      ],
+      [
+        "Bi-weekly or weekly payout add-ons available for a fee",
+        ""
+      ],
+      [
+        "3% daily loss limit enforced in real time, not end-of-day",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "trustScore": 4.0,
+    "trustReviewCount": 375,
+    "trustBand": "Great",
+    "trustFlag": "ok",
+    "trustNote": "17% one-star reviews within an otherwise mostly-positive (74% five-star) distribution as of Jul 2026 — worth checking recent reviews before committing.",
+    "promoActive": false,
+    "yearsInOperation": 3,
+    "platforms": [
+      "cTrader"
+    ],
+    "country": "Singapore"
+  },
+  {
+    "id": "orion",
+    "name": "Orion Funded",
+    "cat": "forex",
+    "color": "#a855f7",
+    "featured": false,
+    "desc": "Dubai-based firm with five challenge tracks, including a pay-after-you-pass Nova option, and an 80% funded split.",
+    "split": "80%",
+    "from": "$39",
+    "sizes": "$5K–$200K",
+    "model": "1-Step, 2-Step, 3-Step, Instant (Nova)",
+    "source": "Third-party reviews, Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://orionfunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Nova track defers most of the fee until after you pass",
+        "pos"
+      ],
+      [
+        "Bi-weekly payouts",
+        "pos"
+      ],
+      [
+        "30% best-day rule caps profit concentration on 1-Step/2-Step",
+        ""
+      ],
+      [
+        "Multiple trader reports of payout denials citing vague 'coordinated trading' rule violations on larger withdrawals",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "trustScore": 4.5,
+    "trustReviewCount": 1700,
+    "trustBand": "Excellent",
+    "trustFlag": "caution",
+    "trustNote": "High headline Trustpilot score, but multiple independent trader reports describe payout denials on larger withdrawals citing vague 'coordinated trading' violations — worth independent verification before relying on the score alone.",
+    "promoActive": false,
+    "yearsInOperation": 3,
+    "platforms": [
+      "MT5",
+      "MatchTrader"
+    ],
+    "country": "UAE"
+  },
+  {
+    "id": "fundingtraders",
+    "name": "Funding Traders",
+    "cat": "forex",
+    "color": "#f472b6",
+    "featured": false,
+    "desc": "Multi-jurisdiction firm offering Instant, 1-Step and 2-Step paths, with a 48-business-hour payout guarantee backed by a $1,000 penalty.",
+    "split": "up to 100%",
+    "from": "$50",
+    "sizes": "$5K–$400K",
+    "model": "Instant, 1-Step Pro, 2-Step Pro6/Pro10",
+    "source": "Third-party reviews, Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://fundingtraders.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Payout guarantee: paid within 48 business hours or firm owes you $1,000",
+        "pos"
+      ],
+      [
+        "Up to 100% profit share advertised on some tracks",
+        "pos"
+      ],
+      [
+        "Multiple corporate registrations reported across sources (US, UAE, Hong Kong)",
+        ""
+      ],
+      [
+        "Trustpilot score conflicts wildly across sources (3.0-4.5) — likely confusion with similarly-named firms",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "trustScore": null,
+    "trustReviewCount": null,
+    "trustBand": null,
+    "trustFlag": "caution",
+    "trustNote": "Trustpilot figures reported for this firm vary wildly across sources (3.0 to 4.5) and may reflect confusion with similarly-named firms (Funded Trader, Funded Traders Global, etc.) — not reliable enough to list a single number.",
+    "promoActive": false,
+    "yearsInOperation": 3,
+    "platforms": [
+      "MT5",
+      "TradeLocker"
+    ],
+    "country": "UAE / Hong Kong (multiple registrations reported)"
+  },
+  {
+    "id": "moneta",
+    "name": "Moneta Funded",
+    "cat": "forex",
+    "color": "#10b981",
+    "featured": false,
+    "desc": "Broker-backed by Moneta Markets (ASIC/FCA-regulated), with five challenge types and a flat 88% split across all of them.",
+    "split": "88%",
+    "from": "$30",
+    "sizes": "$5K–$200K",
+    "model": "1-Step, 2-Step, Instant, Phoenix, Sprint",
+    "source": "Third-party reviews, Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://monetafunded.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Bank transfer"
+    ],
+    "tags": [
+      [
+        "Broker-backed by Moneta Markets — institutional backing rare among challenge-only firms",
+        "pos"
+      ],
+      [
+        "Flat 88% split across every account type",
+        "pos"
+      ],
+      [
+        "Phoenix challenge includes one free retry on failure",
+        "pos"
+      ],
+      [
+        "Launched 2026 — very short track record",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "trustScore": 4.5,
+    "trustReviewCount": 269,
+    "trustBand": "Excellent",
+    "trustFlag": "ok",
+    "trustNote": "Small, early review base (269) for a firm launched in 2026 — short track record despite the strong early score; some trader reports of delayed payouts and account blocks after milestones.",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "platforms": [
+      "MT5"
+    ],
+    "country": "Australia (Moneta Markets)"
+  },
+  {
+    "id": "everfunded",
+    "name": "EverFunded",
+    "cat": "forex",
+    "color": "#dc2626",
+    "featured": false,
+    "desc": "Saint Lucia-registered firm launched in 2026 with a $7.77 deferred-fee Flash challenge plus 1-Step, 2-Step and Instant routes.",
+    "split": "80-90%",
+    "from": "$7.77",
+    "sizes": "$5K–$200K",
+    "model": "1-Step, 2-Step, Flash 7.77, Instant",
+    "source": "Third-party reviews, Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://everfunded.com",
+    "payMethods": [
+      "Cards",
+      "Crypto"
+    ],
+    "payoutMethods": [
+      "Crypto"
+    ],
+    "tags": [
+      [
+        "Flash 7.77 challenge: $7.77 upfront, balance due only if you pass",
+        "pos"
+      ],
+      [
+        "90% split advertised on Instant accounts",
+        "pos"
+      ],
+      [
+        "Registered 2026 in Saint Lucia — brand-new, no payout track record",
+        ""
+      ],
+      [
+        "Graded D (high risk) by at least one independent prop-firm tracker (PropFirmMap)",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": null,
+    "trustScore": null,
+    "trustReviewCount": null,
+    "trustBand": null,
+    "trustFlag": "unrated",
+    "trustNote": "Too new (launched 2026) to have a stable Trustpilot presence; an independent tracker (PropFirmMap) scores it Grade D — treat with real caution until a payout track record exists.",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "country": "Saint Lucia"
   }
 ]
