@@ -42,7 +42,7 @@ export default function FirmComparison({ firm1, firm2 }: { firm1: Firm; firm2: F
     if (key === "discountCode") return firm.discountCode || "—";
     if (key === "yearsInOperation") return `${firm.yearsInOperation} years`;
     if (key === "country") return firm.country;
-    if (key === "platforms") return firm.platforms.join(", ");
+    if (key === "platforms") return firm.platforms?.length ? firm.platforms.join(", ") : "Being verified";
     if (key === "cheapestPlan") {
       const c = cheapestPlan(firm.id);
       return c ? `${c.priceLabel} (${c.sizeLabel})` : "Being verified";

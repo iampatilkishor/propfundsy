@@ -353,7 +353,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Topstep is the original futures prop firm — 15+ years in, $1.5B+ paid out, and a 99.26% payout approval rate it advertises prominently. The Trading Combine is subscription-based ($49-$199/month by size) with a flat 90/10 split on qualifying payouts and a single 'One Rule' max-loss limit that replaced the old daily-loss-plus-trailing-drawdown structure — simpler to track, though it also means there's no separate daily circuit breaker. An optional 'Responsible Trading Advantage' toggle doubles your payout caps for a small monthly add-on. Getting funded requires hitting the profit target without breaching the One Rule and clearing a 50% consistency target; payouts are capped at 50% of account balance per request, up to $12,000 on the $150K tier. Reset fees and a $149 Express Funded activation fee apply on top of the subscription. Worth knowing before signing up: a federal lawsuit filed in 2026 accuses Topstep of retroactively tightening rules on its Live Program and trapping earned capital behind near-impossible reserve requirements, and trader communities reported payout caps were cut roughly 50-60% in April 2026. Topstep hasn't addressed either publicly on its own site as of this writing — worth independently checking court records and recent trader reports before committing capital. Separately, Topstep disclosed a data breach to the Illinois and Texas Attorneys General on August 4, 2026, reportedly involving names, Social Security numbers, dates of birth and medical information — worth watching for a customer notification and considering a credit freeze if you're an affected user.",
+    "review": "Topstep is the original futures prop firm - 15+ years in, $1.5B+ paid out, and a 99.26% payout approval rate it advertises prominently. The subscription-based Trading Combine ($49-$199/month by size) uses a flat 90/10 split and a single 'One Rule' max-loss limit that replaced the old daily-loss-plus-trailing-drawdown structure - simpler to track, though there's no separate daily circuit breaker. Getting funded requires hitting the profit target without breaching that rule and clearing a 50% consistency target; payouts are capped at 50% of balance per request, up to $12,000 on the largest tier, with a $149 activation fee and reset fees on top. Two things worth researching independently before funding an account: a 2026 federal lawsuit accuses Topstep of retroactively tightening Live Program rules and cutting payout caps roughly 50-60% in April 2026, and Topstep has disclosed multiple data-security incidents to state attorneys general since late 2025 - reporting differs on exact dates and scope, and Topstep itself has attributed at least one incident to traders reusing passwords exposed in breaches elsewhere rather than a breach of its own systems.",
     "promoActive": false,
     "yearsInOperation": 15,
     "platforms": [
@@ -1388,6 +1388,10 @@
       [
         "Instant option carries a pricing premium",
         ""
+      ],
+      [
+        "Paused new US-trader applications on MT4/MT5 in 2026 while migrating US accounts to DXtrade — existing clients unaffected, confirm current status if applying from the US",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -1765,6 +1769,10 @@
       ],
       [
         "Prices being verified",
+        ""
+      ],
+      [
+        "New orders paused Oct 2026 while MT5 accounts migrate to TradeLocker — confirm status before signing up",
         ""
       ]
     ],
@@ -2530,7 +2538,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": "QT",
-    "review": "QT Funded (Quant Tekel) runs a deep, always-on discount model: every evaluation on the site shows a striked-through list price next to a 55%-off price that's auto-applied at checkout with code QT, plus a free half-size Instant account thrown in. A $5K 2-Step challenge lists at $33 but rings up at $15; a $10K Instant account goes from $106 to $48. The core lineup is 2-Step, 2-Step Elite, a pay-when-funded 1-Step, Instant, and Power, all running on MT5 or TradeLocker with accounts up to $200K (combinable to $400K). The base split is 80%, with a 10% boost to 90% available as a free add-on at checkout rather than something you have to earn. Evaluation accounts carry a \"Profit Cap\" (5% of the target on 2-Step) that caps how much of your profit can come from a single trade or session — a consistency rule by another name. Contractually, QTFunded.com trades through Quant Tekel SVG, an offshore entity in St. Vincent and the Grenadines, with a separate regulated brokerage arm (Quant Tekel Pty Ltd, FSCA-licensed) serving Africa and Asia only — the funded-trading side itself carries no regulatory oversight. Reset fees apply if you fail and want to retry a challenge at the same size.",
+    "review": "QT Funded (Quant Tekel, UK-registered, Companies House #15202495) runs a deep, always-on discount model - a $5K 2-Step challenge lists at $33 but rings up at $15 with code QT auto-applied, plus a free half-size Instant account and a 10% split boost to 90% thrown in free at checkout. The core lineup (2-Step, 2-Step Elite, 1-Step, Instant, Power) runs on MT5/TradeLocker up to $200K, and the firm reports $16M+ paid since 2023. That said, 2026 has brought a documented payout-rejection pattern: traders report mandatory risk interviews scheduled weeks out, accounts frozen in the meantime, and QT Funded citing a 'risk tool outage' since January for delays - one trader reported two confirmed $3,243 payout requests still unpaid after 90+ days. QT Funded was reportedly delisted from PropFirmMatch in 2026, and at least one review tracker shows its Trustpilot score collapsing to 2.5/5 from just 4 reviews, all one-star - a sharp contrast to the thousands of reviews this firm had previously accumulated. Treat current payout claims with real caution until this resolves.",
     "promoActive": true,
     "yearsInOperation": 4,
     "platforms": [
@@ -2591,7 +2599,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "NYS Markets is a CFD prop firm built around a low entry price and a standing quantity promo: buy 2 accounts and get 2 more of the same size free, on top of per-account prices that are already discounted by half or more (a $10K 2-Step evaluation lists at $79 but is shown at $39). The lineup runs four paths — Instant (skip evaluation entirely), Flash (lower entry, quick evaluation), One Trade (pass in a single day), and the standard 2-Step — with accounts scaling to $200K. Evaluation accounts carry no consistency rule, unlimited trading period, and no minimum trading days, but Instant funded accounts add a 15% consistency rule and cap the first payout ($1,000-$4,000 depending on size). The profit split is a flat 80/20 on every path confirmed on the pricing page; third-party sources describe a scaling path to 90-100% with consistent payouts, but that isn't shown on the official pricing tables and should be treated as unconfirmed. Payment administration reportedly runs through a Hong Kong entity per third-party reviews - worth confirming directly with support before funding an account, since NYS Markets is a newer name without a long public track record. Trust event to weigh: at least one independent prop-firm tracker (ThePropFirmGuide) delisted NYS Markets in July 2026, citing a livestreamed relaunch where promised free accounts were substituted with pass-now-pay-later accounts and describing management as increasingly evasive afterward. We haven't independently confirmed this beyond the tracker's public writeup and Trustpilot complaint patterns — worth checking current trader sentiment before funding.",
+    "review": "NYS Markets is a CFD prop firm (payment administration reportedly routed through a Hong Kong entity, per third-party reporting) built around a low entry price and a standing quantity promo: buy 2 accounts, get 2 more of the same size free, on top of per-account prices already discounted by half or more (a $10K 2-Step lists at $79 but sells at $39). Four paths - Instant, Flash, One Trade, and standard 2-Step - scale to $200K. Evaluation accounts carry no consistency rule and unlimited trading time; Instant funded accounts add a 15% consistency rule and cap the first payout. Pricing pages confirm a flat 80/20 split; third-party claims of scaling to 90-100% aren't shown on official pages and should be treated as unconfirmed. The firm is young (2 years) with no long public track record. The one development worth weighing seriously: ThePropFirmGuide delisted NYS Markets in July 2026 after a livestreamed relaunch substituted promised free accounts with pass-now-pay-later ones, and multiple Trustpilot reviewers independently describe the same bait-and-switch - worth checking recent trader sentiment before funding.",
     "promoActive": true,
     "yearsInOperation": 2,
     "platforms": [
@@ -3249,8 +3257,8 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
-    "trustScore": 4.0,
+    "review": "PipFarm is a Singapore-based, cTrader-only firm (founded 2023) built around an XP loyalty system: every trader starts at a 70% profit split and climbs through ranks as they log payouts and pass challenges, reaching up to 99% at the top tier - plus faster payouts and bigger scaling increments along the way. The daily loss limit (3%) is enforced in real time rather than at end-of-day, a stricter standard than most competitors. Payout cadence is inconsistently described across sources - our own data shows a 30-day cycle with paid weekly/bi-weekly add-ons, while some third-party trackers describe weekly payouts by default; worth confirming directly before relying on either. The firm reports $4M+ paid to 1,000+ traders and carries a 4.0/5 Trustpilot score from roughly 375-380 reviews, with about 17% one-star ratings in an otherwise mostly positive (74%+ five-star) spread - read recent reviews rather than the headline number alone. As a cTrader-exclusive shop, it won't suit traders tied to MT4/MT5.",
+    "trustScore": 4,
     "trustReviewCount": 375,
     "trustBand": "Great",
     "trustFlag": "ok",
@@ -3307,7 +3315,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
+    "review": "Orion Funded is a Dubai-based CFD firm (founded 2023) running 1-Step, 2-Step, 3-Step and an Instant 'Nova' track that defers most of the fee until after you pass - Nova lists from $7 upfront with $69-$1,099 due only on a pass. The flat 80% split applies across tracks, and the firm backs a 48-business-hour payout guarantee with a real penalty if missed: a 100% split on that cycle plus a full fee refund. Trustpilot sits around 4.5-4.6/5 from roughly 1,700 reviews - strong on paper, but multiple independent trader reports describe payout denials on larger withdrawals citing vague 'coordinated trading' rule violations, a pattern worth weighing against the high headline score before funding a large account. A 30% best-day rule caps how much of your evaluation profit can come from a single day. Third-party sites credit Orion with 2025/2024 'best prop firm' recognitions - nice extras, but the payout-denial pattern is the detail to verify first.",
     "trustScore": 4.5,
     "trustReviewCount": 1700,
     "trustBand": "Excellent",
@@ -3366,7 +3374,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
+    "review": "Funding Traders is a newly tracked firm with reportedly overlapping corporate registrations across the US, UAE and Hong Kong - worth confirming which entity you'd actually be contracting with before funding. Its headline feature is a real payout guarantee: paid within 48 business hours or the firm owes you $1,000, across Instant, 1-Step, and 2-Step Pro6/Pro10 tracks on MT5/TradeLocker, with profit splits advertised up to 100% on some tiers (tiered, not flat). Payout cycles run every 21 days on evaluation-based accounts (14-day add-on available) and 14 days on Instant. The firm claims over 53,000 funded accounts and $4.7M+ paid out as of mid-2026. Trustpilot figures are genuinely unreliable here: some trackers show 4.0/5 from 3,400+ reviews, others report figures as low as 3.0, which likely partly reflects confusion with similarly-named firms (Funded Trader, Funded Traders Global). Treat any single aggregate score with real skepticism until you've confirmed you're looking at reviews for this specific entity.",
     "trustScore": null,
     "trustReviewCount": null,
     "trustBand": null,
@@ -3423,7 +3431,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
+    "review": "Moneta Funded launched in late 2025 as the prop-trading arm of Moneta Markets, an ASIC/FCA-regulated broker with a decade-plus track record - real institutional backing that's unusual among challenge-only firms. Every account type shares a flat 88% split, five challenge paths run on MT5/Match-Trader, and the Phoenix challenge includes one free retry if you fail. Payouts run on a 14-calendar-day cycle with 1-2 business days processing, paid via bank transfer, Rise, USDT/USDC, or moved directly to a live Moneta Markets account. Trustpilot sits around 4.5/5 from a still-small 269 reviews - a strong early signal but a short one, since the firm itself is barely a year old. Some early trader reports describe delayed payouts and account blocks triggered after hitting milestones; worth weighing against the broker-backed credibility until a longer payout history accumulates. The Moneta Markets relationship is the main differentiator here - most of this firm's trust case rests on the parent broker's reputation rather than its own, still-developing one.",
     "trustScore": 4.5,
     "trustReviewCount": 269,
     "trustBand": "Excellent",
@@ -3480,7 +3488,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": null,
+    "review": "EverFunded is a Saint Lucia-registered firm that launched in 2026, with no payout track record yet and no stable Trustpilot presence - independent tracker PropFirmMap grades it D, its lowest safety tier, pending a longer history. The headline offer, Flash 7.77, is a $10K 1-Step account advertised as $7.77 upfront, but that figure is only the entry fee: a further activation charge brings the real all-in cost to roughly $80 on the $10K size, scaling up toward $1,100 on larger accounts - read the full price before assuming $7.77 is what you'll pay. Splits run 80-90% depending on route (1-Step, 2-Step, Flash 7.77, and Instant), with a 5% profit target and 3% daily loss limit on the Flash route specifically. To the firm's credit, independent reviewers note its pricing disclosure is clearer than many comparable startups once you read past the headline number. Given the D grade and zero track record, this is a firm to watch rather than fund heavily into right now.",
     "trustScore": null,
     "trustReviewCount": null,
     "trustBand": null,
