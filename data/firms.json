@@ -171,7 +171,7 @@
     ],
     "affiliateUrl": "https://www.the5ers.com/?afmc=1e31",
     "discountCode": "MZDXS0",
-    "review": "The5ers has built its reputation on paying out without drama - 262K funded traders and a 10-year record back that up. The program menu is broad: instant funding (Hyper Growth), the flagship High-Stakes 2-step, and a Bootcamp route where most of the fee is only due after you pass. Static drawdowns across programs make risk math simpler than trailing-drawdown competitors. Splits start lower than rivals (50-75% on some routes) but scale with account growth, and the $4M scaling ceiling is among the highest anywhere.",
+    "review": "The5ers has built its reputation on paying out without drama. It was founded in 2016, reports 262K funded traders, and holds a 4.9 Trustpilot score from about 22,000 reviews, which is the largest review base in our dataset. The program menu is broad: Hyper Growth is an instant-funding route that starts at 50% and rises toward 100% as the account doubles, alongside High-Stakes, 1-Step and Bootcamp options. Bootcamp lets you defer most of the fee until you pass. Drawdowns on the Hyper Growth plans we track are static, which makes risk planning simpler than with trailing-drawdown competitors, and EAs are allowed. Payouts on those plans run on a roughly bi-weekly cycle. Splits begin lower than rivals offering 80-90% from day one, so cost-focused traders may prefer elsewhere. The upside is scaling up to $4M and a track record few newer firms can match. Our plan data is still marked unverified, so confirm current pricing before buying.",
     "promoActive": true,
     "yearsInOperation": 10,
     "platforms": [
@@ -279,6 +279,10 @@
       ],
       [
         "Split add-ons to 100%",
+        ""
+      ],
+      [
+        "Oct 2026: max payouts per account cut from 5 to 4 for accounts bought from 1 Oct (earlier accounts keep 5)",
         ""
       ]
     ],
@@ -2657,7 +2661,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Upcomers is a newer CFD prop firm — launched late 2024 out of Dubai (legal entity Royal Flow FZCO), with additional offices in Prague and Miami. Its pricing page runs a permanent-looking 90%-off display on every challenge with no code required: a $5K 1-Step challenge lists at $175 but shows at $17.50, and a $10K 2-Step challenge goes from $285 to $28.50. The lineup spans Instant (Oracle/Vanguard/Ember), Instant 24, 1-Step (Ash/Thunderbolt/Ignite), 2-Step (Phoenix Classic/Surge/Phoenix Legacy) and 3+ Step paths, scaling to $1.5M, plus a newly launched Futures track. Profit split defaults to 90% but is adjustable up or down directly on the pricing card before checkout — an unusual level of control for this price tier. Rules are relatively light: unlimited time limits across the board, no profit target on Instant accounts, and daily/max drawdowns in the 3-10% range depending on path and size. The firm reports $8.5M+ paid to traders, 80,000+ funded accounts, a 99% payout approval rate, and an average payout turnaround of about 12 hours — solid early numbers, though modest next to firms with a decade-plus track record. As a firm not yet two years old, it's worth treating the aggressive discount pricing and payout claims with normal new-firm caution until a longer public history builds up.",
+    "review": "Upcomers is a newer CFD prop firm, launched in late 2024 and headquartered in Dubai. It is best known for aggressive pricing: every challenge is shown at 90% off with no code needed, so a $10K 2-Step lists at $285 but displays at $28.50. Paths include Instant, 1-Step, 2-Step and 3+ Step programs scaling to $1.5M, plus a new futures track. The profit split defaults to 90% and can be adjusted at checkout, which is unusual at this price. Time limits are unlimited, and the plans we track show daily loss limits of 3-4% and maximum drawdowns of 5-7%. The firm claims $8.5M+ paid out, 80,000+ funded traders and roughly 12-hour average payouts; these are its own figures. Trustpilot is a respectable 4.1 from 446 reviews. Given its age, treat the discount and payout claims with normal new-firm caution, and confirm payment and payout methods at checkout before funding an account.",
     "promoActive": true,
     "yearsInOperation": 2,
     "platforms": [
@@ -2924,6 +2928,10 @@
       [
         "30% consistency rule — no single day may exceed 30% of profit target",
         ""
+      ],
+      [
+        "Oct 2026: reset prices raised (50K $99→$129, 100K $109→$199) and $500 minimum payout now applies to all Sim Funded accounts — plan prices not yet re-checked",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -2982,7 +2990,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "OspreyFX is a St. Vincent & the Grenadines-registered firm, founded in 2019, offering a two-step evaluation from $59 for a $5,000 account with a reported 80% split and a fee refund after the first payout. The catch shows up in the reviews: Trustpilot scores sit around 2.2-2.4, with a recurring pattern of payout delays, sudden account restrictions, and slow support responses. It's also crypto-only for both funding and payouts, with a $25 fee on withdrawals under $5,000. Entry price looks attractive next to the mid-market firms, but the trust signals here are weak enough that this listing should be treated as a starting point for your own diligence rather than a recommendation.",
+    "review": "OspreyFX is registered in St. Vincent and the Grenadines and offers a 2-Step evaluation starting at $59 for a $5K account, with a reported 80% split and a fee refund after the first payout. The low entry price is the draw. The trust signals are the problem: Trustpilot scores sit around 2.2-2.4 across sources, which our data rates Poor, with recurring complaints about payout delays, sudden account restrictions and slow support. It is also crypto-only for payments and payouts, and a $25 fee applies to withdrawals under $5,000. Rules we track include 10% maximum drawdown, EAs allowed, and restricted news and weekend trading. All of this comes from third-party sources and is not confirmed on the official site, and the refund is described as reported and unconfirmed. We flag this listing with caution. If you try it, keep the account small, test a withdrawal early, and do not treat the low price as a sign of quality.",
     "promoActive": false,
     "yearsInOperation": 7,
     "platforms": [
@@ -3037,7 +3045,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Fintokei, founded in Brno, Czech Republic in 2022, runs three separate programs: a three-phase StartTrader for newer traders, a two-phase ProTrader (a $50,000 ProTrader challenge runs about $319), and a one-phase SwiftTrader with a 100% split. Splits scale up to 95% on the multi-step tracks and accounts can grow to $4M. Trustpilot backs this up with a 4.5/5 score from over 1,200 reviews, with traders praising fast payouts and clear rules. The one recurring caution in reviews: a handful of traders report accounts closed under the firm's discretionary risk-management clause despite following the published rules. Worth verifying the current risk-management policy directly before committing capital.",
+    "review": "Fintokei is a Czech firm, based in Brno, that runs three programs: StartTrader (three steps), ProTrader (two steps) and SwiftTrader. Accounts range from $5K to $200K, the entry fee starts around $44, and a $50K ProTrader challenge is about $319. Splits start at 50% and climb with the track, up to 95% on the multi-step programs and 100% on SwiftTrader, with scaling toward $4M. Trading is on MT5, and EAs are allowed on the plans we track, though news and weekend trading are restricted. Payouts go by bank transfer or crypto. Trustpilot shows 4.5 from more than 1,200 reviews, a solid base. The recurring caution is discretionary risk-management closures, where some traders report accounts shut despite following published rules. Our rule data comes from third-party reviews and is not yet confirmed on the official site, so read Fintokei's current risk policy and restrictions before committing to a purchase.",
     "promoActive": false,
     "yearsInOperation": 4,
     "platforms": [
@@ -3093,7 +3101,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "TradersLaunch is a 2023-founded futures firm out of Austin, Texas, built around session-based evaluations: pick a cheaper NYC Session (US market hours only) or a pricier 22-Hour Session for more flexibility. Pricing runs $109-$199 depending on session and size, with $100K and $200K accounts on offer. Once funded, there's no monthly fee, no consistency rule, and drawdown is calculated end-of-day rather than intraday-trailing — a meaningfully easier rule set than most futures competitors. Early Trustpilot numbers are strong (around 4.5-5 stars from 65-76 reviews), but with the firm only three years old, that sample is still small. Reasonable to try in size, not yet a firm with the payout history of Topstep or Apex.",
+    "review": "TradersLaunch is a futures firm from Austin, Texas, founded in 2023, built around session-based evaluations. You choose between a cheaper NYC Session, limited to US market hours, and a pricier 22-Hour Session for extra flexibility. Plans we track are monthly, from about $159 for $100K to about $199 for $200K, and platforms are Rithmic and Tradovate. Once funded there is no monthly fee and no consistency rule, and drawdown is calculated end-of-day rather than intraday, which many traders find easier to manage. Splits run up to 80%, with same-day payouts reported. Trustpilot is strong at 4.6 but rests on only 76 reviews, so the sample is small for a young firm. Several review sites also report rule relaxations in October 2026 that are not yet confirmed on the official site, so verify the current rule set before paying. It is reasonable to try with a small account while its payout history builds.",
     "promoActive": false,
     "yearsInOperation": 3,
     "platforms": [
@@ -3203,7 +3211,7 @@
     ],
     "affiliateUrl": null,
     "discountCode": null,
-    "review": "Lark Funding is a Montreal firm founded in June 2022, offering 1-Step, 3-Step, and Instant Funding tracks across $10K-$200K accounts. The standout feature is pricing simplicity: most 1-Step sizes carry a flat $200 one-time fee regardless of account size, an unusual structure compared to firms that scale price steeply with size. Splits run up to 80% on evaluation models and 90% on Instant accounts. Trustpilot reviews are solidly positive at 4.4/5 from 580 reviews, with traders repeatedly citing payouts processed within hours and responsive support. Four years into operation, it's built a decent track record without the scale or name recognition of FTMO or Topstep.",
+    "review": "Lark Funding is a Montreal firm that has operated since 2022, with 1-Step, 3-Step and Instant tracks on accounts from $10K to $200K. Its signature feature is pricing simplicity: most 1-Step sizes carry a flat fee of about $200 regardless of account size, which makes the larger accounts look cheap next to firms whose prices climb steeply. Splits run up to 80% on evaluation plans and 90% on Instant, and both MT4 and MT5 are supported. Traders report fast payouts, with turnaround of roughly six hours cited, paid by bank transfer or crypto. Trustpilot sits at 4.4 from 580 reviews. Two caveats: our rule data is sourced from third-party reviews and is not confirmed on the official site, and news and weekend trading are restricted on the plans we track. EAs are allowed. Check the drawdown details and current fees on the official site before you buy.",
     "promoActive": false,
     "yearsInOperation": 4,
     "platforms": [
@@ -3497,5 +3505,89 @@
     "promoActive": false,
     "yearsInOperation": 1,
     "country": "Saint Lucia"
+  },
+  {
+    "id": "daytraders",
+    "name": "DayTraders.com",
+    "cat": "futures",
+    "color": "#3b82f6",
+    "featured": false,
+    "desc": "Futures prop firm; Oct 2026 raised evaluation account limit from 15 to unlimited. 4.6 Trustpilot score.",
+    "split": "TBD",
+    "from": "TBD",
+    "sizes": "TBD",
+    "model": "Evaluation",
+    "source": "Third-party reviews (Trustpilot), Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://daytraders.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "ACH (US)"
+    ],
+    "tags": [
+      [
+        "Trustpilot 4.6 (506 reviews); some reviewers cite unexpected rule changes",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "DayTraders.com is a futures prop firm we added in October 2026, and our data on it is still thin. Pricing, split, account sizes and plan rules are all marked unconfirmed, so we track no plans for it yet and cannot tell you what an evaluation costs. What we can point to is reputation: a 4.6 Trustpilot score across roughly 500 reviews, which is a healthy base for a futures firm. The firm also reportedly lifted its evaluation account limit from 15 to unlimited in October 2026. That flexibility is useful, but some reviewers mention rule changes they did not expect, so read the current terms carefully before paying. Payments run through cards and payouts via ACH, which suits US traders and may not suit everyone else. Treat this listing as a starting point, check the official site for live pricing and rules, and compare it against better-documented futures firms until we have verified numbers.",
+    "trustScore": 4.6,
+    "trustReviewCount": 506,
+    "trustBand": "Excellent",
+    "trustFlag": "ok",
+    "trustNote": null,
+    "promoActive": false,
+    "yearsInOperation": null,
+    "country": null,
+    "platforms": []
+  },
+  {
+    "id": "pipcy",
+    "name": "Pipcy",
+    "cat": "forex",
+    "color": "#a855f7",
+    "featured": false,
+    "desc": "Forex prop firm with 2-Step Classic/Mastery challenges; 12%/6% targets reported by reviewers.",
+    "split": "TBD",
+    "from": "TBD",
+    "sizes": "TBD",
+    "model": "2-Step",
+    "source": "Third-party reviews (Trustpilot), Oct 2026 — not yet confirmed on official site",
+    "officialUrl": "https://pipcy.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Unconfirmed"
+    ],
+    "tags": [
+      [
+        "Trustpilot 4.2 (67 reviews); disputed funded-account denials reported",
+        ""
+      ],
+      [
+        "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Pipcy is a forex prop firm we added in October 2026, and most of its details are still unverified. We track no plans yet, and pricing, split and payout methods are all marked unconfirmed, so we cannot give you a cost or a profit-share figure. Reviewers describe a 2-Step model with Classic and Mastery challenges, with profit targets reported at 12% and 6%. Those targets are higher than many mainstream 2-step programs, which is worth weighing against the entry price once you check it. Reputation is decent but the sample is small: 4.2 on Trustpilot from 67 reviews. The more important caution is that some traders report disputed funded-account denials, meaning accounts that passed the challenge but were not funded on the firm's terms. Confirm the funding rules on the official site, ask support how denials are handled, and start with the smallest account until payouts are documented.",
+    "trustScore": 4.2,
+    "trustReviewCount": 67,
+    "trustBand": "Great",
+    "trustFlag": "ok",
+    "trustNote": null,
+    "promoActive": false,
+    "yearsInOperation": null,
+    "country": null,
+    "platforms": []
   }
 ]
