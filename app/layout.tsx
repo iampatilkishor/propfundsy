@@ -1,13 +1,24 @@
 import type { Metadata } from "next";
-import { Sora, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { FIRMS, PLANS } from "@/lib/data";
 import { SITE_URL, truncateDesc } from "@/lib/seo";
 
-const sora = Sora({ subsets: ["latin"], variable: "--sora", weight: ["400", "600", "700", "800"] });
-const inter = Inter({ subsets: ["latin"], variable: "--inter", weight: ["400", "500", "600"] });
+// Self-hosted (from @fontsource-variable, OFL) so builds never depend on Google Fonts.
+const sora = localFont({
+  src: "./fonts/sora-latin-wght.woff2",
+  variable: "--sora",
+  weight: "100 800",
+  display: "swap",
+});
+const inter = localFont({
+  src: "./fonts/inter-latin-wght.woff2",
+  variable: "--inter",
+  weight: "100 900",
+  display: "swap",
+});
 
 const firmCount = FIRMS.length;
 const planCount = PLANS.length;
