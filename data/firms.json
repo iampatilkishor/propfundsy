@@ -55,6 +55,10 @@
       [
         "Current promo: 20% off $100K 1-Step Challenge (no code needed)",
         "pos"
+      ],
+      [
+        "Nov 5, 2026: FTMO Futures Growth 100K/150K end-of-day drawdown cut ($3,500→$3,000 and $5,000→$4,500) for new evaluations — FTMO futures plans not tracked here",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -115,6 +119,10 @@
       [
         "Nov 2026 (third-party tracker, unconfirmed): FundedNext Futures minimum withdrawal raised $100→$500, paid in twice-monthly windows (1st–3rd, 15th–18th); Stellar 2-Step/Lite forex leverage reportedly cut 1:100→1:30",
         ""
+      ],
+      [
+        "Finance Magnates Awards 2026: Best Multi-Asset Prop Trading Firm",
+        "pos"
       ]
     ],
     "affiliateUrl": null,
@@ -229,6 +237,10 @@
       [
         "Weekend holds paused on funded (temp, since Jan 2026)",
         ""
+      ],
+      [
+        "Finance Magnates Awards 2026: Most Established Prop Firm",
+        "pos"
       ]
     ],
     "affiliateUrl": "https://app.fundingpips.com/register?referral_code=68AD0454",
@@ -1537,8 +1549,8 @@
     "trustScore": 4.5,
     "trustReviewCount": 2578,
     "trustBand": "Excellent",
-    "trustFlag": "ok",
-    "trustNote": null,
+    "trustFlag": "caution",
+    "trustNote": "Multiple sources (Finance Magnates Nov 2024, TheTrustedProp) report Smart Prop Trader wound down and is no longer operating — listing needs review/removal.",
     "name": "Smart Prop Trader",
     "cat": "forex",
     "color": "#84cc16",
@@ -1572,6 +1584,10 @@
       ],
       [
         "Unregulated broker/platform (DXtrade)",
+        ""
+      ],
+      [
+        "POSSIBLY CLOSED: reported wound down (stopped onboarding Nov 2024; marked CLOSED by TheTrustedProp) — do not buy until confirmed operating",
         ""
       ]
     ],
@@ -3402,6 +3418,10 @@
       [
         "Newly added — pricing, rules and plan details not yet independently confirmed",
         ""
+      ],
+      [
+        "Nov 2026 (third-party tracker, unconfirmed): site header promo WILDCARD 50% off plus BOGO bundle; $99 Instant Flex drop closed Oct 29",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -3556,6 +3576,10 @@
       ],
       [
         "Newly added — pricing, rules and plan details not yet independently confirmed",
+        ""
+      ],
+      [
+        "Nov 13, 2026 (third-party tracker): DT Wallet balance now usable on one-time evaluations and S2L accounts; monthly plans, add-ons and Pro accounts excluded",
         ""
       ]
     ],
@@ -3799,6 +3823,271 @@
       "Quantower",
       "ATAS",
       "Volumetrica"
+    ]
+  },
+  {
+    "id": "fortraders",
+    "name": "For Traders",
+    "cat": "forex",
+    "color": "#2f6fed",
+    "featured": false,
+    "desc": "Dubai-based prop firm with low-cost 1-Step, 2-Step, 3-Step, Instant and Pay After Pass accounts for forex, crypto and futures.",
+    "split": "80%",
+    "from": "$41",
+    "sizes": "$6K–$100K",
+    "model": "1-Step / 2-Step / 3-Step / Instant",
+    "source": "Third-party review data (propfirmmap.com, tradingfinder.com, pickmytrade.io, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://www.fortraders.com",
+    "payMethods": [
+      "Card (Visa/Mastercard via Stripe)",
+      "Crypto (via Confirmo)"
+    ],
+    "payoutMethods": [
+      "Rise",
+      "Bank transfer",
+      "Crypto (USDC)"
+    ],
+    "tags": [
+      [
+        "Low entry prices",
+        "pos"
+      ],
+      [
+        "Trustpilot rating withheld",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "For Traders is a Dubai-based prop firm founded in 2023 that offers forex, crypto and futures evaluations. It runs Fast (1-Step), Classic (2-Step) and Strike (3-Step) challenges alongside Instant and Pay After Pass accounts. Entry prices are among the lowest in the market, starting around $41 for a $6K Fast account. Third-party sites report an 80% profit split that rises to 90% on some plans, with bi-weekly payouts through Rise, bank transfer or crypto. Rules vary by program. Review sites cite a 9% target and 6% trailing drawdown on the 1-Step, and 8%/5% targets with an 8% static limit on the 2-Step. Traders should be cautious. Trustpilot currently withholds the firm's rating for a breach of its guidelines and has removed fake reviews, and the firm's own terms call payouts discretionary. These figures come from third-party reviews and are not yet confirmed on the official site.",
+    "trustScore": null,
+    "trustReviewCount": 1816,
+    "trustBand": null,
+    "trustFlag": "caution",
+    "trustNote": "Trustpilot rating unavailable due to a breach of guidelines; Trustpilot says it removed fake reviews (profile checked Nov 2026). PropFirmMap safety grade D (High Risk).",
+    "promoActive": false,
+    "yearsInOperation": 3,
+    "country": "United Arab Emirates",
+    "platforms": [
+      "MT5",
+      "TradeLocker",
+      "cTrader"
+    ]
+  },
+  {
+    "id": "atlasfunded",
+    "name": "Atlas Funded",
+    "cat": "forex",
+    "color": "#0f9d8a",
+    "featured": false,
+    "desc": "Fast-growing 2024 prop firm offering 1-Step, 2-Step, 3-Step, Instant and $5–$10 pay-later Access challenges on forex and futures.",
+    "split": "80%",
+    "from": "$48",
+    "sizes": "$5K–$200K",
+    "model": "1-Step / 2-Step / 3-Step / Instant",
+    "source": "Third-party review data (tradelocker.com hub, propfirmmap.com, hnlgrowth.pages.dev, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://atlasfunded.com",
+    "payMethods": [
+      "Card (Unconfirmed)",
+      "Crypto (Unconfirmed)"
+    ],
+    "payoutMethods": [
+      "Crypto",
+      "Rise"
+    ],
+    "tags": [
+      [
+        "Frequent 40–50% promos",
+        "pos"
+      ],
+      [
+        "Pay-later Access accounts",
+        "pos"
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Atlas Funded is a forex and futures prop firm launched in 2024, reportedly based in the UAE, that has grown quickly. It offers 1-Step, 2-Step, 3-Step, Instant and low-cost Access (pay-later) accounts from $5K to $200K, with larger Access tiers available. Review sites list a 9%/5% profit target, a 10% static drawdown and a 5% daily limit on the standard 2-Step, and frequent promotions often halve the listed price. Reports on the profit split and payout cycle conflict. Some cite an 80% split with 30-day default payouts and paid add-ons, while PropFirmMap reports a move to 90% and 14-day cycles in late 2026. The Trustpilot score is 3.9 from roughly 2,000 reviews. A notable share are one-star complaints about payouts denied under the consistency and per-asset rules. All details here come from reviews and are not yet confirmed on the official site.",
+    "trustScore": 3.9,
+    "trustReviewCount": 2089,
+    "trustBand": "Average",
+    "trustFlag": "caution",
+    "trustNote": "Trustpilot 3.9 with about 26% one-star reviews, including 2026 complaints about payout denials tied to consistency, per-asset and IP rules. Drawdown, split and payout terms changed in Oct–Nov 2026.",
+    "promoActive": false,
+    "yearsInOperation": 2,
+    "country": "United Arab Emirates",
+    "platforms": [
+      "MT5",
+      "TradeLocker",
+      "Match-Trader",
+      "Volumetrica"
+    ]
+  },
+  {
+    "id": "purdia",
+    "name": "Purdia Capital",
+    "cat": "futures",
+    "color": "#6b3fd4",
+    "featured": false,
+    "desc": "US futures prop firm offering monthly EOD/Pro evaluations and one-time Instant Funded accounts with a reported 90% split.",
+    "split": "90%",
+    "from": "$179/mo (often discounted)",
+    "sizes": "$25K–$100K",
+    "model": "1-Step Evaluation / Instant",
+    "source": "Third-party review data (propfirmmap.com, damnpropfirms.com, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://purdia.com",
+    "payMethods": [
+      "Card (unconfirmed)"
+    ],
+    "payoutMethods": [
+      "ACH",
+      "International bank wire",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "90% profit split",
+        "pos"
+      ],
+      [
+        "No consistency rule (reported)",
+        "pos"
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Purdia Capital is a US-based futures prop firm, reportedly founded in 2022 and registered in Delaware, offering monthly EOD and Pro evaluations alongside one-time Instant Funded accounts from $25K to $100K. Review sites report a 90% profit split, no consistency rule on most accounts, and payouts available on demand once a trader has completed ten funded trading days and reached the minimum balance. Pricing is heavily promotional: the 50K EOD evaluation lists at $179 per month but is frequently discounted for the first month, and an activation fee (listed at $130) applies after passing. Trustpilot sentiment is mixed at around 3.5 from roughly 90 reviews, with complaints centering on slow payouts and support responsiveness. All figures here come from third-party review pages checked in November 2026 and have not yet been confirmed on Purdia's official site.",
+    "trustScore": 3.5,
+    "trustReviewCount": 90,
+    "trustBand": "Average",
+    "trustFlag": "caution",
+    "trustNote": "Mixed Trustpilot reviews (3.5 from ~90); recurring complaints about slow payouts and unanswered support emails.",
+    "promoActive": false,
+    "yearsInOperation": 4,
+    "country": "United States",
+    "platforms": [
+      "NinjaTrader",
+      "Tradovate",
+      "TradingView",
+      "R|Trader (Rithmic)"
+    ]
+  },
+  {
+    "id": "ffn",
+    "name": "Funded Futures Network",
+    "cat": "futures",
+    "color": "#1e88e5",
+    "featured": false,
+    "desc": "US futures evaluation firm with MAX Standard and Steady challenges, an 80% sim-funded split and a path to a 90% Live Funded tier.",
+    "split": "80% (up to 90% live)",
+    "from": "$148",
+    "sizes": "$25K–$250K",
+    "model": "1-Step Evaluation",
+    "source": "Third-party review data (quantvps.com, propfirmmap.com, propscorer.com, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://fundedfuturesnetwork.com",
+    "payMethods": [
+      "Card (unconfirmed)"
+    ],
+    "payoutMethods": [
+      "Rise",
+      "ACH",
+      "PayPal"
+    ],
+    "tags": [
+      [
+        "Up to 90% on Live Funded",
+        "pos"
+      ],
+      [
+        "Trustpilot rating declining in 2026",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Funded Futures Network is a US-based futures evaluation firm (New York address on Trustpilot) whose founding date is reported inconsistently across review sites. Its MAX Standard evaluation runs from $25K to $250K with one-time fees reported between $148 and $658, end-of-day drawdown, a daily loss limit and a 40% consistency rule. Simulated funded accounts reportedly pay an 80% split with a $10,000 withdrawal cap, while traders who reach $5,000 in cumulative withdrawals can graduate to a Live Funded tier paying up to 90%. Platforms reported include Quantower, ATAS and R|Trader Pro via Rithmic. Its Trustpilot score has slipped from the mid-4s to about 3.6 in late 2026, with reviewers citing delayed or denied payouts. These details come from third-party reviews checked in November 2026 and are not yet confirmed on the official site.",
+    "trustScore": 3.6,
+    "trustReviewCount": 545,
+    "trustBand": "Average",
+    "trustFlag": "caution",
+    "trustNote": "Trustpilot fell from ~4.7 (Aug 2026) to ~3.6 (Nov 2026); reviews cite delayed/denied payouts and slow support. PropFirmMap safety grade downgraded B+ to B.",
+    "promoActive": false,
+    "yearsInOperation": 2,
+    "country": "United States",
+    "platforms": [
+      "Quantower",
+      "ATAS",
+      "R|Trader Pro (Rithmic)",
+      "MotiveWave"
+    ]
+  },
+  {
+    "id": "fundora",
+    "name": "Fundora",
+    "cat": "forex",
+    "color": "#e4572e",
+    "featured": false,
+    "desc": "Japan-born cTrader prop firm with a single two-phase challenge priced in yen, named Best Emerging Prop Firm 2026 (Japan) by Finance Magnates.",
+    "split": "80%",
+    "from": "~$180 (¥26,999)",
+    "sizes": "~$16.7K–$400K (¥2.5M–¥60M)",
+    "model": "2-Step",
+    "source": "Third-party review data (ctrader.com prop directory, propinsider, plus fundora-trading.com, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://fundora-trading.com/",
+    "payMethods": [
+      "Credit/debit card",
+      "PayPal",
+      "Apple Pay",
+      "Google Pay",
+      "Bank transfer"
+    ],
+    "payoutMethods": [
+      "Bank transfer",
+      "Wise"
+    ],
+    "tags": [
+      [
+        "FM Awards 2026: Best Emerging Prop Firm (Japan)",
+        "pos"
+      ],
+      [
+        "No time limit",
+        "pos"
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Fundora is a Japan-based forex and CFD prop firm operated by Quantum Fund Traders Inc., launched in 2025 and named Best Emerging Prop Firm 2026 (Japan) at the Finance Magnates Awards. It offers a single two-phase challenge on cTrader with an 8% then 5% profit target, a 5% daily loss limit, a 10% maximum loss and at least three trading days per phase. Six account tiers range from ¥2.5 million to ¥60 million in demo capital, priced in yen from ¥26,999; USD figures shown here are approximate conversions. Funded traders reportedly receive an 80% share, paid every 14 days by bank transfer or Wise, with a 33.3% daily-profit consistency rule on the pro account. No Trustpilot profile was found. Details are drawn from directory listings and the firm's site in November 2026 and are not yet fully confirmed.",
+    "trustScore": null,
+    "trustReviewCount": null,
+    "trustBand": null,
+    "trustFlag": "unrated",
+    "trustNote": "No Trustpilot profile found for fundora-trading.com; firm launched in 2025 with limited independent review history.",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "country": "Japan",
+    "platforms": [
+      "cTrader"
     ]
   }
 ]
