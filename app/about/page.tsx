@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
+import { FIRMS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About Propfundsy | Prop Firm Comparison & Trading Tools",
@@ -30,7 +31,7 @@ export default function AboutPage() {
             <div style={{ padding: "20px", background: "rgba(212,175,106,.05)", borderRadius: "8px", borderLeft: "4px solid var(--gold)" }}>
               <h3 style={{ margin: "0 0 8px 0", fontSize: "1.1rem", fontWeight: "700" }}>📊 Verified Firm Database</h3>
               <p style={{ margin: 0, color: "var(--muted)" }}>
-                45+ proprietary trading firms with verified data on fees, profit splits, platforms, and reviews. Compare apples-to-apples with real information.
+                {FIRMS.length}+ proprietary trading firms with verified data on fees, profit splits, platforms, and reviews. Compare apples-to-apples with real information.
               </p>
             </div>
             <div style={{ padding: "20px", background: "rgba(212,175,106,.05)", borderRadius: "8px", borderLeft: "4px solid var(--gold)" }}>

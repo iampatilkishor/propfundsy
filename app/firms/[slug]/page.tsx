@@ -24,8 +24,17 @@ export async function generateMetadata(
   const f = firmBySlug(slug);
   if (!f) return {};
   const cheapest = cheapestPlan(f.id);
+  // Only include facts that are actually known — placeholder values like
+  // "TBD" or "—" must never leak into the search snippet.
+  const known = (v: string | undefined) => !!v && /\d/.test(v);
+  const priceFrom = cheapest ? cheapest.priceLabel : known(f.from) ? f.from : null;
+  const facts = [
+    priceFrom && `plans from ${priceFrom}`,
+    known(f.split) && `${f.split} split`,
+    known(f.sizes) && `${f.sizes} accounts`,
+  ].filter(Boolean).join(", ");
   const desc = truncateDesc(
-    `${f.name} compared (2026): plans from ${cheapest ? cheapest.priceLabel : f.from}, ${f.split} split, ${f.sizes} accounts. Rules, payout speed & how it stacks up vs other ${f.cat} prop firms.`,
+    `${f.name} compared (2026)${facts ? `: ${facts}` : ""}. Rules, payout speed & how it stacks up vs other ${f.cat} prop firms.`,
   );
   return {
     title: `${f.name} — Plans, Pricing & Rules (2026)`,

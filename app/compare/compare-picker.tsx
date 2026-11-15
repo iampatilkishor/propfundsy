@@ -108,10 +108,10 @@ export default function ComparePicker() {
 
               // Popular alternatives
               { f1: "apex", f2: "ts" },
-              { f1: "apex", f2: "ftmo" },
+              { f1: "apex", f2: "tfy" },
               { f1: "fp", f2: "fn" },
-              { f1: "mff", f2: "ftmo" },
-              { f1: "e8", f2: "apex" },
+              { f1: "mff", f2: "ts" },
+              { f1: "e8", f2: "fp" },
               { f1: "td", f2: "ts" },
               { f1: "acg", f2: "t5" },
 
@@ -119,13 +119,13 @@ export default function ComparePicker() {
               { f1: "maven", f2: "ftmo" },
               { f1: "goat", f2: "fn" },
               { f1: "ftuk", f2: "ftmo" },
-              { f1: "cti", f2: "ts" },
-              { f1: "think", f2: "apex" },
-              { f1: "tfy", f2: "t5" },
-              { f1: "etf", f2: "fn" },
-              { f1: "e2t", f2: "ftmo" },
+              { f1: "cti", f2: "ftmo" },
+              { f1: "think", f2: "fn" },
+              { f1: "tfy", f2: "apex" },
+              { f1: "etf", f2: "apex" },
+              { f1: "e2t", f2: "ts" },
               { f1: "blx", f2: "apex" },
-              { f1: "phi", f2: "t5" },
+              { f1: "phi", f2: "apex" },
             ];
 
             const displayComparisons = expandComparisons ? allComparisons : allComparisons.slice(0, 10);
@@ -136,10 +136,14 @@ export default function ComparePicker() {
 
               if (!firm1 || !firm2) return null;
 
+              // Always link the canonical (FIRMS-order) URL so we never point
+              // at a reversed duplicate that isn't in the sitemap.
+              const [a, b] = FIRMS.indexOf(firm1) < FIRMS.indexOf(firm2) ? [firm1, firm2] : [firm2, firm1];
+
               return (
                 <Link
                   key={`${f1}-${f2}`}
-                  href={`/compare/${slugOf(firm1)}-vs-${slugOf(firm2)}`}
+                  href={`/compare/${slugOf(a)}-vs-${slugOf(b)}`}
                   className="comparison-link"
                 >
                   {firm1.name} vs {firm2.name}

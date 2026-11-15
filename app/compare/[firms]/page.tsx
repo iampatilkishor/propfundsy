@@ -35,7 +35,11 @@ export async function generateMetadata(
 
   if (!firm1 || !firm2) return {};
 
-  const url = `${SITE_URL}/compare/${firms}`;
+  // Canonical is always the FIRMS-order pair (the one in the sitemap), so a
+  // reversed URL like b-vs-a consolidates onto a-vs-b instead of duplicating it.
+  const [c1, c2] = FIRMS.indexOf(firm1) < FIRMS.indexOf(firm2) ? [firm1, firm2] : [firm2, firm1];
+  const canonicalPath = `/compare/${slugOf(c1)}-vs-${slugOf(c2)}`;
+  const url = `${SITE_URL}${canonicalPath}`;
   const desc = truncateDesc(
     `Compare ${firm1.name} and ${firm2.name} side by side. Profit splits (${firm1.split} vs ${firm2.split}), fees, account sizes, evaluation models, and trading rules.`,
   );
@@ -43,8 +47,8 @@ export async function generateMetadata(
   return {
     title: `${firm1.name} vs ${firm2.name} - Prop Firm Comparison | Propfundsy`,
     description: desc,
-    keywords: `${firm1.name}, ${firm2.name}, prop firm comparison, forex funded accounts, trading comparison`,
-    alternates: { canonical: `/compare/${firms}` },
+    keywords: `${firm1.name}, ${firm2.name}, prop firm comparison, ${firm1.cat} funded accounts, trading comparison`,
+    alternates: { canonical: canonicalPath },
     openGraph: {
       title: `${firm1.name} vs ${firm2.name}`,
       description: desc,

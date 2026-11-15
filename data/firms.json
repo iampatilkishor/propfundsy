@@ -111,6 +111,10 @@
       [
         "Also offers futures",
         ""
+      ],
+      [
+        "Nov 2026 (third-party tracker, unconfirmed): FundedNext Futures minimum withdrawal raised $100→$500, paid in twice-monthly windows (1st–3rd, 15th–18th); Stellar 2-Step/Lite forex leverage reportedly cut 1:100→1:30",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -284,6 +288,10 @@
       [
         "Oct 2026: max payouts per account cut from 5 to 4 for accounts bought from 1 Oct (earlier accounts keep 5)",
         ""
+      ],
+      [
+        "Nov 2026 (third-party tracker, unconfirmed): Signature forex discontinued Oct 20 (futures version remains); futures Signature payout caps reduced, e.g. $100K 2nd payout $2,250→$2,000",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -352,6 +360,10 @@
       ],
       [
         "Data breach disclosed Aug 4, 2026 — names, SSNs, DOB and medical info reportedly exposed; reported to IL/TX Attorneys General",
+        ""
+      ],
+      [
+        "Nov 13, 2026 (third-party tracker, unconfirmed): Pro Account holders can no longer activate Express Funded accounts from Labs on five Combines",
         ""
       ]
     ],
@@ -631,6 +643,10 @@
       ],
       [
         "Split add-ons to 100%",
+        ""
+      ],
+      [
+        "Nov 2026 (third-party tracker, unconfirmed): 2 Step Standard closed to new purchases; existing accounts keep their rules",
         ""
       ]
     ],
@@ -1022,6 +1038,10 @@
       ],
       [
         "Prices being verified",
+        ""
+      ],
+      [
+        "Nov 2026 (third-party tracker, unconfirmed): counter-position rule violation now forfeits only that day’s profit, not all account profit",
         ""
       ]
     ],
@@ -2932,6 +2952,10 @@
       [
         "Oct 2026: reset prices raised (50K $99→$129, 100K $109→$199) and $500 minimum payout now applies to all Sim Funded accounts — plan prices not yet re-checked",
         ""
+      ],
+      [
+        "Nov 9, 2026 (third-party tracker, unconfirmed): Propel consistency reportedly loosened (34%→55% on most sizes), Phase 1 min profitable days 3→2, and resets raised again ($79→$89–$199 on 50K–300K) — tracker data internally inconsistent, re-check blusky.pro",
+        ""
       ]
     ],
     "affiliateUrl": null,
@@ -3589,5 +3613,192 @@
     "yearsInOperation": null,
     "country": null,
     "platforms": []
+  },
+  {
+    "id": "toponefutures",
+    "name": "Top One Futures",
+    "cat": "futures",
+    "color": "#f97316",
+    "featured": false,
+    "desc": "US futures prop firm (launched 2025) with many 1-step and sim-funded programs, trailing EOD drawdown and 90% split.",
+    "split": "90%",
+    "from": "TBD",
+    "sizes": "$25K–$150K",
+    "model": "1-Step",
+    "source": "Third-party review data (PropFirmMap, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://toponefutures.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Unconfirmed"
+    ],
+    "tags": [
+      [
+        "Trustpilot ~4.8 reported; review count conflicts across sources (4.0K–5.3K)",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Top One Futures is a US futures prop firm launched in April 2025 that we added in November 2026 with unverified data. Review sites list roughly 29 programs across $25K to $150K accounts, mostly at a 90% split with end-of-day trailing drawdown, and support for NinjaTrader, Tradovate, WealthCharts and Blackarrow. Prices reported range from about $139 to over $1,000, but sources disagree on the entry price, and consistency rules are described differently across sections. Trustpilot is reported near 4.8, though the review count is inconsistent between sources. Payout methods are not confirmed, and some programs cap payout size and require a buffer. Treat every figure as provisional, check the exact program rules on the official site, and start with the smallest account.",
+    "trustScore": 4.8,
+    "trustReviewCount": null,
+    "trustBand": "Excellent",
+    "trustFlag": "ok",
+    "trustNote": "Review count conflicts across sources (4,039 vs 5,324).",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "country": "United States",
+    "platforms": [
+      "NinjaTrader",
+      "Tradovate",
+      "WealthCharts",
+      "Blackarrow"
+    ]
+  },
+  {
+    "id": "swissfirmup",
+    "name": "Swiss FirmUp",
+    "cat": "futures",
+    "color": "#ef4444",
+    "featured": false,
+    "desc": "Swiss futures-only prop firm launched Feb 2026; 1-step, 2-step and instant funded paths, 90% split, daily payouts.",
+    "split": "90%",
+    "from": "TBD",
+    "sizes": "$50K–$300K",
+    "model": "1-Step / 2-Step / Instant",
+    "source": "Third-party review data (PropFirmMap, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://swissfirmup.com",
+    "payMethods": [
+      "Unconfirmed"
+    ],
+    "payoutMethods": [
+      "Unconfirmed"
+    ],
+    "tags": [
+      [
+        "No Trustpilot reviews yet — very new firm",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Swiss FirmUp is a futures-only prop firm operated from Switzerland that launched publicly in February 2026, so it has almost no track record. Review sites list 1-step Pack Pro accounts from about $119 for $50K to $249 for $300K, 2-step qualification accounts with a separate $99 activation fee, and instant funded accounts at $99. The split is reported at 90% with daily payouts once a minimum profit is reached, on Atas, dxFeed and Rithmic. Reported consistency rules conflict between sections and daily-loss terms vary by plan. There are no Trustpilot reviews, so nothing independent shows how payouts actually go. Treat all figures as unconfirmed, verify the rules on the official site, and start with the cheapest account.",
+    "trustScore": null,
+    "trustReviewCount": 0,
+    "trustBand": null,
+    "trustFlag": "unrated",
+    "trustNote": "No Trustpilot reviews yet.",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "country": "Switzerland",
+    "platforms": [
+      "ATAS",
+      "dxFeed",
+      "Rithmic"
+    ]
+  },
+  {
+    "id": "legends",
+    "name": "Legends Trading",
+    "cat": "futures",
+    "color": "#eab308",
+    "featured": false,
+    "desc": "US futures prop firm (founded 2023) with Apprentice monthly and Elite 1-step plans, EOD trailing drawdown and 90% split.",
+    "split": "90%",
+    "from": "TBD",
+    "sizes": "$25K–$150K",
+    "model": "1-Step",
+    "source": "Third-party review data (PropFirmMap, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://legendstrading.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Unconfirmed"
+    ],
+    "tags": [
+      [
+        "Trustpilot 4.0 (269 reviews)",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Legends Trading is a US futures prop firm founded in 2023 that we added in November 2026 with unverified data. Reviewers report Elite one-time 1-step plans from about $119 for $25K to $347 for $150K, plus monthly Apprentice plans that carry a separate activation fee of $99 to $149. The split is reported at 90% with end-of-day trailing drawdown and no daily loss limit, and payouts up to twice a month. Elite accounts reportedly have a 40% consistency rule while Apprentice has none, though sources disagree on this and on the entry price. Trustpilot is 4.0 from 269 reviews, which is decent but a modest sample. Confirm current prices, activation fees and payout limits on the official site before buying.",
+    "trustScore": 4,
+    "trustReviewCount": 269,
+    "trustBand": "Average",
+    "trustFlag": "ok",
+    "trustNote": null,
+    "promoActive": false,
+    "yearsInOperation": 3,
+    "country": "United States",
+    "platforms": [
+      "NinjaTrader",
+      "Tradovate",
+      "Quantower",
+      "Sierra Chart",
+      "Rithmic"
+    ]
+  },
+  {
+    "id": "sharkfutures",
+    "name": "Shark Futures",
+    "cat": "futures",
+    "color": "#0ea5e9",
+    "featured": false,
+    "desc": "Lithuania-based futures prop firm launched Apr 2026; 1-step and Instant PRO accounts, EOD trailing drawdown, 90% split.",
+    "split": "90%",
+    "from": "TBD",
+    "sizes": "$25K–$150K",
+    "model": "1-Step / Instant",
+    "source": "Third-party review data (PropFirmMap, checked Nov 2026) — not yet confirmed on official site",
+    "officialUrl": "https://sharkfutures.com",
+    "payMethods": [
+      "Cards"
+    ],
+    "payoutMethods": [
+      "Unconfirmed"
+    ],
+    "tags": [
+      [
+        "Trustpilot profile reported suspended; last rating ~4.1 (24 reviews)",
+        ""
+      ],
+      [
+        "Newly added — prices and rules not yet confirmed on official site",
+        ""
+      ]
+    ],
+    "affiliateUrl": null,
+    "discountCode": null,
+    "review": "Shark Futures is a Lithuania-based futures prop firm that launched around April 2026 and was added here in November 2026 with unverified data. Reported prices run from about $53 plus a $67 activation fee for a small challenge up to roughly $784 for the largest Instant PRO account, with a 90% split and end-of-day trailing drawdown. Payouts are described as on demand within 24 hours after KYC, via Rise, crypto, ACH, wire or SEPA, but minimum trading-day rules are inconsistent across sources. The caution is reputation: its Trustpilot profile is reported as suspended, with the last known rating around 4.1 from only 24 reviews. Discount codes and consistency rules also conflict between sections. Verify everything on the official site and use the smallest account first.",
+    "trustScore": null,
+    "trustReviewCount": 24,
+    "trustBand": null,
+    "trustFlag": "caution",
+    "trustNote": "Trustpilot profile reported suspended; ratings cleared.",
+    "promoActive": false,
+    "yearsInOperation": 1,
+    "country": "Lithuania",
+    "platforms": [
+      "Quantower",
+      "ATAS",
+      "Volumetrica"
+    ]
   }
 ]
